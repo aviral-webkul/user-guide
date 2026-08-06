@@ -29,15 +29,21 @@ Display a promotional banner on the storefront header.
 
 These rules improve perceived performance by prefetching or prerendering pages intelligently.
 
+From **Bagisto v2.4.9**, speculation rules are **turned off by default**. They have the browser fetch pages nobody has opened yet, which costs bandwidth and shows up as traffic on pages that were never visited, so a store now opts in instead of opting out.
+
+<ImagePopup src="/images/configure/contentspec-default.png" alt="Speculation Rules Disabled By Default" />
+
 - **Enable Speculation Rules**  
-  Toggle to enable the overall speculation logic.
+  Toggle to enable the overall speculation logic. Disabled by default.
 
 - **Enable Prerender Speculation Rules**  
-  Enables prerendering based on user behavior predictions.
+  Enables prerendering based on user behavior predictions. Disabled by default.
+
+The three fields below appear only once **Enable Prerender Speculation Rules** is turned on.
 
 - **Ignore Prerender URLs**  
   Exclude specific routes from prerendering using pipe `|` as a separator.  
-  Example: `account|checkout|onepage|cart`
+  Default: `/customer/account/*|/checkout/*`
 
 - **Ignore Prerender URL Parameters**  
   Exclude certain URL parameters from prerender logic.  
@@ -50,7 +56,21 @@ These rules improve perceived performance by prefetching or prerendering pages i
   - `conservative`: Minimal prerendering
 
 - **Enable Prefetch Speculation Rules**  
-  Enables link prefetching to accelerate navigation.
+  Enables link prefetching to accelerate navigation. Disabled by default.
+
+The three fields below appear only once **Enable Prefetch Speculation Rules** is turned on.
+
+- **Ignore Prefetch URLs**  
+  Exclude specific routes from prefetching using pipe `|` as a separator.  
+  Default: `/customer/account/*|/checkout/*`
+
+- **Ignore Prefetch URL Parameters**  
+  Exclude certain URL parameters from prefetch logic.
+
+- **Prefetch Eagerness Level**  
+  Choose the intensity of prefetching, using the same `eager`, `moderate` and `conservative` levels as prerendering.
+
+The image below shows the section with the toggles enabled and their dependent fields revealed.
 
 <ImagePopup src="/images/configure/contentspec.png" alt="Speculation Rules" />
 

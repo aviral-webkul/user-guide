@@ -12,7 +12,7 @@ Bagisto comes with a default root category, i.e., Root, but you can also create 
 
    <ImagePopup src="/images/category/create.png" alt="Create Category in Bagisto" />
 
-2. Enter the general values like name, position, and description, and add images.
+2. Enter the general values like name, position, and description, and add images. Pick where the category sits under **Parent Category**. From **Bagisto v2.4.9** this tree is drawn with plain connector guides instead of folder and file icons, matching the permission tree on the role page.
 
 3. **Display Mode** - Display mode is about which content detail is visible on the category page. There are three options:  
    - Product and Description  
