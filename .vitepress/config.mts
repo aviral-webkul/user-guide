@@ -33,11 +33,10 @@ function generateSitemap(outputDir) {
 
   const mdFiles = getAllMarkdownFiles(srcDir);
   const sitemapUrls = [
-    { url: "", priority: "1.0", changefreq: "weekly" },
+    { url: "", lastmod: new Date().toISOString() },
     ...mdFiles.map((file) => ({
       url: `/${file}`,
-      priority: "0.8",
-      changefreq: "weekly",
+      lastmod: new Date().toISOString(),
     })),
   ];
 
@@ -47,8 +46,7 @@ ${sitemapUrls
   .map(
     (item) => `  <url>
     <loc>${baseUrl}${item.url}</loc>
-    <changefreq>${item.changefreq}</changefreq>
-    <priority>${item.priority}</priority>
+    <lastmod>${item.lastmod}</lastmod>
   </url>`,
   )
   .join("\n")}
@@ -60,7 +58,7 @@ ${sitemapUrls
     "utf-8",
   );
   console.log(
-    `✅ Sitemap generated: ${path.join(outputDir, "sitemap.xml")} with ${sitemapUrls.length} URLs`,
+    `Sitemap generated: ${path.join(outputDir, "sitemap.xml")} with ${sitemapUrls.length} URLs`,
   );
 }
 
@@ -76,7 +74,7 @@ function sitemapPlugin() {
         fs.mkdirSync(publicDir, { recursive: true });
       }
       generateSitemap(publicDir);
-      console.log("✅ Sitemap plugin initialized for dev server");
+      console.log("Sitemap plugin initialized for dev server");
     },
   };
 }
