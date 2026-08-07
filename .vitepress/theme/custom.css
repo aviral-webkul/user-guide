@@ -45,3 +45,202 @@ color-scheme:initial!important;
   padding: 18px;
   scale: 1.2;
 }
+
+.VPSidebar .VPSidebarItem.level-0 > .item .text {
+  font-weight: 700;
+  color: var(--vp-c-text-1);
+}
+
+.VPSidebar .VPSidebarItem.level-0.has-active:not(.is-active) > .item .text {
+  color: var(--vp-c-brand-1);
+}
+
+/* Pull the first child up towards its title, and hold the groups apart. */
+.VPSidebar .VPSidebarItem.level-0 > .item {
+  padding-bottom: 2px;
+}
+
+.VPSidebar .VPSidebarItem.level-0 {
+  padding-bottom: 20px;
+}
+
+.VPSidebar .VPSidebarItem.level-0 > .item + .items {
+  position: relative;
+  margin-inline-start: 4px;
+  padding-inline-start: 14px;
+  border-inline-start: 1px solid var(--vp-c-divider);
+}
+
+/* A short tick from the rail to each child, so the link is visibly attached. */
+.VPSidebar .VPSidebarItem.level-0 > .item + .items > .VPSidebarItem.level-1 > .item {
+  position: relative;
+}
+
+.VPSidebar .VPSidebarItem.level-0 > .item + .items > .VPSidebarItem.level-1 > .item::before {
+  content: '';
+  position: absolute;
+  inset-inline-start: -14px;
+  top: 16px;
+  width: 8px;
+  height: 1px;
+  background-color: var(--vp-c-divider);
+}
+
+/* The active child owns the rail beside it. */
+.VPSidebar .VPSidebarItem.level-0 > .item + .items > .VPSidebarItem.level-1.is-active > .item::before {
+  background-color: var(--vp-c-brand-1);
+  width: 10px;
+}
+
+.VPSidebar .VPSidebarItem.level-0 > .item + .items > .VPSidebarItem.level-1:has(~ .is-active) > .item::after,
+.VPSidebar .VPSidebarItem.level-0 > .item + .items > .VPSidebarItem.level-1.is-active > .item::after {
+  content: '';
+  position: absolute;
+  inset-inline-start: -15px;
+  top: 0;
+  width: 1px;
+  background-color: var(--vp-c-brand-1);
+}
+
+/* Every child above the active one is lit for its full height. */
+.VPSidebar .VPSidebarItem.level-0 > .item + .items > .VPSidebarItem.level-1:has(~ .is-active) > .item::after {
+  bottom: 0;
+}
+
+.VPSidebar .VPSidebarItem.level-0 > .item + .items > .VPSidebarItem.level-1.is-active > .item::after {
+  height: 16px;
+}
+
+.VPSidebar .VPSidebarItem.level-1 .link .text {
+  font-weight: 500;
+}
+
+:root {
+  --uc-scrollbar-thumb: var(--vp-c-gray-1);
+  --uc-scrollbar-thumb-hover: var(--vp-c-text-3);
+}
+
+html,
+.VPSidebar {
+  scrollbar-width: thin;
+  scrollbar-color: var(--uc-scrollbar-thumb) transparent;
+}
+
+html::-webkit-scrollbar,
+.VPSidebar::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+html::-webkit-scrollbar-track,
+.VPSidebar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+html::-webkit-scrollbar-thumb,
+.VPSidebar::-webkit-scrollbar-thumb {
+  border: 3px solid transparent;
+  border-radius: 999px;
+  background-color: var(--uc-scrollbar-thumb);
+  background-clip: padding-box;
+  transition: background-color 0.25s;
+}
+
+html::-webkit-scrollbar-thumb:hover,
+.VPSidebar::-webkit-scrollbar-thumb:hover {
+  background-color: var(--uc-scrollbar-thumb-hover);
+}
+
+/* The corner where a horizontal and a vertical bar meet, left unpainted. */
+html::-webkit-scrollbar-corner,
+.VPSidebar::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+@media (min-width: 960px) {
+  .VPSidebar {
+    border-inline-end: 1px solid var(--vp-c-divider);
+  }
+}
+
+.VPSidebar .nav > .group:first-of-type {
+  padding-top: 0;
+}
+
+:root {
+  /* Hits carry no outline of their own; the selection is a soft fill. */
+  --vp-local-search-result-border: transparent;
+  --vp-local-search-result-selected-border: transparent;
+
+  --vp-local-search-result-selected-bg: var(--vp-c-bg-alt);
+  --vp-local-search-result-selected-bg: color-mix(
+    in srgb,
+    var(--vp-c-brand-1) 7%,
+    var(--vp-c-bg)
+  );
+
+  /* A tint of the brand behind matched words, rather than a solid block. */
+  --vp-local-search-highlight-bg: var(--vp-c-brand-soft);
+  --vp-local-search-highlight-text: var(--vp-c-brand-1);
+}
+
+.VPLocalSearchBox .backdrop + .shell {
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 14px;
+  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.16);
+}
+
+.VPLocalSearchBox .backdrop {
+  backdrop-filter: blur(6px);
+}
+
+.VPLocalSearchBox .shell .search-bar {
+  border-radius: 10px;
+  padding: 2px 12px;
+}
+
+/* A ring rather than a bare colour change, so focus reads at a glance. */
+.VPLocalSearchBox .shell .search-bar:focus-within {
+  box-shadow: 0 0 0 3px var(--vp-c-brand-soft);
+}
+
+.VPLocalSearchBox .results .result {
+  border-radius: 10px;
+}
+
+.VPLocalSearchBox .results .result.selected {
+  background-color: var(--vp-local-search-result-selected-bg);
+}
+
+/* Nothing has been typed yet: say what the box is for instead of a blank. */
+.VPLocalSearchBox .shell .results:empty::after {
+  display: block;
+  padding: 28px 12px 32px;
+  content: 'Search the documentation — try a page name, a setting, or a task.';
+  color: var(--vp-c-text-3);
+  font-size: 14px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .VPNavBarSearch .DocSearch-Button {
+    border-color: var(--vp-c-divider);
+    border-radius: 10px;
+    transition:
+      border-color 0.25s,
+      background-color 0.25s;
+  }
+
+  .VPNavBarSearch .DocSearch-Button:hover {
+    border-color: var(--vp-c-brand-1);
+    background-color: var(--vp-c-bg-elv);
+  }
+
+  .VPNavBarSearch .DocSearch-Button-Key {
+    border: 1px solid var(--vp-c-divider);
+    border-radius: 6px;
+    background: var(--vp-c-bg);
+    padding-bottom: 0;
+    line-height: 18px;
+  }
+}
