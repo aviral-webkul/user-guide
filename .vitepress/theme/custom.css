@@ -11,11 +11,13 @@
     #0041ff 30%,
     #41d1ff
   );
-  --vp-home-hero-image-background-image: linear-gradient(
-    -45deg,
-    #0041ff 50%,
-    #47caff 50%
-  );
+  /* Four overlapping blobs rather than one hard 50/50 split, so the blur
+     resolves into a mesh with depth instead of a flat disc. */
+  --vp-home-hero-image-background-image:
+    radial-gradient(circle at 28% 24%, rgba(65, 209, 255, 0.95) 0%, rgba(65, 209, 255, 0) 64%),
+    radial-gradient(circle at 76% 30%, rgba(0, 65, 255, 0.95) 0%, rgba(0, 65, 255, 0) 64%),
+    radial-gradient(circle at 64% 78%, rgba(124, 58, 237, 0.85) 0%, rgba(124, 58, 237, 0) 66%),
+    radial-gradient(circle at 24% 74%, rgba(0, 132, 255, 0.9) 0%, rgba(0, 132, 255, 0) 64%);
   --vp-home-hero-image-filter: blur(44px);
 }
 
@@ -41,7 +43,9 @@ color-scheme:initial!important;
 }
 
 .VPHero .VPImage {
-  filter: drop-shadow(-2px 4px 6px rgba(0, 0, 0, 0.2));
+  filter:
+    drop-shadow(0 22px 40px rgba(0, 18, 68, 0.5))
+    drop-shadow(0 6px 14px rgba(0, 65, 255, 0.35));
   padding: 18px;
   scale: 1.2;
 }
@@ -62,53 +66,6 @@ color-scheme:initial!important;
 
 .VPSidebar .VPSidebarItem.level-0 {
   padding-bottom: 20px;
-}
-
-.VPSidebar .VPSidebarItem.level-0 > .item + .items {
-  position: relative;
-  margin-inline-start: 4px;
-  padding-inline-start: 14px;
-  border-inline-start: 1px solid var(--vp-c-divider);
-}
-
-/* A short tick from the rail to each child, so the link is visibly attached. */
-.VPSidebar .VPSidebarItem.level-0 > .item + .items > .VPSidebarItem.level-1 > .item {
-  position: relative;
-}
-
-.VPSidebar .VPSidebarItem.level-0 > .item + .items > .VPSidebarItem.level-1 > .item::before {
-  content: '';
-  position: absolute;
-  inset-inline-start: -14px;
-  top: 16px;
-  width: 8px;
-  height: 1px;
-  background-color: var(--vp-c-divider);
-}
-
-/* The active child owns the rail beside it. */
-.VPSidebar .VPSidebarItem.level-0 > .item + .items > .VPSidebarItem.level-1.is-active > .item::before {
-  background-color: var(--vp-c-brand-1);
-  width: 10px;
-}
-
-.VPSidebar .VPSidebarItem.level-0 > .item + .items > .VPSidebarItem.level-1:has(~ .is-active) > .item::after,
-.VPSidebar .VPSidebarItem.level-0 > .item + .items > .VPSidebarItem.level-1.is-active > .item::after {
-  content: '';
-  position: absolute;
-  inset-inline-start: -15px;
-  top: 0;
-  width: 1px;
-  background-color: var(--vp-c-brand-1);
-}
-
-/* Every child above the active one is lit for its full height. */
-.VPSidebar .VPSidebarItem.level-0 > .item + .items > .VPSidebarItem.level-1:has(~ .is-active) > .item::after {
-  bottom: 0;
-}
-
-.VPSidebar .VPSidebarItem.level-0 > .item + .items > .VPSidebarItem.level-1.is-active > .item::after {
-  height: 16px;
 }
 
 .VPSidebar .VPSidebarItem.level-1 .link .text {
@@ -243,4 +200,172 @@ html::-webkit-scrollbar-corner,
     padding-bottom: 0;
     line-height: 18px;
   }
+}
+
+/* The hero image sits on a blurred two-tone wash. Bleed the same wash out from
+   behind a feature card while it is hovered, and lift the card off it.
+
+   The wash hangs on the grid cell rather than the card: the card carries a
+   transform on hover, which would make it a stacking context and drag a
+   z-index: -1 child up over its own background. */
+.Layout .VPFeatures .item {
+  position: relative;
+  isolation: isolate;
+}
+
+.Layout .VPFeatures .item::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  inset: 20px; /* inside the card's edges, so the wash reads as a halo */
+  border-radius: 12px;
+  background-image: var(--vp-home-hero-image-background-image);
+  filter: blur(24px);
+  opacity: 0;
+  transition: opacity 0.25s, transform 0.25s;
+}
+
+.Layout .VPFeatures .item:has(.VPFeature.link:hover)::before {
+  opacity: 1;
+  transform: translateY(-4px);
+}
+
+.Layout .VPFeature {
+  transition: border-color 0.25s, background-color 0.25s, transform 0.25s;
+}
+
+.Layout .VPFeature.link:hover {
+  transform: translateY(-4px);
+}
+
+/* Centre the icon and copy inside each feature card. */
+.Layout .VPFeature .box {
+  align-items: center;
+  text-align: center;
+}
+
+/* Within the 1152px band the stock hero starts both columns at the top, holds
+   the heading to 576px so it breaks into four short lines, and leaves the logo
+   floating in the leftover space rather than on the band's edge. Sized against
+   the band, not the viewport, so it stays put as the window grows. */
+@media (min-width: 960px) {
+  /* Both columns on one centre line, rather than each starting at the top,
+     and never closer than the gap. */
+  .Layout .VPHero .container {
+    align-items: center;
+    gap: 56px;
+  }
+
+  .Layout .VPHero.has-image .main {
+    flex-shrink: 1;
+    max-width: 600px;
+  }
+
+  .Layout .VPHero.has-image .name,
+  .Layout .VPHero.has-image .text {
+    max-width: 600px;
+    line-height: 1.12;
+    font-size: 60px;
+  }
+
+  .Layout .VPHero.has-image .tagline {
+    max-width: 560px;
+    line-height: 1.5;
+  }
+
+  /* Push the logo out to the band's right edge, answering the heading's left. */
+  .Layout .VPHero .image {
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin-inline-start: auto;
+  }
+
+  .Layout .VPHero .image-container {
+    width: 420px;
+    height: 420px;
+    transform: none;
+  }
+
+  .Layout .VPHero .image-bg {
+    width: 360px;
+    height: 360px;
+  }
+
+  /* The site's own scale()/padding on the logo composes with the theme's
+     translate(-50%), knocking it 40px off the edge it should sit on. Size it
+     outright here instead. */
+  .Layout .VPHero .image-src {
+    padding: 0;
+    scale: none;
+    max-width: 420px;
+    max-height: 420px;
+  }
+}
+
+/* A still blob reads as a flat sticker. Drift the mesh and let the logo ride
+   on it, slowly enough to register as depth rather than as an animation. */
+@keyframes uc-hero-glow {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg) scale(1);
+  }
+
+  50% {
+    transform: translate(-50%, -50%) rotate(180deg) scale(1.06);
+  }
+
+  /* A whole turn, so the loop seam lands where it started and never jumps. */
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg) scale(1);
+  }
+}
+
+@keyframes uc-hero-float {
+  0%,
+  100% {
+    translate: 0 0;
+  }
+
+  50% {
+    translate: 0 -12px;
+  }
+}
+
+.Layout .VPHero .image-bg {
+  /* Linear: an eased turn would visibly stall each time it comes round. */
+  animation: uc-hero-glow 20s linear infinite;
+  will-change: transform;
+}
+
+.Layout .VPHero .image-src {
+  animation: uc-hero-float 4s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .Layout .VPHero .image-bg,
+  .Layout .VPHero .image-src {
+    animation: none;
+  }
+}
+
+/* Carry the hero's own wash onto the primary action so the two read as one
+   surface. The mesh fades to transparent at its edges, so it sits on the brand
+   colour rather than replacing it. */
+.Layout .VPButton.brand {
+  border-color: transparent;
+  background-color: var(--vp-c-brand-1);
+  background-image: var(--vp-home-hero-image-background-image);
+  background-size: 200% 200%;
+  background-position: 0% 50%;
+  transition: background-position 0.45s ease, filter 0.25s;
+}
+
+.Layout .VPButton.brand:hover {
+  background-color: var(--vp-c-brand-1);
+  background-position: 100% 50%;
+  filter: brightness(1.06);
+}
+
+/* The wash hides the theme's pressed colour, so dim it instead. */
+.Layout .VPButton.brand:active {
+  filter: brightness(0.94);
 }
