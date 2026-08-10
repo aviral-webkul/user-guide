@@ -522,7 +522,8 @@ export const redirects = {
 
 
     // Shipping Methods
-    '/2.0/shipping-method/shipping-method.html': '/shipping-method/shipping-methods',
+  "/2.0/shipping-method/shipping-method.html":
+    "/shipping-method/shipping-methods",
 
     // Payment Methods
     '/2.0/payment-method/payment-method.html': '/payment-method/payment-methods',
