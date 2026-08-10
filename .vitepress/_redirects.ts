@@ -104,6 +104,13 @@ export const redirects = {
 
     // Multi Vendor Marketplace
 
+    '/2.3.0/multi-vendor-marketplace/': 'https://marketplace-docs.bagisto.com/sellers/seller-management',
+    '/2.3.0/multi-vendor-marketplace/vendor-management.html': 'https://marketplace-docs.bagisto.com/sellers/seller-management.html',
+    '/2.3.0/multi-vendor-marketplace/order-management.html': 'https://marketplace-docs.bagisto.com/orders/order-management',
+    '/2.3.0/multi-vendor-marketplace/commission-management.html': 'https://marketplace-docs.bagisto.com/payments/commission-management.html',
+    '/2.3.0/multi-vendor-marketplace/product-management.html': 'https://marketplace-docs.bagisto.com/payments/payment-management.html',
+    '/2.3.0/multi-vendor-marketplace/rating-management.html': 'https://marketplace-docs.bagisto.com/moderation/rating-management',
+    '/2.3.0/multi-vendor-marketplace/payment-management.html': 'https://marketplace-docs.bagisto.com/payments/payment-management.html',
 
 
     // B2B Marketplace
@@ -236,6 +243,13 @@ export const redirects = {
 
     // Multi Vendor Marketplace
 
+    '2.2.0/multi-vendor-marketplace/': '/multi-vendor-marketplace/vendor-management',
+    '/2.2.0/multi-vendor-marketplace/vendor-management.html': '/multi-vendor-marketplace/vendor-management',
+    '/2.2.0/multi-vendor-marketplace/order-management.html': '/multi-vendor-marketplace/order-management',
+    '/2.2.0/multi-vendor-marketplace/commission-management.html': '/multi-vendor-marketplace/commission-management',
+    '/2.2.0/multi-vendor-marketplace/product-management.html': '/multi-vendor-marketplace/product-management',
+    '/2.2.0/multi-vendor-marketplace/rating-management.html': '/multi-vendor-marketplace/rating-management',
+    '/2.2.0/multi-vendor-marketplace/payment-management.html': '/multi-vendor-marketplace/payment-management',
 
 
     // B2B Marketplace
@@ -371,6 +385,13 @@ export const redirects = {
 
     // Multi Vendor Marketplace
     
+    '2.1.0/multi-vendor-marketplace/': '/multi-vendor-marketplace/vendor-management',
+    '/2.1.0/multi-vendor-marketplace/vendor-management.html': '/multi-vendor-marketplace/vendor-management',
+    '/2.1.0/multi-vendor-marketplace/order-management.html': '/multi-vendor-marketplace/order-management',
+    '/2.1.0/multi-vendor-marketplace/commission-management.html': '/multi-vendor-marketplace/commission-management',
+    '/2.1.0/multi-vendor-marketplace/product-management.html': '/multi-vendor-marketplace/product-management',
+    '/2.1.0/multi-vendor-marketplace/rating-management.html': '/multi-vendor-marketplace/rating-management',
+    '/2.1.0/multi-vendor-marketplace/payment-management.html': '/multi-vendor-marketplace/payment-management',
 
 
     // B2B Marketplace
@@ -508,6 +529,13 @@ export const redirects = {
 
     // Multi Vendor Marketplace
 
+    '2.0/multi-vendor-marketplace/': '/multi-vendor-marketplace/vendor-management',
+    '/2.0/multi-vendor-marketplace/vendor-management.html': '/multi-vendor-marketplace/vendor-management',
+    '/2.0/multi-vendor-marketplace/order-management.html': '/multi-vendor-marketplace/order-management',
+    '/2.0/multi-vendor-marketplace/commission-management.html': '/multi-vendor-marketplace/commission-management',
+    '/2.0/multi-vendor-marketplace/product-management.html': '/multi-vendor-marketplace/product-management',
+    '/2.0/multi-vendor-marketplace/rating-management.html': '/multi-vendor-marketplace/rating-management',
+    '/2.0/multi-vendor-marketplace/payment-management.html': '/multi-vendor-marketplace/payment-management',
 
 
     // B2B Marketplace
