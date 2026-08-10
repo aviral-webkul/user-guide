@@ -22,10 +22,6 @@ features:
     details: Leverage open-source technology to customize, extend, and contribute to the platform freely.
     icon: '<img src="/icons/opensource.png" alt="Open Source" style="width:40px;height:40px;" />'
     link: /getting-started/introduction.html
-  - title: Multi Vendor Marketplace (Paid)
-    details: Build a platform where multiple vendors can register, sell their products, and manage their stores independently.
-    icon: 🏬
-    link: /multi-vendor-marketplace/introduction.html
   - title: B2B Marketplace (Paid)
     details: Create a business-to-business marketplace with bulk pricing, customer segmentation, and wholesale order management.
     icon: 🏢 

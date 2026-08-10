@@ -105,15 +105,7 @@ export default defineConfig({
     [
       "script",
       {},
-      `
-       (function () {
-       let script = document.createElement('script');
-
-       script.innerHTML = 'window.chatbotConfig = { url: "https://ask.bagisto.com:5000/chat" };';
-
-       document.body.appendChild(script);
-       })();;
-       `,
+      `window.chatbotConfig = { url: "https://ask.bagisto.com:5000/chat" };`,
     ],
     [
       "script",
@@ -343,105 +335,6 @@ export default defineConfig({
       {
         text: "Payment Methods",
         link: "/payment-method/payment-methods",
-      },
-
-      {
-        text: "Multi Vendor Marketplace",
-        collapsed: false,
-        items: [
-          {
-            text: "Introduction",
-            link: "/multi-vendor-marketplace/introduction",
-          },
-          {
-            text: "Vendor Management",
-            link: "/multi-vendor-marketplace/vendor-management",
-          },
-          {
-            text: "Dealership Management",
-            link: "/multi-vendor-marketplace/dealership-management",
-          },
-          {
-            text: "Product Management",
-            link: "/multi-vendor-marketplace/product-management",
-          },
-          {
-            text: "Quick Create Product",
-            link: "/multi-vendor-marketplace/quick-create-product",
-          },
-          {
-            text: "Product Barcode",
-            link: "/multi-vendor-marketplace/product-barcode",
-          },
-          {
-            text: "Inventory Source Management",
-            link: "/multi-vendor-marketplace/inventory-source-management",
-          },
-          {
-            text: "Order Management",
-            link: "/multi-vendor-marketplace/order-management",
-          },
-          {
-            text: "Booking Management",
-            link: "/multi-vendor-marketplace/booking-management",
-          },
-          {
-            text: "Return Merchandise Authorization (RMA)",
-            link: "/multi-vendor-marketplace/return-merchandise-authorization",
-          },
-          {
-            text: "Payment Management",
-            link: "/multi-vendor-marketplace/payment-management",
-          },
-          {
-            text: "Commission Management",
-            link: "/multi-vendor-marketplace/commission-management",
-          },
-          {
-            text: "Mass Payout Management",
-            link: "/multi-vendor-marketplace/mass-payout-management",
-          },
-          {
-            text: "Seller Subscription Management",
-            link: "/multi-vendor-marketplace/seller-subscription-management",
-          },
-          {
-            text: "Customer Management",
-            link: "/multi-vendor-marketplace/customer-management",
-          },
-          {
-            text: "Communications",
-            link: "/multi-vendor-marketplace/communications",
-          },
-          {
-            text: "Rating Management",
-            link: "/multi-vendor-marketplace/rating-management",
-          },
-          {
-            text: "Seller & Product Flagging",
-            link: "/multi-vendor-marketplace/seller-product-flagging",
-          },
-          {
-            text: "Featured Sellers",
-            link: "/multi-vendor-marketplace/featured-sellers",
-          },
-          {
-            text: "Seller Reporting",
-            link: "/multi-vendor-marketplace/seller-reporting",
-          },
-          {
-            text: "Seller Users & Roles",
-            link: "/multi-vendor-marketplace/seller-user-role-management",
-          },
-          {
-            text: "Seller Catalog Bulk Upload",
-            link: "/multi-vendor-marketplace/seller-catalog-bulk-upload",
-          },
-          {
-            text: "Seller Attributes",
-            link: "/multi-vendor-marketplace/seller-attributes",
-          },
-        ],
       },
 
       {
