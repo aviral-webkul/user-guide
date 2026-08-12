@@ -1,5 +1,58 @@
 export const redirects = {
   /**
+   * Multi Vendor Marketplace Redirects
+   */
+
+    '/multi-vendor-marketplace/': 'https://marketplace-docs.bagisto.com/getting-started/introduction',
+
+    '/multi-vendor-marketplace/introduction.html': 'https://marketplace-docs.bagisto.com/getting-started/introduction',
+    '/multi-vendor-marketplace/introduction': 'https://marketplace-docs.bagisto.com/getting-started/introduction',
+    '/multi-vendor-marketplace/vendor-management.html': 'https://marketplace-docs.bagisto.com/sellers/seller-management',
+    '/multi-vendor-marketplace/vendor-management': 'https://marketplace-docs.bagisto.com/sellers/seller-management',
+    '/multi-vendor-marketplace/seller-attributes.html': 'https://marketplace-docs.bagisto.com/sellers/seller-attributes',
+    '/multi-vendor-marketplace/seller-attributes': 'https://marketplace-docs.bagisto.com/sellers/seller-attributes',
+    '/multi-vendor-marketplace/seller-user-role-management.html': 'https://marketplace-docs.bagisto.com/sellers/seller-user-role-management',
+    '/multi-vendor-marketplace/seller-user-role-management': 'https://marketplace-docs.bagisto.com/sellers/seller-user-role-management',
+    '/multi-vendor-marketplace/featured-sellers.html': 'https://marketplace-docs.bagisto.com/sellers/featured-sellers',
+    '/multi-vendor-marketplace/featured-sellers': 'https://marketplace-docs.bagisto.com/sellers/featured-sellers',
+    '/multi-vendor-marketplace/product-management.html': 'https://marketplace-docs.bagisto.com/catalog/product-management',
+    '/multi-vendor-marketplace/product-management': 'https://marketplace-docs.bagisto.com/catalog/product-management',
+    '/multi-vendor-marketplace/quick-create-product.html': 'https://marketplace-docs.bagisto.com/catalog/product-management',
+    '/multi-vendor-marketplace/quick-create-product': 'https://marketplace-docs.bagisto.com/catalog/product-management',
+    '/multi-vendor-marketplace/seller-catalog-bulk-upload.html': 'https://marketplace-docs.bagisto.com/catalog/bulk-upload',
+    '/multi-vendor-marketplace/seller-catalog-bulk-upload': 'https://marketplace-docs.bagisto.com/catalog/bulk-upload',
+    '/multi-vendor-marketplace/product-barcode.html': 'https://marketplace-docs.bagisto.com/catalog/product-barcode',
+    '/multi-vendor-marketplace/product-barcode': 'https://marketplace-docs.bagisto.com/catalog/product-barcode',
+    '/multi-vendor-marketplace/dealership-management.html': 'https://marketplace-docs.bagisto.com/catalog/selling-existing-products',
+    '/multi-vendor-marketplace/dealership-management': 'https://marketplace-docs.bagisto.com/catalog/selling-existing-products',
+    '/multi-vendor-marketplace/inventory-source-management.html': 'https://marketplace-docs.bagisto.com/inventory/inventory-source-management',
+    '/multi-vendor-marketplace/inventory-source-management': 'https://marketplace-docs.bagisto.com/inventory/inventory-source-management',
+    '/multi-vendor-marketplace/order-management.html': 'https://marketplace-docs.bagisto.com/orders/order-management',
+    '/multi-vendor-marketplace/order-management': 'https://marketplace-docs.bagisto.com/orders/order-management',
+    '/multi-vendor-marketplace/booking-management.html': 'https://marketplace-docs.bagisto.com/orders/booking-management',
+    '/multi-vendor-marketplace/booking-management': 'https://marketplace-docs.bagisto.com/orders/booking-management',
+    '/multi-vendor-marketplace/return-merchandise-authorization.html': 'https://marketplace-docs.bagisto.com/orders/return-merchandise-authorization',
+    '/multi-vendor-marketplace/return-merchandise-authorization': 'https://marketplace-docs.bagisto.com/orders/return-merchandise-authorization',
+    '/multi-vendor-marketplace/payment-management.html': 'https://marketplace-docs.bagisto.com/payments/payment-management',
+    '/multi-vendor-marketplace/payment-management': 'https://marketplace-docs.bagisto.com/payments/payment-management',
+    '/multi-vendor-marketplace/commission-management.html': 'https://marketplace-docs.bagisto.com/payments/commission-management',
+    '/multi-vendor-marketplace/commission-management': 'https://marketplace-docs.bagisto.com/payments/commission-management',
+    '/multi-vendor-marketplace/mass-payout-management.html': 'https://marketplace-docs.bagisto.com/payments/mass-payout-management',
+    '/multi-vendor-marketplace/mass-payout-management': 'https://marketplace-docs.bagisto.com/payments/mass-payout-management',
+    '/multi-vendor-marketplace/rating-management.html': 'https://marketplace-docs.bagisto.com/moderation/rating-management',
+    '/multi-vendor-marketplace/rating-management': 'https://marketplace-docs.bagisto.com/moderation/rating-management',
+    '/multi-vendor-marketplace/seller-product-flagging.html': 'https://marketplace-docs.bagisto.com/moderation/seller-product-flagging',
+    '/multi-vendor-marketplace/seller-product-flagging': 'https://marketplace-docs.bagisto.com/moderation/seller-product-flagging',
+    '/multi-vendor-marketplace/seller-subscription-management.html': 'https://marketplace-docs.bagisto.com/subscriptions/seller-subscription-management',
+    '/multi-vendor-marketplace/seller-subscription-management': 'https://marketplace-docs.bagisto.com/subscriptions/seller-subscription-management',
+    '/multi-vendor-marketplace/customer-management.html': 'https://marketplace-docs.bagisto.com/customers/customer-management',
+    '/multi-vendor-marketplace/customer-management': 'https://marketplace-docs.bagisto.com/customers/customer-management',
+    '/multi-vendor-marketplace/communications.html': 'https://marketplace-docs.bagisto.com/customers/communications',
+    '/multi-vendor-marketplace/communications': 'https://marketplace-docs.bagisto.com/customers/communications',
+    '/multi-vendor-marketplace/seller-reporting.html': 'https://marketplace-docs.bagisto.com/reporting/seller-reporting',
+    '/multi-vendor-marketplace/seller-reporting': 'https://marketplace-docs.bagisto.com/reporting/seller-reporting',
+
+  /**
    * Version 2.3 Redirects
    *
    * Note: These redirects are for the legacy 2.3 documentation.
@@ -108,7 +161,7 @@ export const redirects = {
   "/2.3.0/multi-vendor-marketplace/vendor-management.html":"https://marketplace-docs.bagisto.com/sellers/seller-management.html",
   "/2.3.0/multi-vendor-marketplace/order-management.html":"https://marketplace-docs.bagisto.com/orders/order-management",
   "/2.3.0/multi-vendor-marketplace/commission-management.html":"https://marketplace-docs.bagisto.com/payments/commission-management.html",
-  "/2.3.0/multi-vendor-marketplace/product-management.html":"https://marketplace-docs.bagisto.com/payments/payment-management.html",
+  "/2.3.0/multi-vendor-marketplace/product-management.html":"https://marketplace-docs.bagisto.com/catalog/product-management",
   "/2.3.0/multi-vendor-marketplace/rating-management.html":"https://marketplace-docs.bagisto.com/moderation/rating-management",
   "/2.3.0/multi-vendor-marketplace/payment-management.html":"https://marketplace-docs.bagisto.com/payments/payment-management.html",
 
@@ -247,7 +300,7 @@ export const redirects = {
   "/2.2.0/multi-vendor-marketplace/vendor-management.html":"https://marketplace-docs.bagisto.com/sellers/seller-management",
   "/2.2.0/multi-vendor-marketplace/order-management.html":"https://marketplace-docs.bagisto.com/orders/order-management",
   "/2.2.0/multi-vendor-marketplace/commission-management.html":"https://marketplace-docs.bagisto.com/payments/commission-management",
-  "/2.2.0/multi-vendor-marketplace/product-management.html":"https://marketplace-docs.bagisto.com/payments/payment-management",
+  "/2.2.0/multi-vendor-marketplace/product-management.html":"https://marketplace-docs.bagisto.com/catalog/product-management",
   "/2.2.0/multi-vendor-marketplace/rating-management.html":"https://marketplace-docs.bagisto.com/moderation/rating-management",
   "/2.2.0/multi-vendor-marketplace/payment-management.html":"https://marketplace-docs.bagisto.com/payments/payment-management",
 
@@ -389,7 +442,7 @@ export const redirects = {
   "/2.1.0/multi-vendor-marketplace/vendor-management.html":"https://marketplace-docs.bagisto.com/sellers/seller-management",
   "/2.1.0/multi-vendor-marketplace/order-management.html":"https://marketplace-docs.bagisto.com/orders/order-management",
   "/2.1.0/multi-vendor-marketplace/commission-management.html":"https://marketplace-docs.bagisto.com/payments/commission-management",
-  "/2.1.0/multi-vendor-marketplace/product-management.html":"https://marketplace-docs.bagisto.com/payments/payment-management",
+  "/2.1.0/multi-vendor-marketplace/product-management.html":"https://marketplace-docs.bagisto.com/catalog/product-management",
   "/2.1.0/multi-vendor-marketplace/rating-management.html":"https://marketplace-docs.bagisto.com/moderation/rating-management",
   "/2.1.0/multi-vendor-marketplace/payment-management.html":"https://marketplace-docs.bagisto.com/payments/payment-management",
 
@@ -533,7 +586,7 @@ export const redirects = {
   "/2.0/multi-vendor-marketplace/vendor-management.html":"https://marketplace-docs.bagisto.com/sellers/seller-management",
   "/2.0/multi-vendor-marketplace/order-management.html":"https://marketplace-docs.bagisto.com/orders/order-management",
   "/2.0/multi-vendor-marketplace/commission-management.html":"https://marketplace-docs.bagisto.com/payments/commission-management",
-  "/2.0/multi-vendor-marketplace/product-management.html":"https://marketplace-docs.bagisto.com/payments/payment-management",
+  "/2.0/multi-vendor-marketplace/product-management.html":"https://marketplace-docs.bagisto.com/catalog/product-management",
   "/2.0/multi-vendor-marketplace/rating-management.html":"https://marketplace-docs.bagisto.com/moderation/rating-management",
   "/2.0/multi-vendor-marketplace/payment-management.html":"https://marketplace-docs.bagisto.com/payments/payment-management",
 
