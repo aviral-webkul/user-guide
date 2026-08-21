@@ -16,6 +16,6 @@ There is an option present to **Enable or Disable** a Backorder and then click o
 
 In the above image these products are **Out of Stock** but you can still able to Add the product to the Cart and **Place an Order**.
 
-<ImagePopup src="/images/configure/backorderOutput.png" alt="Backorder Output" />
+<ImagePopup src="/images/configure/backorder-output.png" alt="Backorder Output" />
 
-<ImagePopup src="/images/configure/orderID.png" alt="Order ID" />
+<ImagePopup src="/images/configure/order-id.png" alt="Order ID" />

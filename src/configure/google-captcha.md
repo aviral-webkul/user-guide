@@ -6,7 +6,7 @@ It works by verifying whether an interaction is performed by a real human user o
 
 To add, go to the Admin Panel and click on **Configure >> Google Captcha** as shown below.
 
- <ImagePopup src="/images/configure/configure-captcha.png" alt="Account Login" />
+ <ImagePopup src="/images/configure/configure-captcha.png" alt="Google Captcha" />
 
 As soon as you click on it, a Status toggle button will appear. Once you enable it, you will see options to add **Project ID, API Key, Site Key** and **Score Threshold**.
 
@@ -16,7 +16,7 @@ As soon as you click on it, a Status toggle button will appear. Once you enable 
 - Create a new project or select an existing one from the project dropdown.
 - Note your Project ID from the project dashboard (not the project name).
 
- <ImagePopup src="/images/configure/project-id.png" alt="Account Login" />
+ <ImagePopup src="/images/configure/project-id.png" alt="To Obtain Google Cloud Project ID" />
 
 ### Generate API Key:
 
@@ -26,7 +26,7 @@ As soon as you click on it, a Status toggle button will appear. Once you enable 
 
 - Now copy the generated API key.
 
-<ImagePopup src="/images/configure/api-1.png" alt="Account Login" />
+<ImagePopup src="/images/configure/api-1.png" alt="Generate API Key" />
 
 ### Create reCAPTCHA Site Key:
 
@@ -40,7 +40,7 @@ As soon as you click on it, a Status toggle button will appear. Once you enable 
 
 Now you need to add all the IDs in the configuration, set the **Stock Threshold** to 0.5, and finally click on the **Save Configuration** button.
 
- <ImagePopup src="/images/configure/site-key.png" alt="Account Login" />
+ <ImagePopup src="/images/configure/site-key.png" alt="Create reCAPTCHA Site Key" />
 
 As soon as the configuration is saved, Google reCAPTCHA will be displayed in five places on the website:
 
@@ -52,20 +52,20 @@ As soon as the configuration is saved, Google reCAPTCHA will be displayed in fiv
 
 ### Customer Sign In
 
-  <ImagePopup src="/images/configure/customer-signin.png" alt="Account Login" />
+  <ImagePopup src="/images/configure/customer-signin.png" alt="Customer Sign In" />
 
 ### Customer Sign Up
 
- <ImagePopup src="/images/configure/customer-signup.png" alt="Account Login" />
+ <ImagePopup src="/images/configure/customer-signup.png" alt="Customer Sign Up" />
 
 ### Contact Us Page
 
- <ImagePopup src="/images/configure/contact-us.png" alt="Account Login" />
+ <ImagePopup src="/images/configure/contact-us.png" alt="Contact Us Page" />
 
 ### Recover Password 
 
- <ImagePopup src="/images/configure/forget-password.png" alt="Account Login" />
+ <ImagePopup src="/images/configure/forget-password.png" alt="Recover Password" />
 
 ### Checkout Sign In 
 
- <ImagePopup src="/images/configure/checkout-signin.png" alt="Account Login" />
+ <ImagePopup src="/images/configure/checkout-signin.png" alt="Checkout Sign In" />

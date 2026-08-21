@@ -44,7 +44,7 @@ For each product (or each variant / associated / bundle child of a composite pro
 * **Discount (%) –** A percentage discount off the base price.
 * **Default –** Leave the price unchanged (visibility only).
 
-<ImagePopup src="/images/b2b-ecommerce-platform/calalog-product.png" alt="Confirm Catalog Visibility" />
+<ImagePopup src="/images/b2b-ecommerce-platform/calalog-product.png" alt="Step 2 — Assign Products" />
 
 ### Step 3 — Tier (Volume) Pricing
 
@@ -56,7 +56,7 @@ For any priced product you can add **quantity price breaks**. Members automatica
 
 Use **Add price break** to add additional tiers. Break prices must decrease as the quantity rises.
 
-<ImagePopup src="/images/b2b-ecommerce-platform/calatog-tire.png" alt="Confirm Catalog Visibility" />
+<ImagePopup src="/images/b2b-ecommerce-platform/calatog-tire.png" alt="Step 3 — Tier (Volume) Pricing" />
 
 ### Step 4 — Assign Companies
 
@@ -70,7 +70,7 @@ Search for companies by name or email and assign them to the catalog. Members of
 
 Before saving, a preview shows the categories the assigned companies will see on the storefront, based on the products you assigned. Review the derived categories and click **Confirm & Save** to apply the catalog.
 
-<ImagePopup src="/images/b2b-ecommerce-platform/catalog-4.png" alt="Confirm Catalog Visibility" />
+<ImagePopup src="/images/b2b-ecommerce-platform/catalog-4.png" alt="Step 5 — Confirm Catalog Visibility" />
 
 ## How Customers Experience a Catalog
 

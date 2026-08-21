@@ -90,13 +90,13 @@ To add **Coyright Content**, go to the Admin panel: **Configure >> Content**.
 
 You will see the textbox to add the Copyright Content as shown in the image below.
 
-<ImagePopup src="/images/configure/copyright-content.png" alt="Coyright Content" />
+<ImagePopup src="/images/configure/copyright-content.png" alt="Add Coyright Content" />
 
 At last click on **Save Configuration** button.
 
 After this, you can go to the storefront footer of your Bagisto website and check that your copyright content has been successfully added.
 
- <ImagePopup src="/images/configure/copyright-footer.png" alt="Coyright Content" />
+ <ImagePopup src="/images/configure/copyright-footer.png" alt="Add Coyright Content" />
 
 ### Custom Scripts
 

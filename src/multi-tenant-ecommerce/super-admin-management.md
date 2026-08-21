@@ -58,7 +58,7 @@ To view all the details about a tenant, navigate to **Tenants → Tenants** and 
 
 Under the **Tenant Insights**, the Super Admin can see all the information about the tenant's store, as shown in the image below:
 
-<ImagePopup src="/images/multi-tenant-ecommerce/4-Super-tenant-Insights.png" alt="Super Admin Tenant Insights" />
+<ImagePopup src="/images/multi-tenant-ecommerce/4-super-tenant-insights.png" alt="Super Admin Tenant Insights" />
 
 ### Tenant Insights Information
 

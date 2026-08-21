@@ -18,10 +18,10 @@ Access Control List (ACL) in Bagisto allows the store owner to create users and 
 
 Click on **Save User**.
 
-<ImagePopup src="/images/settings/createUser.png" alt="Create User" />
+<ImagePopup src="/images/settings/create-user.png" alt="Create User" />
 
 **Step 3:** Once saved, the new **User** will appear in the list as shown below.
 
-<ImagePopup src="/images/settings/userOutput.png" alt="User Output" />
+<ImagePopup src="/images/settings/user-output.png" alt="User Output" />
 
 You have now successfully created a **User** in Bagisto.

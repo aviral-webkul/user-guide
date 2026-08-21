@@ -39,7 +39,7 @@ Each configuration step is displayed one at a time in the tabs below.
 
 To set up the Laravel mobile app, the admin should go to **Configure -> GraphQL API**.
 
-<ImagePopup src="/images/native-mobile-app/1.png" alt="configuration" />
+<ImagePopup src="/images/native-mobile-app/1.png" alt="Bagisto Mobile App Admin Configuration" />
 
 **1) Private Key JSON File Content:** To access the server key, just click the link located below the input box and set up the project on Firebase.
 
@@ -51,11 +51,11 @@ The Mobikul mobile app's push notifications can be easily controlled from the ba
 
 To do this, the admin should go to **Settings -> Push Notifications**.
 
-<ImagePopup src="/images/native-mobile-app/2.png" alt="configuration" />
+<ImagePopup src="/images/native-mobile-app/2.png" alt="Push Notifications" />
 
 Also, for adding a new notification the admin can click on the Add Notification button.
 
-<ImagePopup src="/images/native-mobile-app/3.png" alt="configuration" />
+<ImagePopup src="/images/native-mobile-app/3.png" alt="Push Notifications" />
 
 After this add the below details. 
 
@@ -79,7 +79,7 @@ This is the first screen that customers see when they open the app. Also, this s
 
 The business owner will give us this image based on what is needed through a PDF that we get beforehand.
 
-<ImagePopup src="/images/native-mobile-app/4.png" alt="configuration" />
+<ImagePopup src="/images/native-mobile-app/4.png" alt="Customer View: Splash Screen" />
 
 ### Home Page
 
@@ -93,13 +93,13 @@ The homepage of the Laravel mobile app builder allows you to add various types o
 
 **2) Banner Section:** In this section, users of the application will view the banner that the admin has set up. The banners will rotate one after another.
 
-<ImagePopup src="/images/native-mobile-app/5.png" alt="configuration" />
+<ImagePopup src="/images/native-mobile-app/5.png" alt="Carousel Sections" />
 
 #### Featured Products
 
 In this section, users of the Laravel Mobile app will find the highlighted items chosen by the app owner.
 
-<ImagePopup src="/images/native-mobile-app/6.png" alt="configuration" />
+<ImagePopup src="/images/native-mobile-app/6.png" alt="Featured Products" />
 
 #### New Products
 
@@ -117,7 +117,7 @@ The user of the Laravel native mobile app builder can easily register the app by
 
 This way, the app user can input their basic information to become a customer.
 
-<ImagePopup src="/images/native-mobile-app/7.png" alt="configuration" />
+<ImagePopup src="/images/native-mobile-app/7.png" alt="Side Drawer" />
 
 #### Log In with Your Email
 
@@ -127,19 +127,19 @@ Once a customer finishes signing up, they can log in using the email ID and pass
 
 Users can change their password by clicking on the Forgot Password link.
 
-<ImagePopup src="/images/native-mobile-app/8.png" alt="configuration" />
+<ImagePopup src="/images/native-mobile-app/8.png" alt="Forgot your password?" />
 
 ### Categories
 
 There are two types of categories in the Laravel mobile application.
 
-<ImagePopup src="/images/native-mobile-app/9.png" alt="configuration" />
+<ImagePopup src="/images/native-mobile-app/9.png" alt="Categories" />
 
 **1) Parent category:** Users can click on the name of the main category to see it.
 
 **2) Child category:** Users can click on the subcategory within the main category to view the subcategory.
 
-<ImagePopup src="/images/native-mobile-app/10.png" alt="configuration" />
+<ImagePopup src="/images/native-mobile-app/10.png" alt="Categories" />
 
 Now after clicking on the child category, all products will show added by the admin. Child category will be listed shown in the **Grid** and **List** view.
 
@@ -147,7 +147,7 @@ Now after clicking on the child category, all products will show added by the ad
 
 **2) Grid View:** The user can also select the button grid to view the products.
 
-<ImagePopup src="/images/native-mobile-app/11.png" alt="configuration" />
+<ImagePopup src="/images/native-mobile-app/11.png" alt="Categories" />
 
 ### Account Information
 
@@ -155,7 +155,7 @@ Once you log into the mobile app, you can check your account info by going to th
 
 In this section, you can quickly look at and go over your account details.
 
-<ImagePopup src="/images/native-mobile-app/12.png" alt="configuration" />
+<ImagePopup src="/images/native-mobile-app/12.png" alt="Account Information" />
 
 The account section will save the customer’s data, in multiple sub-sections.
 
@@ -172,7 +172,7 @@ This part is for the app user to keep their personal info about their account. I
 
 5) Users can also change their Email and Password for the app. They can also delete their account.
 
-<ImagePopup src="/images/native-mobile-app/13.png" alt="configuration" />
+<ImagePopup src="/images/native-mobile-app/13.png" alt="Profile" />
 
 #### Address
 
@@ -180,7 +180,7 @@ This contains the information about the Default Billing Address, Default Shippin
 
 The app user can click on any address to edit the details on the address from the edit button or else can add a new address.
 
-<ImagePopup src="/images/native-mobile-app/14.png" alt="configuration" />
+<ImagePopup src="/images/native-mobile-app/14.png" alt="Address" />
 
 **Recent Product:** Customers can look at the items they have recently seen in the recent products area, as illustrated in the picture below:
 
@@ -188,13 +188,13 @@ The app user can click on any address to edit the details on the address from th
 
 **Wishlist:** The app user can view all the wishlist products from the Wishlist option.
 
-<ImagePopup src="/images/native-mobile-app/15.png" alt="configuration" />
+<ImagePopup src="/images/native-mobile-app/15.png" alt="Address" />
 
 #### Compare Products
 
 Users can compare products side by side within the app, allowing them to easily view and evaluate differences in features.
 
-<ImagePopup src="/images/native-mobile-app/16.png" alt="configuration" />
+<ImagePopup src="/images/native-mobile-app/16.png" alt="Compare Products" />
 
 #### Product View:-
 
@@ -202,24 +202,24 @@ The page shows information about the products that users of the app can look at.
 
 **Add to Cart –** Users can click the Add To Cart button to put the product in their cart for later checkout.
 
-<ImagePopup src="/images/native-mobile-app/17.png" alt="configuration" />
+<ImagePopup src="/images/native-mobile-app/17.png" alt="Product View" />
 
 Now, people using the app can go ahead with the product they added to their cart.
 
 Here, app users can use a code for their purchases. They also have the choice to keep shopping, update their cart, or empty the shopping cart before clicking to continue.
 
-<ImagePopup src="/images/native-mobile-app/18.png" alt="configuration" />
+<ImagePopup src="/images/native-mobile-app/18.png" alt="Product View" />
 
 In the next step, users have to choose how they want to pay for their order, which can be either Cash On Delivery or Money Transfer.
 
 Here users can check the price details of the order and can place the order. After that, the order has been placed and will get a confirmation with order ID and email.
 
-<ImagePopup src="/images/native-mobile-app/19.png" alt="configuration" />
+<ImagePopup src="/images/native-mobile-app/19.png" alt="Product View" />
 
 ### Dark Theme
 
 The app has a dark theme that users can choose. If you tap on the Change theme button, the app will switch to a dark color theme, like you can see in the picture below.
 
-<ImagePopup src="/images/native-mobile-app/20.png" alt="configuration" />
+<ImagePopup src="/images/native-mobile-app/20.png" alt="Dark Theme" />
 
 

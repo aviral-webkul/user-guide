@@ -14,7 +14,7 @@ On the Admin panel, go to **Marketing >> Communications >> Email Templates** and
 
 Add **Name** and **Status** as Active, Inactive, or Draft of the Email Template as shown in the below image.
 
-<ImagePopup src="/images/marketing/templateName.png" alt="Template Name" />
+<ImagePopup src="/images/marketing/template-name.png" alt="Template Name" />
 
 ### Step 3: 
 

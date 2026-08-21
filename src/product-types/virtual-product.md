@@ -22,7 +22,7 @@ After clicking on the Save Product button, you'll be redirected to the next page
     e.g., /products/fitness-membership (fitness-membership is a URL key).
 - **Tax Category:** Select the tax category from the dropdown list.
 
-<ImagePopup src="/images/virtual-product/editProduct.png" alt="Edit Product" />
+<ImagePopup src="/images/virtual-product/edit-product.png" alt="Edit Product" />
 
 #### New
 
@@ -44,7 +44,7 @@ After clicking on the Save Product button, you'll be redirected to the next page
 
 - Enable the toggle button to allow guest customers to order the product.
 
-<ImagePopup src="/images/virtual-product/toggleButtons.png" alt="Toggle Buttons" />
+<ImagePopup src="/images/virtual-product/toggle-buttons.png" alt="Toggle Buttons" />
 
 ### Description
 
@@ -63,7 +63,7 @@ Fill in the following fields under meta description for improved searchability o
 - **Meta Keyword:** Provide meta keywords for specific search engine optimization.
 - **Meta Description:** Enter a description for better search engine listings.
 
-<ImagePopup src="/images/virtual-product/metaDescription.png" alt="Meta Description" />
+<ImagePopup src="/images/virtual-product/meta-description.png" alt="Meta Description" />
 
 ### Images
 

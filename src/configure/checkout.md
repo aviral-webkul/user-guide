@@ -16,23 +16,23 @@ In this, we provide two options:
 
 **A) Display numbers of items in cart** - Select **Display number of items in cart** option and then click on **Save Configuration** button.
 
-<ImagePopup src="/images/configure/items.png" alt="Number Items" />
+<ImagePopup src="/images/configure/items.png" alt="My Cart" />
 
 After clicking the Add to Cart button, this option shows you the total number of quantities. For example, we add 5 products inside the cart. 5 products will be visible on the front end as shown below.
 
-<ImagePopup src="/images/configure/numberItems.png" alt="Number Items" />
+<ImagePopup src="/images/configure/number-items.png" alt="My Cart" />
 
 **B) Display Items Quantities** - Select Display items quantities option and then click on **Save Configuration** button.
 
-<ImagePopup src="/images/configure/itemQuantity.png" alt="Display Items Quantities" />
+<ImagePopup src="/images/configure/item-quantity.png" alt="My Cart" />
 
 After clicking the Add to Cart button, for example, 7 products you have added inside the cart, only 1 quantity will be visible on the frontend.
 
-<ImagePopup src="/images/configure/1mycart.png" alt="Display Items Quantities" />
+<ImagePopup src="/images/configure/1mycart.png" alt="My Cart" />
 
 To check the total number of items, you have to go inside the mini-cart.
 
-<ImagePopup src="/images/configure/7mycart.png" alt="Display Items Quantities" />
+<ImagePopup src="/images/configure/7mycart.png" alt="My Cart" />
 
 ### Mini Cart
 
@@ -48,4 +48,4 @@ The mini cart is able to open with an offer message as shown in the image below.
 
 Now, if we disable this Mini-Cart, the user is not able to open the mini-cart and is directly redirected to the checkout page.
 
-<ImagePopup src="/images/configure/disableminiCart.png" alt="Disable Mini Cart" />
+<ImagePopup src="/images/configure/disablemini-cart.png" alt="Disable Mini Cart" />

@@ -40,6 +40,42 @@ Merchants can set up the gateway with their Merchant Key and Salt, check payment
 
 <ImagePopup src="/images/configure/paypal.png" alt="Paypal" />
 
+### PhonePe
+
+PhonePe is an Indian digital payments platform supporting UPI, cards, wallets and
+net banking. Customers are taken to PhonePe to pay and returned to the store once
+the payment is confirmed.
+
+Configure the following:
+
+**1. Client ID** and **Client Secret:** Issued by PhonePe for your merchant account.
+**2. Merchant ID:** Your PhonePe merchant identifier.
+**3. Sandbox:** Enable while testing, disable to take live payments.
+
+PhonePe settles only in **Indian Rupees**, so it is offered at checkout only when
+the cart is in INR.
+
+<ImagePopup src="/images/configure/phonepe-admin.png" alt="PhonePe" />
+
+### PayGlocal
+
+PayGlocal is a cross-border payment gateway. Customers pay on PayGlocal's hosted
+checkout and return through a signed token; the outcome is confirmed with
+PayGlocal before the order is placed, and a webhook settles the payment if the
+customer never comes back.
+
+Configure the following:
+
+**1. Merchant ID:** Your PayGlocal merchant identifier.
+**2. Public Key ID** and **Private Key ID:** The key identifiers issued to you.
+**3. PayGlocal Public Key** and **Merchant Private Key:** The key pair used to sign
+and verify requests.
+**4. Accepted Currencies:** The currencies this gateway may be used for. A cart in
+any other currency will not be offered PayGlocal at checkout.
+**5. Sandbox:** Enable while testing, disable to take live payments.
+
+<ImagePopup src="/images/configure/payglocal-admin.png" alt="PayGlocal" />
+
 ### Cash On Delivery
 
 A payment method where customers pay in cash upon receiving goods or services at their doorstep.
@@ -50,13 +86,13 @@ A payment method where customers pay in cash upon receiving goods or services at
 
 Transfer of funds from one person or account to another, often electronically, for transactions or remittances.
 
-<ImagePopup src="/images/configure/moneyTransfer.png" alt="Money Transfer" />
+<ImagePopup src="/images/configure/money-transfer.png" alt="Money Transfer" />
 
 ### PayPal Standard
 
 A basic PayPal payment option for online businesses, allowing customers to pay using PayPal accounts or credit/debit cards.
 
-<ImagePopup src="/images/configure/paypalStandard.png" alt="Paypal Standard" />
+<ImagePopup src="/images/configure/paypal-standard.png" alt="Paypal Standard" />
 
 After configuring, click the **Save Configuration** button.
 

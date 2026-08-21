@@ -10,11 +10,11 @@ This feature allows you to communicate with your customers in bulk about upcomin
 
 **Step 1)** Firstly the admin can navigate to **Configure >> Customer >> Settings**
 
-<ImagePopup src="/images/marketing/newsletterSettings.png" alt="Newsletter Settings" />
+<ImagePopup src="/images/marketing/newsletter-settings.png" alt="Newsletter Settings" />
 
 **Step 2)** Now Enable the **Newsletter Subscription** and click on **Save Configuration** button as shown in below image.
 
-<ImagePopup src="/images/marketing/enableNewsletter.png" alt="Enable Newsletter" />
+<ImagePopup src="/images/marketing/enable-newsletter.png" alt="Enable Newsletter" />
 
 ### Newsletter Subscriptions
 
@@ -22,13 +22,13 @@ Here the admin can see all their customers who subscribed to the newsletter subs
 
 Also, the admin will navigate to **Marketing >> Communications >> Newsletter Subscriptions** as shown in the below image.
 
-<ImagePopup src="/images/marketing/newsletterGrid.png" alt="Newsletter Grid" />
+<ImagePopup src="/images/marketing/newsletter-grid.png" alt="Newsletter Subscriptions" />
 
 **Step 3)** After all the configuration you need to run the command under your project root to send the emails as below :
 
 **php artisan campaign:process**
 
-<ImagePopup src="/images/marketing/command.png" alt="Newsletter Grid" />
+<ImagePopup src="/images/marketing/command.png" alt="Newsletter Subscriptions" />
 
 **Customer Configuration**
 

@@ -8,7 +8,7 @@ E-commerce transaction means the transfer of funds electronically in exchange fo
 
 **Step-1** Click on **Orders >> Transactions >> Create Transaction** as shown in the below image.
 
-<ImagePopup src="/images/orders/createTransaction.png" alt="Create Transactions" />
+<ImagePopup src="/images/orders/create-transaction.png" alt="Create Transactions" />
 
 **Step-2** Add the below details.
 
@@ -26,11 +26,11 @@ Kindly select your payment gateway from the dropdown.
 
 At last, click on the **Save Transaction** button.  
 
-<ImagePopup src="/images/orders/saveTransaction.png" alt="Save Transaction" />
+<ImagePopup src="/images/orders/save-transaction.png" alt="Save Transaction" />
 
 **Step-3** Transaction is created successfully as shown in the image below.
 
-<ImagePopup src="/images/orders/transactionGrid.png" alt="Transaction Grid" />
+<ImagePopup src="/images/orders/transaction-grid.png" alt="Transaction Grid" />
 
 **Note - Additionally, you can also create transactions while creating an Invoice**
 
@@ -42,4 +42,4 @@ At last, click on the **Create Invoice** button as shown in the below image.
 
 **2)** Now go to **Sales >> Orders >> Transactions** and a new transaction is created successfully as shown in the image below.
 
-<ImagePopup src="/images/orders/transactionOutput.png" alt="Transaction Output" />
+<ImagePopup src="/images/orders/transaction-output.png" alt="Transaction Output" />

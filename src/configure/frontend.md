@@ -28,6 +28,6 @@ To add, go to Admin Panel and click on **Configure >> Products >> Storefront**.
 
 <ImagePopup src="/images/configure/storefront.png" alt="Storefront Settings" />
 
-<ImagePopup src="/images/configure/buyNow.png" alt="Buy Now Products" />
+<ImagePopup src="/images/configure/buy-now.png" alt="Buy Now Products" />
 
 After that, click on the **Save Configuration** button.

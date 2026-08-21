@@ -66,7 +66,7 @@ Below is the list of fields you need to fill under the **Description** section:
 
 - **Short Description:** Enter a brief summary highlighting the key features of the product.
 
-<ImagePopup src="/images/multi-vendor-marketplace/6-Short-description.png" alt="Short Description" />
+<ImagePopup src="/images/multi-vendor-marketplace/6-short-description.png" alt="Short Description" />
 
 - **Description:** Provide a detailed explanation of the product, covering all important details to help customers understand it better.
 
@@ -88,7 +88,7 @@ Below is the list of fields you need to fill under the **Meta Description** sect
 
 To add product images, click on **Add Images**. You can upload multiple images to showcase your product from different angles, helping customers get a better view before making a purchase.
 
-<ImagePopup src="/images/multi-vendor-marketplace/9-Img.png" alt="Product Images" />
+<ImagePopup src="/images/multi-vendor-marketplace/9-img.png" alt="Product Images" />
 
 #### Customizable Item
 

@@ -24,7 +24,7 @@ After clicking on the Save Product button, you will be redirected to the next pa
 - **URL Key:** This will be the end of the URL, e.g., products/assembled-core-i3-4-gb-ddr3500-gbwindows-10-pro151-inch-screen-black.
 - **Tax Category:** Select the Tax Category from the dropdown list.
 
-<ImagePopup src="/images/bundle-product/editProduct.png" alt="Edit Product" />
+<ImagePopup src="/images/bundle-product/edit-product.png" alt="Edit Product" />
 
 #### New
 
@@ -46,7 +46,7 @@ After clicking on the Save Product button, you will be redirected to the next pa
 
 - Enable the toggle button to allow guest customers to order the product.
 
-<ImagePopup src="/images/bundle-product/toggleButtons.png" alt="Toggle Buttons" />
+<ImagePopup src="/images/bundle-product/toggle-buttons.png" alt="Toggle Buttons" />
 
 ### Description
 
@@ -65,7 +65,7 @@ Fill in the following fields under meta description for improved searchability o
 - **Meta Keyword:** Provide meta keywords for specific search engine optimization.
 - **Meta Description:** Enter a description for better search engine listings.
 
-<ImagePopup src="/images/bundle-product/metaDescription.png" alt="Meta Description" />
+<ImagePopup src="/images/bundle-product/meta-description.png" alt="Meta Description" />
 
 ### Images
 
@@ -87,7 +87,7 @@ In the Search Product section, search for the product to add to the bundle. Once
 
 At the front end, customers can increase the quantity of the product to add to the cart, but the default quantity included in a bundle item cannot be changed.
 
-<ImagePopup src="/images/bundle-product/bundleOptions.png" alt="Bundle Product Options" />
+<ImagePopup src="/images/bundle-product/bundle-options.png" alt="Bundle Product Options" />
 
 ### Product At Front End
 

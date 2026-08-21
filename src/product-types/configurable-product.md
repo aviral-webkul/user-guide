@@ -12,7 +12,7 @@ This customization allows for a diverse range of variations without the need for
 
 After you Save the Product, you get an option to select the **Color & Size**. In case you want some other attribute in your configurable product, you need to create an attribute first and then save the product as shown in the below image.
 
-<ImagePopup src="/images/configurable-product/configurableAttributes.png" alt="Configurable Attributes" />
+<ImagePopup src="/images/configurable-product/configurable-attributes.png" alt="Configurable Attributes" />
 
 ### General Attributes
 Below is the list of fields you need to fill under General Attributes.
@@ -21,7 +21,7 @@ Below is the list of fields you need to fill under General Attributes.
 - **URL Key:** This will be the end of the URL, for example, /products/philips-speaker (Speaker is a URL key)
 - **Tax Category:** You can select the Tax Category from the drop-down list that you want to be applied to the product.
 
-<ImagePopup src="/images/configurable-product/editProducts.png" alt="Edit Products" />
+<ImagePopup src="/images/configurable-product/edit-products.png" alt="Edit Products" />
 
 Also, make sure to enable the Settings.
 
@@ -31,7 +31,7 @@ Also, make sure to enable the Settings.
 - **Status:** Enable the toggle button to make the product enabled on your eCommerce store.
 - **Guest Checkout:** Enable the toggle button to allow the product to be ordered by the guest customer.
 
-<ImagePopup src="/images/configurable-product/toggleButtons.png" alt="Toggle Buttons" />
+<ImagePopup src="/images/configurable-product/toggle-buttons.png" alt="Toggle Buttons" />
 
 ### Description
 Below is the list of the fields you need to fill regarding the product under the description.
@@ -48,7 +48,7 @@ Below is the list of fields that you need to provide under the meta description 
 - **Meta Keyword:** The meta keyword for the product needs to be provided to improve its searchability on the search engine for specific keywords.
 - **Meta Description:** Enter the description so that the product can easily appear in search engine listing.
 
-<ImagePopup src="/images/configurable-product/metaDescriptions.png" alt="Meta Descriptions" />
+<ImagePopup src="/images/configurable-product/meta-descriptions.png" alt="Meta Descriptions" />
 
 ### Images
 Add the product images, click on **Add Images**. You can add multiple images for your product.

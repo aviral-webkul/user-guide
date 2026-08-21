@@ -15,11 +15,11 @@ The refund shipping fee can be decreased but can’t be increased to the actual 
 
 In the below image, we have applied the amount of $10 refund shipping which is the total amount that applies to shipment charge.
 
-<ImagePopup src="/images/orders/refundShipping.png" alt="Refund Shipping" />
+<ImagePopup src="/images/orders/refund-shipping.png" alt="Refund Shipping" />
 
 All the amount i.e. $10 refunded as **Shipping & Handling** as shown in the below image.
 
-<ImagePopup src="/images/orders/refundShipped.png" alt="Refund Shipped" />
+<ImagePopup src="/images/orders/refund-shipped.png" alt="Refund Shipped" />
 
 **Adjustment Refund:-** You can enter the amount which will be added to the total refunded amount as an additional refund that does not include any shipping, product price, tax cost.
 
@@ -29,20 +29,20 @@ In the below image we have refunded **$5 of Refund Shipping and $2 of Adjustment
 
 All the amount refunded **$7 as Shipping & Handling and Adjustment Refund** as shown in the below image. 
 
-<ImagePopup src="/images/orders/adjustRefund.png" alt="Adjustment Refund Applied" />
+<ImagePopup src="/images/orders/adjust-refund.png" alt="Adjustment Refund Applied" />
 
 **Adjustment Fee:-** Enter the amount that will be subtracted from the sub-total amount.
 
 In the below image **Refund Shipping is $3 and Adjustment Fee is $1**
 
-<ImagePopup src="/images/orders/adjustFee.png" alt="Adjustment Fee" /> 
+<ImagePopup src="/images/orders/adjust-fee.png" alt="Adjustment Fee" /> 
 
 Now the **$1 subtracted as the Adjustment Fee** from the subtotal amount and **$3 Shipping and Handling added** in the **grand total amount** that needs to be refunded.
 
-<ImagePopup src="/images/orders/adjustfeeRefund.png" alt="Adjustment Fee Refund" /> 
+<ImagePopup src="/images/orders/adjustfee-refund.png" alt="Adjustment Fee Refund" /> 
 
 After that it will get redirected to the **Refund Grid** and show the refunded amount in the grid as shown in the below image.
 
-<ImagePopup src="/images/orders/refundGrid.png" alt="Refund Grid" />
+<ImagePopup src="/images/orders/refund-grid.png" alt="Refund Grid" />
 
 By the above steps, you can easily **Refund** in Bagisto.

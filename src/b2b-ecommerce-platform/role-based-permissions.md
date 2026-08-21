@@ -12,7 +12,7 @@ The **Company Roles** page will appear, showing all existing roles with options 
 
 As shown in the image below, you can view the list of existing roles, such as “Administrator”.
 
-<ImagePopup src="/images/b2b-ecommerce-platform/role-1.png" alt="Super Admin Login" />
+<ImagePopup src="/images/b2b-ecommerce-platform/role-1.png" alt="Create a Role" />
 
 **Step: 2** Click on Add Role to open the Add Company Role form.
 
@@ -30,7 +30,7 @@ As shown in the image below, you can view the list of existing roles, such as �
 
 **Step: 5** Once you have configured the access control settings, click Save Role to create the new role. As shown in the image below,
 
-<ImagePopup src="/images/b2b-ecommerce-platform/role-2.png" alt="Super Admin Login" />
+<ImagePopup src="/images/b2b-ecommerce-platform/role-2.png" alt="Create a Role" />
 
 **Note:**
 - You can edit or delete existing roles anytime from the same page.
@@ -56,7 +56,7 @@ The Company Users page offers two ways to add members:
 * **Add User –** Create a brand-new company user from scratch.
 * **Invite User –** Invite a customer who already has an account on the store to join your company.
 
-<ImagePopup src="/images/b2b-ecommerce-platform/role-3.png" alt="Super Admin Login" />
+<ImagePopup src="/images/b2b-ecommerce-platform/role-3.png" alt="Add a New Company User" />
 
 **Step: 3** Click on Add User to open the Add Company User form.
 
@@ -84,7 +84,7 @@ The Company Users page offers two ways to add members:
 
 **Step: 6** After filling in all required information, click **Save User** to add the new company user. As shown in the image below.
 
-<ImagePopup src="/images/b2b-ecommerce-platform/role-4.png" alt="Super Admin Login" />
+<ImagePopup src="/images/b2b-ecommerce-platform/role-4.png" alt="Add a New Company User" />
 
 **Note:**
 

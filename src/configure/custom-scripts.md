@@ -16,7 +16,7 @@ We have used a background color **Light Blue** and saved the configurations.
 
 Now the storefront background color has changed, as shown below:
 
-<ImagePopup src="/images/configure/cssOutput.png" alt="Custom CSS Output" />
+<ImagePopup src="/images/configure/css-output.png" alt="Custom CSS Output" />
 
 ### Custom JS
 

@@ -1,7 +1,23 @@
 export const redirects = {
     /**
+     * Moved pages
+     *
+     * Themes moved from Settings to the new Appearance area, captcha and the
+     * payment and shipping method pages were consolidated onto the pages that
+     * already documented them.
+     */
+    '/settings/themes': '/appearance/themes',
+    '/settings/themes.html': '/appearance/themes',
+    '/configure/captcha': '/configure/google-captcha',
+    '/configure/captcha.html': '/configure/google-captcha',
+    '/configure/payment-methods': '/payment-method/payment-methods',
+    '/configure/payment-methods.html': '/payment-method/payment-methods',
+    '/configure/shipping-methods': '/shipping-method/shipping-methods',
+    '/configure/shipping-methods.html': '/shipping-method/shipping-methods',
+
+    /**
      * Version 2.3 Redirects
-     * 
+     *
      * Note: These redirects are for the legacy 2.3 documentation.
      */
 
@@ -64,7 +80,7 @@ export const redirects = {
     '/2.3.0/settings/channels.html': '/settings/channels',
     '/2.3.0/settings/users.html': '/settings/users',
     '/2.3.0/settings/roles.html': '/settings/roles',
-    '/2.3.0/settings/themes.html': '/settings/themes',
+    '/2.3.0/settings/themes.html': '/appearance/themes',
     '/2.3.0/settings/taxes.html': '/settings/taxes',
     '/2.3.0/settings/data-transfer.html': '/settings/data-transfer',
 
@@ -84,13 +100,13 @@ export const redirects = {
     '/2.3.0/configure/image-size.html': '/configure/image-size',
     '/2.3.0/configure/review.html': '/configure/review',
     '/2.3.0/configure/attribute.html': '/configure/attribute',
-    '/2.3.0/configure/captcha.html': '/configure/captcha',
+    '/2.3.0/configure/captcha.html': '/configure/google-captcha',
     '/2.3.0/configure/settings.html': '/configure/settings',
     '/2.3.0/configure/email-settings.html': '/configure/email-settings',
     '/2.3.0/configure/notifications.html': '/configure/notifications',
     '/2.3.0/configure/shipping.html': '/configure/shipping',
-    '/2.3.0/configure/shipping-methods.html': '/configure/shipping-methods',
-    '/2.3.0/configure/payment-methods.html': '/configure/payment-methods',
+    '/2.3.0/configure/shipping-methods.html': '/shipping-method/shipping-methods',
+    '/2.3.0/configure/payment-methods.html': '/payment-method/payment-methods',
     '/2.3.0/configure/orders-settings.html': '/configure/orders-settings',
     '/2.3.0/configure/invoice-settings.html': '/configure/invoice-settings',
     '/2.3.0/configure/pricing.html': '/configure/pricing',
@@ -203,7 +219,7 @@ export const redirects = {
     '/2.2.0/settings/channels.html': '/settings/channels',
     '/2.2.0/settings/users.html': '/settings/users',
     '/2.2.0/settings/roles.html': '/settings/roles',
-    '/2.2.0/settings/themes.html': '/settings/themes',
+    '/2.2.0/settings/themes.html': '/appearance/themes',
     '/2.2.0/settings/taxes.html': '/settings/taxes',
     '/2.2.0/settings/data-transfer.html': '/settings/data-transfer',
 
@@ -223,13 +239,13 @@ export const redirects = {
     '/2.2.0/configure/image-size.html': '/configure/image-size',
     '/2.2.0/configure/review.html': '/configure/review',
     '/2.2.0/configure/attribute.html': '/configure/attribute',
-    '/2.2.0/configure/captcha.html': '/configure/captcha',
+    '/2.2.0/configure/captcha.html': '/configure/google-captcha',
     '/2.2.0/configure/settings.html': '/configure/settings',
     '/2.2.0/configure/email-settings.html': '/configure/email-settings',
     '/2.2.0/configure/notifications.html': '/configure/notifications',
     '/2.2.0/configure/shipping.html': '/configure/shipping',
-    '/2.2.0/configure/shipping-methods.html': '/configure/shipping-methods',
-    '/2.2.0/configure/payment-methods.html': '/configure/payment-methods',
+    '/2.2.0/configure/shipping-methods.html': '/shipping-method/shipping-methods',
+    '/2.2.0/configure/payment-methods.html': '/payment-method/payment-methods',
     '/2.2.0/configure/orders-settings.html': '/configure/orders-settings',
     '/2.2.0/configure/invoice-settings.html': '/configure/invoice-settings',
     '/2.2.0/configure/pricing.html': '/configure/pricing',
@@ -346,7 +362,7 @@ export const redirects = {
     '/2.1.0/settings/channels.html': '/settings/channels',
     '/2.1.0/settings/users.html': '/settings/users',
     '/2.1.0/settings/roles.html': '/settings/roles',
-    '/2.1.0/settings/themes.html': '/settings/themes',
+    '/2.1.0/settings/themes.html': '/appearance/themes',
     '/2.1.0/settings/taxes.html': '/settings/taxes',
     '/2.1.0/settings/data-transfer.html': '/settings/data-transfer',
 
@@ -365,13 +381,13 @@ export const redirects = {
     '/2.1.0/configure/image-size.html': '/configure/image-size',
     '/2.1.0/configure/review.html': '/configure/review',
     '/2.1.0/configure/attribute.html': '/configure/attribute',
-    '/2.1.0/configure/captcha.html': '/configure/captcha',
+    '/2.1.0/configure/captcha.html': '/configure/google-captcha',
     '/2.1.0/configure/settings.html': '/configure/settings',
     '/2.1.0/configure/email-settings.html': '/configure/email-settings',
     '/2.1.0/configure/notifications.html': '/configure/notifications',
     '/2.1.0/configure/shipping.html': '/configure/shipping',
-    '/2.1.0/configure/shipping-methods.html': '/configure/shipping-methods',
-    '/2.1.0/configure/payment-methods.html': '/configure/payment-methods',
+    '/2.1.0/configure/shipping-methods.html': '/shipping-method/shipping-methods',
+    '/2.1.0/configure/payment-methods.html': '/payment-method/payment-methods',
     '/2.1.0/configure/orders-settings.html': '/configure/orders-settings',
     '/2.1.0/configure/invoice-settings.html': '/configure/invoice-settings',
     '/2.1.0/configure/pricing.html': '/configure/pricing',
@@ -490,7 +506,7 @@ export const redirects = {
     '/2.0/settings/channels.html': '/settings/channels',
     '/2.0/settings/users.html': '/settings/users',
     '/2.0/settings/roles.html': '/settings/roles',
-    '/2.0/settings/themes.html': '/settings/themes',
+    '/2.0/settings/themes.html': '/appearance/themes',
     '/2.0/settings/taxes.html': '/settings/taxes',
 
 
@@ -509,13 +525,13 @@ export const redirects = {
     '/2.0/configure/image-size.html': '/configure/image-size',
     '/2.0/configure/review.html': '/configure/review',
     '/2.0/configure/attribute.html': '/configure/attribute',
-    '/2.0/configure/captcha.html': '/configure/captcha',
+    '/2.0/configure/captcha.html': '/configure/google-captcha',
     '/2.0/configure/settings.html': '/configure/settings',
     '/2.0/configure/email-settings.html': '/configure/email-settings',
     '/2.0/configure/notifications.html': '/configure/notifications',
     '/2.0/configure/shipping.html': '/configure/shipping',
-    '/2.0/configure/shipping-methods.html': '/configure/shipping-methods',
-    '/2.0/configure/payment-methods.html': '/configure/payment-methods',
+    '/2.0/configure/shipping-methods.html': '/shipping-method/shipping-methods',
+    '/2.0/configure/payment-methods.html': '/payment-method/payment-methods',
     '/2.0/configure/orders-settings.html': '/configure/orders-settings',
     '/2.0/configure/invoice-settings.html': '/configure/invoice-settings',
     '/2.0/configure/pricing.html': '/configure/pricing',

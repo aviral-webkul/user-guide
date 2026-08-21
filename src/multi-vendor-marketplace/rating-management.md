@@ -30,7 +30,7 @@ Leaving a product review is a simple way for customers to share their shopping e
 
 On the top right corner, click the **Profile Icon**. To log in or sign up as a customer, click the **Sign In** button.
 
-<ImagePopup src="/images/multi-vendor-marketplace/1.customer-login-signin-button.png" alt="Customer Login/Sign In Button" />
+<ImagePopup src="/images/multi-vendor-marketplace/1-customer-login-signin-button.png" alt="Customer Login/Sign In Button" />
 
 Enter the customer email and password in the login form, then click on the **Sign In** button to access your customer account.
 
@@ -173,4 +173,4 @@ After this Seller Review gets updated successfully.
 
 Additionally, the review gets visible on the Seller Profile page.
 
-<ImagePopup src="/images/multi-vendor-marketplace/19-Seller-profile-review-page.png" alt="Seller Profile Review Page" />
+<ImagePopup src="/images/multi-vendor-marketplace/19-seller-profile-review-page.png" alt="Seller Profile Review Page" />

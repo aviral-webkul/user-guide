@@ -25,7 +25,7 @@ Bagisto allows you to set up and manage multiple domains or stores in a single b
 **2. Default Locale:** Choose the default locale.  
 **3. Currencies:** Select one or more currencies for the store.
 
-<ImagePopup src="/images/settings/currencyLocal.png" alt="Currency and Locales" />
+<ImagePopup src="/images/settings/currency-local.png" alt="Currency and Locales" />
 
 ### Design
 
@@ -37,25 +37,25 @@ Select a theme from the dropdown (if multiple themes are available).
 
 Upload a logo for the frontend and click **Save Channel**.
 
-<ImagePopup src="/images/settings/frontendLogos.png" alt="Frontend Logo" />
+<ImagePopup src="/images/settings/frontend-logos.png" alt="Frontend Logo" />
 
 ### Logo on Frontend
 
 The updated logo will be visible on the frontend.
 
-<ImagePopup src="/images/settings/logoOutputs.png" alt="Frontend Logo Output" />
+<ImagePopup src="/images/settings/logo-outputs.png" alt="Frontend Logo Output" />
 
 ### Favicon
 
 Upload a favicon for the frontend and click **Save Channel**.
 
-<ImagePopup src="/images/settings/frontendFavicon.png" alt="Frontend Favicon" />
+<ImagePopup src="/images/settings/frontend-favicon.png" alt="Frontend Favicon" />
 
 ### Favicon on Frontend
 
 The updated favicon will be visible on the frontend.
 
-<ImagePopup src="/images/settings/faviconOutput.png" alt="Frontend Favicon Output" />
+<ImagePopup src="/images/settings/favicon-output.png" alt="Frontend Favicon Output" />
 
 ### Home Page SEO
 
@@ -73,12 +73,12 @@ Maintenance mode allows you to temporarily disable your store while making updat
 **2. Allowed IPs:** IPs that can access the store during maintenance.  
 **3. Status:** Enable or disable maintenance mode.
 
-<ImagePopup src="/images/settings/maintenanceMode.png" alt="Maintenance Mode" />
+<ImagePopup src="/images/settings/maintenance-mode.png" alt="Maintenance Mode" />
 
 ### Storefront Created
 
 After saving, your new Storefront will be listed.
 
-<ImagePopup src="/images/settings/channelGrid.png" alt="Storefront Grid" />
+<ImagePopup src="/images/settings/channel-grid.png" alt="Storefront Grid" />
 
 You have now successfully created a new **Storefront** in Bagisto.

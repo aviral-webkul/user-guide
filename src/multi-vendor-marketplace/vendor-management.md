@@ -12,7 +12,7 @@ In the Laravel Multi Vendor Marketplace, this system is made to be user-friendly
 
 To access the seller dashboard, a vendor first needs to click the **"Seller Login"** button on the top right of the marketplace home page.
 
-<ImagePopup src="/images/multi-vendor-marketplace/Seller-login.png" alt="Seller Login Button" />
+<ImagePopup src="/images/multi-vendor-marketplace/seller-login.png" alt="Seller Login Button" />
 
 Once you log in using your approved seller account, you’ll get access to your seller dashboard where you can easily manage products, view orders, track sales, and update store details.
 
@@ -163,7 +163,7 @@ To boost your shop’s visibility on search engines, you can fill out SEO fields
 
 - **Meta Description:** A short summary that tells what your shop offers.
 
-<ImagePopup src="/images/multi-vendor-marketplace/Meta-desc.png" alt="Meta Description" />
+<ImagePopup src="/images/multi-vendor-marketplace/meta-desc.png" alt="Meta Description" />
 
 Adding strong SEO content helps more customers discover your shop and increases your chances of getting organic traffic.
 
@@ -191,7 +191,7 @@ Adding these policies builds trust with customers, reduces disputes, and shows t
 
 After filling in all the required details, simply click on the **“Save Profile”** button. This will update your store information and make it visible on the frontend.
 
-<ImagePopup src="/images/multi-vendor-marketplace/Save.png" alt="Save Profile" />
+<ImagePopup src="/images/multi-vendor-marketplace/save.png" alt="Save Profile" />
 
 After saving your profile, look for the **“Visit Shop”** icon in the top right corner and click on it.
 

@@ -52,31 +52,7 @@ Shows which customers have placed the highest number of orders.
 
 <ImagePopup src="/images/reporting/customer-most-order.png" alt="Customers With Most Orders" />
 
-### E) Customer Traffic
-
-Tracks the number of visitors who browsed the store within the selected period.
-
-**Key Metrics:**
-
-**1) Total Visitors:** The total number of visitors to the store.
-
-**2) Unique Visitors:** The number of distinct visitors (not counting repeat visits).
-
-**3) Percentage Change:** Comparison with the previous period.
-
-### 6) Traffic Over Time
-
-Provides a trend analysis of visitor traffic over different time periods.
-
-**How to Use:**
-
-1) Compare store traffic between different time frames.
-
-2) Identify peak traffic times and align marketing campaigns accordingly.
-
-<ImagePopup src="/images/reporting/customer-traffic.png" alt="Customer Traffic" />
-
-### 7) Top Customer Groups
+### E) Top Customer Groups
 
 Lists the most active customer groups (e.g., wholesale, retail, VIP).
 
@@ -88,7 +64,7 @@ Lists the most active customer groups (e.g., wholesale, retail, VIP).
 
 <ImagePopup src="/images/reporting/customer-group.png" alt="Top Customer Groups" />
 
-### 8) Customers With Most Reviews
+### F) Customers With Most Reviews
 
 Lists customers who have left the most product reviews.
 

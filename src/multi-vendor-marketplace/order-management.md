@@ -49,7 +49,7 @@ The seller can create a shipment.
 
 Click on the **"Ship"** button in the top right corner.
 
-<ImagePopup src="/images/multi-vendor-marketplace/Ship-button.png" alt="Ship Button" />
+<ImagePopup src="/images/multi-vendor-marketplace/ship-button.png" alt="Ship Button" />
 
 A popup will appear showing shipment details like product name, quantity, Ordered Quantity, Shipped Quantity.
 
@@ -72,7 +72,7 @@ A success message will appear on the screen, and the order status will change fr
 <ImagePopup src="/images/multi-vendor-marketplace/complete.png" alt="Order Completed" />
 
 Once the Shipment is created, you can view it under the "Shipment" tab.
-<ImagePopup src="/images/multi-vendor-marketplace/Shipment.png" alt="Shipment" />
+<ImagePopup src="/images/multi-vendor-marketplace/shipment.png" alt="Shipment" />
 
 ### Cancelled
 The seller can cancel the order.

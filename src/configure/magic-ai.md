@@ -12,7 +12,7 @@ In the General section, a toggle button is available to enable or disable the Ma
 
 To use the Magic AI feature, you need to enable this option and then click on **Save Configuration** button.
 
- <ImagePopup src="/images/configure/general-setting.png" alt="Magic AI" />
+ <ImagePopup src="/images/configure/general-setting.png" alt="General" />
 
 ### Providers
 
@@ -22,7 +22,7 @@ To start using any of these providers, you need to generate the **API key** from
 
 After adding the API key and other required details, make sure to click on the **Save Configuration** button to apply the changes successfully.
 
- <ImagePopup src="/images/configure/providers-magicai.png" alt="Magic AI" />
+ <ImagePopup src="/images/configure/providers-magicai.png" alt="Providers" />
 
 ### Admin Features
 
@@ -38,7 +38,7 @@ The selected providers will be visible under the Text Generation and Image Gener
 
 At last click on **Save Configurations** button.
 
- <ImagePopup src="/images/configure/adminFeatures-magicai.png" alt="Magic AI" />
+ <ImagePopup src="/images/configure/admin-features-magicai.png" alt="Admin Features" />
 
 ### Text Generation
 
@@ -48,7 +48,7 @@ To use Text Generation with Magic AI, go to **Catalog → Products**, and click 
 
 This will allow you to generate AI-assisted content for product descriptions.
 
-  <ImagePopup src="/images/configure/description-magicai.png" alt="Magic AI" />
+  <ImagePopup src="/images/configure/description-magicai.png" alt="Text Generation" />
 
 After clicking on the Magic AI button, a popup form will open where you need to enter the prompt related to the description you want to generate.
 
@@ -56,7 +56,7 @@ Then, you need to select a model from the Model List, and finally click on the *
 
 Once done, your AI-generated content will be created automatically. Then click on **Apply** button to add the changes.
 
- <ImagePopup src="/images/configure/textgeneration.png" alt="Magic AI" />
+ <ImagePopup src="/images/configure/textgeneration.png" alt="Text Generation" />
 
 ### Image Generation
 
@@ -74,13 +74,13 @@ To use this feature, go to **Catalog → Products**, and in the Images section, 
 
 5. Finally, choose your preferred model from the Model List and click on the “Generate” button to create the images.
 
-  <ImagePopup src="/images/configure/image-generate.png" alt="Magic AI" />
+  <ImagePopup src="/images/configure/image-generate.png" alt="Image Generation" />
 
 Once the images are generated, you need to click on the desired images to apply them. After selecting and applying them, your AI-generated product images will be successfully added.
 
 If you are not satisfied with the generated images, you can simply click on the **Regenerate** button to create new images again.
 
-<ImagePopup src="/images/configure/ai-images.png" alt="Magic AI" />
+<ImagePopup src="/images/configure/ai-images.png" alt="Image Generation" />
 
 ### Storefront Features
 
@@ -96,7 +96,7 @@ Each feature includes a toggle button to enable or disable it. Along with this, 
 
 At last, click on the **Save Configuration** button to apply the changes.
 
- <ImagePopup src="/images/configure/storefront-features-magicai.png" alt="Magic AI" />
+ <ImagePopup src="/images/configure/storefront-features-magicai.png" alt="Storefront Features" />
 
 ### AI Image Search
 
@@ -106,7 +106,7 @@ AI Image Search allows customers to search for products by uploading an image. B
 
 If someone just wants to understand what is written, this feature can simply translate the content for them into their preferred language.
 
- <ImagePopup src="/images/configure/review-magicai.png" alt="Magic AI" />
+ <ImagePopup src="/images/configure/review-magicai.png" alt="Review Translations" />
 
 ### Personalized Checkout Message
 
@@ -116,4 +116,4 @@ It helps store owners create a more personalized and engaging shopping experienc
 
 These messages can improve customer interaction, build trust, and encourage successful order completion, ultimately enhancing the overall shopping experience.
 
-  <ImagePopup src="/images/configure/personalized-chckout-message.png" alt="Magic AI" />
+  <ImagePopup src="/images/configure/personalized-chckout-message.png" alt="Personalized Checkout Message" />

@@ -25,15 +25,15 @@ Bagisto comes with a default root category, i.e., Root, but you can also create 
 
    - **Product:** When you set the display mode to "Product," the product will be visible on the front end.  
 
-   <ImagePopup src="/images/category/editCategory.png" alt="Edit Category Settings" />
+   <ImagePopup src="/images/category/edit-category.png" alt="Edit Category Settings" />
 
 4. Save the category, and a new category will be created by the name of **Electronic Items** as shown in the image below.
 
-   <ImagePopup src="/images/category/categoryGrid.png" alt="Category Grid in Bagisto" />
+   <ImagePopup src="/images/category/category-grid.png" alt="Category Grid in Bagisto" />
 
 5. Now check the product edit page while creating a product, and you will be able to see the newly created category there.
 
-   <ImagePopup src="/images/category/productPage.png" alt="Product Page Category Selection" />
+   <ImagePopup src="/images/category/product-page.png" alt="Product Page Category Selection" />
 
 ### Category on Front-End
 

@@ -14,7 +14,7 @@ Now **Save the Product**, and you will get redirected to the Edit product page a
 ### General Attributes
 Below is the list of fields you need to fill under General Attributes.
 
-   <ImagePopup src="/images/simple-product/editProduct.png" alt="Edit Product" />
+   <ImagePopup src="/images/simple-product/edit-product.png" alt="Edit Product" />
 
 ### Description
 Below is the list of the fields you need to fill in regarding the product under description.
@@ -39,7 +39,7 @@ The meta keyword for the product needs to be provided to improve its searchabili
 #### Meta Description
 Enter the description so that products can easily appear in search engine listings.
 
-<ImagePopup src="/images/simple-product/metaDescription.png" alt="Meta Description" />
+<ImagePopup src="/images/simple-product/meta-description.png" alt="Meta Description" />
 
 ### Images
 To add the product images, click on **Add Images**. You can add multiple images for your product.
@@ -61,7 +61,7 @@ Enable the toggle button to enable the product on your eCommerce store.
 ### Guest Checkout
 Enable the toggle button to allow the product to be ordered by guest customers.
 
-<ImagePopup src="/images/simple-product/toggleButtons.png" alt="Toggle Buttons" />
+<ImagePopup src="/images/simple-product/toggle-buttons.png" alt="Toggle Buttons" />
 
 ### Price
 Insert the price, cost, and special price, and set the special price date for which the special price will be shown on the website.

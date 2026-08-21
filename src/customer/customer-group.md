@@ -28,15 +28,15 @@ The general customer group refers to customers who are not defined as Profession
 
 **Step 1**: Login to the admin panel of Bagisto and go to **Customers >> Groups**. By default, there are three customer groups. To create a new group, click on the **Create Group** button as shown below.  
 
-<ImagePopup src="/images/customer/createGroup.png" alt="Create Group" />
+<ImagePopup src="/images/customer/create-group.png" alt="Create Group" />
 
 **Step 2**: Next, you will get a form to create a new group. Fill in the group **Code** and **Name** and then click the **Save Group** button as shown in the below image.  
 
-<ImagePopup src="/images/customer/newGroup.png" alt="New Group" />
+<ImagePopup src="/images/customer/new-group.png" alt="New Group" />
 
 **Step 3**: Now you will be able to see the new customer group registered successfully.  
 
-<ImagePopup src="/images/customer/groupGrid.png" alt="Group Grid" />
+<ImagePopup src="/images/customer/group-grid.png" alt="Group Grid" />
 
 So by the above steps, you can easily create a new customer group from the admin panel in Bagisto. 
 

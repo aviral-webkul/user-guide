@@ -110,7 +110,7 @@ Tracks the most recent search terms used by customers on the store.
 
 **3) View Details:** Click to analyze customer search behavior.
 
-<ImagePopup src="/images/reporting/last-searchTerm.png" alt="Last Search Terms" />
+<ImagePopup src="/images/reporting/last-search-term.png" alt="Last Search Terms" />
 
 ### I) Top Search Terms
 
@@ -122,4 +122,4 @@ Displays the most frequently searched terms in the store within the selected dat
 
 **2) Total Searches:** The number of times the term has been used.
 
-<ImagePopup src="/images/reporting/top-searchTerm.png" alt="Top Search Terms" />
+<ImagePopup src="/images/reporting/top-search-term.png" alt="Top Search Terms" />

@@ -14,19 +14,19 @@ When a customer places an order from the front end, the admin panel generates th
 
 **Step 2:** Continue to checkout inside the **Shopping Cart**.
 
-<ImagePopup src="/images/orders/shoppingCart.png" alt="Shopping Cart" />
+<ImagePopup src="/images/orders/shopping-cart.png" alt="Shopping Cart" />
 
 **Step 3:** You will be redirected to the checkout page. Fill in the necessary information regarding the **Billing Address**.
 
-<ImagePopup src="/images/orders/billingAddress.png" alt="Billing Address" />
+<ImagePopup src="/images/orders/billing-address.png" alt="Billing Address" />
 
 **Step 4:** After confirming, add the **Shipping Method** and **Payment Method**, then click on **Place Order**.
 
-<ImagePopup src="/images/orders/cartSummary.png" alt="Cart Summary" />
+<ImagePopup src="/images/orders/cart-summary.png" alt="Cart Summary" />
 
 **Step 5:** After clicking on **Place Order**, the next page will display an **Order ID**.
 
-<ImagePopup src="/images/orders/orderID.png" alt="Order ID" />
+<ImagePopup src="/images/orders/order-id.png" alt="Order ID" />
 
 ---
 
@@ -40,7 +40,7 @@ On the customer dashboard, customers can see all order history with order status
 
 On the Information Page, the admin can check customer details like name, address, quantity, etc. The admin can also cancel the order.
 
-<ImagePopup src="/images/orders/orderInfo.png" alt="Order Info" />
+<ImagePopup src="/images/orders/order-info.png" alt="Order Info" />
 
 ⚠️ **Note:** The cancel button will be visible only when the order status is **Pending**.
 

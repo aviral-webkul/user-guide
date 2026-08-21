@@ -38,7 +38,7 @@ From **Bagisto v2.4.9**, saving an import runs it through to the end on its own.
 
 So now click on the **Import** Button and confirm the message *"The import will start as soon as this is saved. Do you want to continue?"*.
 
-<ImagePopup src="/images/settings/createImport.png" alt="Create Import" />
+<ImagePopup src="/images/settings/create-import.png" alt="Create Import" />
 
 ### Product Images
 
@@ -52,7 +52,7 @@ While importing products, the images named in your file can come from three diff
 
 The method you pick is saved on the import, so reopening it restores the choice along with the value that went with it.
 
-<ImagePopup src="/images/settings/importImageSource.png" alt="Product Images Source" />
+<ImagePopup src="/images/settings/import-image-source.png" alt="Product Images Source" />
 
 **Step 3:** The import now runs on its own and the stepper shows which phase it is in.
 
@@ -64,18 +64,18 @@ The method you pick is saved on the import, so reopening it restores the choice 
 
 A delete run has no images to fetch and nothing to link, so those steps are not shown for it.
 
-<ImagePopup src="/images/settings/importStepper.png" alt="Import Stepper" />
+<ImagePopup src="/images/settings/import-stepper.png" alt="Import Stepper" />
 
 If the file has errors, the run stops after validation and shows the total rows processed, the invalid rows, and the error count, with a **Download Full Report** button for the complete list. When the validation strategy is **Skip Errors** and only some rows are at fault, the import can still proceed and the faulty rows are skipped.
 
 **Step 4:** Once every phase is complete, the summary confirms the result.
 
-<ImagePopup src="/images/settings/importDone.png" alt="Import Done" />
+<ImagePopup src="/images/settings/import-done.png" alt="Import Done" />
 
 If any batch does not complete, the import finishes the batches it can and reports how many did not, so you can check the error log and run the import again for those rows.
 
 **Step 5:** Now you will able see to all the products under the **Catalog >> Products** section as shown in the given image.
 
-<ImagePopup src="/images/settings/importOutput.png" alt="Import Output" />
+<ImagePopup src="/images/settings/import-output.png" alt="Import Output" />
 
 By the above steps, you can easily create a **Bulk Import** in Bagisto.

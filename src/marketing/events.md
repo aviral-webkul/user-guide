@@ -14,12 +14,12 @@ On the Admin panel, go to **Marketing >> Communications >> Events** and click on
 
 Now add the **Event Name, Description, Date** as shown in the below image.
 
-<ImagePopup src="/images/marketing/eventName.png" alt="Event Name" />
+<ImagePopup src="/images/marketing/event-name.png" alt="Event Name" />
 
 ### Step 3: 
 
 Now you will be able to see the new **Event** as shown below.
 
-<ImagePopup src="/images/marketing/eventOutput.png" alt="Event Output" />
+<ImagePopup src="/images/marketing/event-output.png" alt="Event Output" />
 
 By this, you can easily create an **Event** in Bagisto.

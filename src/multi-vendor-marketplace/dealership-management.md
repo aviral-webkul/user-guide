@@ -12,17 +12,17 @@ Dealers can also assign product from master catalog, making it simple to list pr
 
 The Vendor Listing feature lets customers view all sellers in one place.
 
-<ImagePopup src="/images/multi-vendor-marketplace/1.1marketplace.png" alt="Global Commission Configuration" />
+<ImagePopup src="/images/multi-vendor-marketplace/1-1marketplace.png" alt="Vendor Listing from Central Catalog" />
 
 Each vendor is shown with important details like the store name, logo, address, ratings, and number of reviews. 
 
 This makes it easier for buyers to find and explore different sellers in the marketplace.
 
-<ImagePopup src="/images/multi-vendor-marketplace/2-vendor-listing-from-catlog.png" alt="Global Commission Configuration" />
+<ImagePopup src="/images/multi-vendor-marketplace/2-vendor-listing-from-catlog.png" alt="Vendor Listing from Central Catalog" />
 
 Customers can click on any vendor to open their store page, where they can view all products, read reviews, and check the complete seller information.
 
-<ImagePopup src="/images/multi-vendor-marketplace/3-vendor-profile-page.png" alt="Global Commission Configuration" />
+<ImagePopup src="/images/multi-vendor-marketplace/3-vendor-profile-page.png" alt="Vendor Listing from Central Catalog" />
 
 This helps build trust and gives vendors more visibility to attract buyers and increase sales.
 
@@ -30,19 +30,19 @@ This helps build trust and gives vendors more visibility to attract buyers and i
 
 From the seller dashboard, go to **Product Catalog → Products** and click on it to open the product page.
 
-<ImagePopup src="/images/multi-vendor-marketplace/4-seller-dashboards.png" alt="Global Commission Configuration" />
+<ImagePopup src="/images/multi-vendor-marketplace/4-seller-dashboards.png" alt="Add Product from Marketplace Catalog" />
 
 Click on the Add New Product button at the top right corner to begin adding a new product to your store.
 
-<ImagePopup src="/images/multi-vendor-marketplace/5-product-page.png" alt="Global Commission Configuration" />
+<ImagePopup src="/images/multi-vendor-marketplace/5-product-page.png" alt="Add Product from Marketplace Catalog" />
 
 On the Search Products page, dealers can assign a product from the Master Catalog by searching for items already available.
 
-<ImagePopup src="/images/multi-vendor-marketplace/6-search-product.png" alt="Global Commission Configuration" />
+<ImagePopup src="/images/multi-vendor-marketplace/6-search-product.png" alt="Add Product from Marketplace Catalog" />
 
 Type the product name in the search bar to locate it in the marketplace catalog.
 
-<ImagePopup src="/images/multi-vendor-marketplace/7-sell-as-your-product.png" alt="Global Commission Configuration" />
+<ImagePopup src="/images/multi-vendor-marketplace/7-sell-as-your-product.png" alt="Add Product from Marketplace Catalog" />
 
 The system shows matching products in the search results. Dealers can select a product and sell on existing listing by using their own price and stock quantity.
 
@@ -70,11 +70,11 @@ Enter all the required details for your personalized version of the existing pro
 
 **6) Video:** Optionally, add a video to give customers a better view of the product.
 
-<ImagePopup src="/images/multi-vendor-marketplace/8-product-updated-by-dealler.png" alt="Global Commission Configuration" />
+<ImagePopup src="/images/multi-vendor-marketplace/8-product-updated-by-dealler.png" alt="Product Attributes" />
 
 Click **Save** to add the product to your store. Initially, it will be marked as **Disapproved**.
 
-<ImagePopup src="/images/multi-vendor-marketplace/9-product-disapprove-states.png" alt="Global Commission Configuration" />
+<ImagePopup src="/images/multi-vendor-marketplace/9-product-disapprove-states.png" alt="Product Attributes" />
 
 **Note: Once the admin reviews and approves it, the status will change to Approved, and only then will the product be visible on the store frontend.**
 
@@ -86,7 +86,7 @@ This ensures master catalog products stay consistent across all dealer listings.
 
 Go to **Marketplace >> Products** to view and manage all your products from the seller dashboard.
 
-<ImagePopup src="/images/multi-vendor-marketplace/10-admin-product-page.png" alt="Global Commission Configuration" />
+<ImagePopup src="/images/multi-vendor-marketplace/10-admin-product-page.png" alt="Admin Panel: Manage Dealers Product" />
 
 To approve a product, follow these steps:
 
@@ -98,27 +98,27 @@ To approve a product, follow these steps:
 
 4) Select Approved to approve the product.
 
-<ImagePopup src="/images/multi-vendor-marketplace/11-select-action.png" alt="Global Commission Configuration" />
+<ImagePopup src="/images/multi-vendor-marketplace/11-select-action.png" alt="Admin Panel: Manage Dealers Product" />
 
 Once the product is approved, it will show as Approved on the Vendor Product page and under vendor listing, and will also become visible on the storefront for customers.
 
-<ImagePopup src="/images/multi-vendor-marketplace/12-admin-approved-states.png" alt="Global Commission Configuration" />
+<ImagePopup src="/images/multi-vendor-marketplace/12-admin-approved-states.png" alt="Admin Panel: Manage Dealers Product" />
 
 ### Product Preview – Dealership Side
 
 After approval, changes reflect on the dealer side, including any products added through the dealer from the central catalog.
 
-<ImagePopup src="/images/multi-vendor-marketplace/13-seller-side-preview.png" alt="Global Commission Configuration" />
+<ImagePopup src="/images/multi-vendor-marketplace/13-seller-side-preview.png" alt="Product Preview – Dealership Side" />
 
 ### Store view
 
 The approved product appears on the storefront for customers to browse and purchase.
 
-<ImagePopup src="/images/multi-vendor-marketplace/14-store-frontend-view.png" alt="Global Commission Configuration" />
+<ImagePopup src="/images/multi-vendor-marketplace/14-store-frontend-view.png" alt="Store view" />
 
 Customers can also click “1 more seller selling this product” to view other dealers offering the same item, making comparisons and purchases easier and helping dealers sell on existing listings more effectively.
 
-<ImagePopup src="/images/multi-vendor-marketplace/15-storefrontend-part-two.png" alt="Global Commission Configuration" />
+<ImagePopup src="/images/multi-vendor-marketplace/15-storefrontend-part-two.png" alt="Store view" />
 
 
 

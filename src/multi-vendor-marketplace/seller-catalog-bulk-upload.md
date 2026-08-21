@@ -2,13 +2,13 @@
 
 The Seller Catalog Bulk Upload feature allows sellers to upload, update, and delete products in bulk using CSV, XLS, or XLSX files, saving time by managing multiple products at once instead of handling them individually.
 
-<ImagePopup src="/images/multi-vendor-marketplace/1-data-transfer-settings.webp" alt="Customer Email and Password" />
+<ImagePopup src="/images/multi-vendor-marketplace/1-data-transfer-settings.webp" alt="Seller Catalog Bulk Upload" />
 
 ### How to Import Products in Bulk
 
 **Step 1:** Go to the **Seller Panel → Product Catalog → Data Transfer**, then click on the **Create Import** button.
 
-<ImagePopup src="/images/multi-vendor-marketplace/2-data-transfer-settings.webp" alt="Customer Email and Password" />
+<ImagePopup src="/images/multi-vendor-marketplace/2-data-transfer-settings.webp" alt="Import Products in Bulk" />
 
 **Step 2: Configure Import Settings**
 
@@ -38,21 +38,21 @@ Under General Configuration, fill in the following details:
 
 **10. Process in Queue:** Enable this option to run the import process in the background queue
 
-<ImagePopup src="/images/multi-vendor-marketplace/3-import-products.webp" alt="Customer Email and Password" />
+<ImagePopup src="/images/multi-vendor-marketplace/3-import-products.webp" alt="Import Products in Bulk" />
 
 After completing the configuration, click on the **Save Import** button.
 
 **Step 3:** Once you click Save Import, the import process will start automatically.
 
-<ImagePopup src="/images/multi-vendor-marketplace/4-import.webp" alt="Customer Email and Password" />
+<ImagePopup src="/images/multi-vendor-marketplace/4-import.webp" alt="Import Products in Bulk" />
 
 **Step 4:** Click on the Validate button to verify the imported data.
 
-<ImagePopup src="/images/multi-vendor-marketplace/5-validate.webp" alt="Customer Email and Password" />
+<ImagePopup src="/images/multi-vendor-marketplace/5-validate.webp" alt="Import Products in Bulk" />
 
 **Step 5:** After validation, click on the Import button to complete the process.
 
-<ImagePopup src="/images/multi-vendor-marketplace/6-imported-product.webp" alt="Customer Email and Password" />
+<ImagePopup src="/images/multi-vendor-marketplace/6-imported-product.webp" alt="Import Products in Bulk" />
 
 ### Import Completion
 
@@ -64,6 +64,6 @@ After a successful import, the system will display a summary such as:
 
 **3) Total Records Deleted:** Number of deleted products.
 
-<ImagePopup src="/images/multi-vendor-marketplace/7-successfully-imported.webp" alt="Customer Email and Password" />
+<ImagePopup src="/images/multi-vendor-marketplace/7-successfully-imported.webp" alt="Import Completion" />
 
 

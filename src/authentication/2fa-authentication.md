@@ -12,15 +12,15 @@ On the dashboard, you will find your account section in the top-right corner. Fr
 
 For your reference, an image is provided below.
 
-<ImagePopup src="/images/configure/account-login.png" alt="Account Login" />
+<ImagePopup src="/images/configure/account-login.png" alt="Steps for Two Factor Authentication (2FA)" />
 
 **Step-2** Here, your account details will be displayed, and you will find a toggle option to enable Two-Factor Authentication.
 
-<ImagePopup src="/images/configure/enable-2fa.png" alt="Account Login" />
+<ImagePopup src="/images/configure/enable-2fa.png" alt="Steps for Two Factor Authentication (2FA)" />
 
 **Step-3** As soon as you enable it, a QR code will appear on your screen to set up Two-Factor Authentication.
 
- <ImagePopup src="/images/configure/qr-code.png" alt="Account Login" />
+ <ImagePopup src="/images/configure/qr-code.png" alt="Steps for Two Factor Authentication (2FA)" />
 
 **Step-4** Now, you need to install the **Google Authenticator** app on your mobile phone. If you are an Android user, download it from the Play Store, and if you are an iPhone user, download it from the App Store.
 

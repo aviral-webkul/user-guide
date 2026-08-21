@@ -14,7 +14,7 @@ Most admin screens are listing grids — products, orders, customers, imports, a
 
 On a small screen, grids that define their own layout, such as **Catalog >> Products**, are shown as cards instead of a wide table. The column header is dropped there, because **Filter** and **Sort By** are reachable from the bar fixed to the foot of the screen. Grids that use the default layout keep the table and scroll sideways.
 
-<ImagePopup src="/images/getting-started/mobileDatagrid.png" alt="Admin Listing Grid on Mobile" />
+<ImagePopup src="/images/getting-started/mobile-datagrid.png" alt="Admin Listing Grid on Mobile" />
 
 While a grid is loading, the placeholders now match the grid they stand in for on both desktop and mobile, so the layout no longer shifts once the rows arrive.
 

@@ -273,6 +273,12 @@ export default defineConfig({
       },
 
       {
+        text: "Appearance",
+        collapsed: false,
+        items: [{ text: "Themes & Sections", link: "/appearance/themes" }],
+      },
+
+      {
         text: "Settings",
         collapsed: false,
         items: [
@@ -283,7 +289,6 @@ export default defineConfig({
           { text: "Channels", link: "/settings/channels" },
           { text: "Users", link: "/settings/users" },
           { text: "Roles", link: "/settings/roles" },
-          { text: "Themes", link: "/settings/themes" },
           { text: "Taxes", link: "/settings/taxes" },
           { text: "Data Transfer", link: "/settings/data-transfer" },
         ],
@@ -297,7 +302,6 @@ export default defineConfig({
           { text: "Attribute", link: "/configure/attribute" },
           { text: "Back Orders", link: "/configure/back-orders" },
           { text: "Google Captcha", link: "/configure/google-captcha" },
-          { text: "Captcha", link: "/configure/captcha" },
           { text: "Cart View Page", link: "/configure/cart-view-page" },
           { text: "Checkout", link: "/configure/checkout" },
           {
@@ -323,13 +327,11 @@ export default defineConfig({
           { text: "Magic AI", link: "/configure/magic-ai" },
           { text: "Notifications", link: "/configure/notifications" },
           { text: "Order Settings", link: "/configure/orders-settings" },
-          { text: "Payment Methods", link: "/configure/payment-methods" },
           { text: "Pricing", link: "/configure/pricing" },
           { text: "Product View Page", link: "/configure/product-view-page" },
           { text: "Review", link: "/configure/review" },
           { text: "Rich Snippets", link: "/configure/rich-snippets" },
           { text: "Settings", link: "/configure/settings" },
-          { text: "Shipping Methods", link: "/configure/shipping-methods" },
           { text: "Shipping", link: "/configure/shipping" },
           { text: "Social Share", link: "/configure/social-share" },
           { text: "Taxes", link: "/configure/taxes" },

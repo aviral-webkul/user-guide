@@ -10,12 +10,12 @@ Configured criteria specifying the lowest required quantity or value for an orde
 
 You can also add new configuration options in the Order section, including **Include Discount Amount**, **Include Tax to Amount**, and **Description** on the cart page.
 
-<ImagePopup src="/images/configure/orderSettings.png" alt="Order Settings" />
+<ImagePopup src="/images/configure/order-settings.png" alt="Order Settings" />
 
 **Allow Reorder:**  
 Enable or disable the reordering feature for admin users.
 
-<ImagePopup src="/images/configure/allowReorder.png" alt="Allow Reorder" />
+<ImagePopup src="/images/configure/allow-reorder.png" alt="Allow Reorder" />
 
 After making changes, click the **Save Configuration** button.
 
@@ -23,7 +23,7 @@ After making changes, click the **Save Configuration** button.
 
 To check admin reorder functionality, go to **Sales >> Orders**. Open any order showing a pending status to see the **Reorder** option on the admin side.
 
-<ImagePopup src="/images/configure/adminReorder.png" alt="Admin Reorder" />
+<ImagePopup src="/images/configure/admin-reorder.png" alt="Admin Reorder" />
 
 ## Frontend Reorder
 

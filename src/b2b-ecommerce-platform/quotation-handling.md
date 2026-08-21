@@ -29,7 +29,7 @@ Each record includes essential details for easy tracking and management.
 
 **7) Actions:** Use the View icon to view full quotation details and take further actions.
 
-<ImagePopup src="/images/b2b-ecommerce-platform/quatation-1.png" alt="Super Admin Login" />
+<ImagePopup src="/images/b2b-ecommerce-platform/quatation-1.png" alt="Quotation Details Include" />
 
 ### Quotation Details
 
@@ -37,7 +37,7 @@ Click the View icon under the Actions column to open detailed quotation informat
 
 This section provides complete details of the selected quotation, including Quotation Information, company information, Quotation Items, and Quotation Messages. As shown in the image below.
 
-<ImagePopup src="/images/b2b-ecommerce-platform/quatation-2.png" alt="Super Admin Login" />
+<ImagePopup src="/images/b2b-ecommerce-platform/quatation-2.png" alt="Quotation Details" />
 
 ### Quotation Messages
 
@@ -55,7 +55,7 @@ All messages are displayed under the conversation thread with details like sende
 
 > **Note:** The negotiation on the seller side is handled by the company's assigned **Sales Representative**, whose name and email are shown on the quotation. The entire **Quotation Messages** block is hidden for company users who do not have the **Messages** permission. See the [Role Based Permissions](./role-based-permissions) and [Sales Representatives](./sales-representative) guides.
 
-<ImagePopup src="/images/b2b-ecommerce-platform/quatation-3.png" alt="Super Admin Login" />
+<ImagePopup src="/images/b2b-ecommerce-platform/quatation-3.png" alt="Quotation Messages" />
 
 ### Quote Again
 
@@ -75,7 +75,7 @@ This allows you to update the negotiated price, quantity, or include additional 
 
 Click **Save** to submit the revised quotation for admin review.
 
-<ImagePopup src="/images/b2b-ecommerce-platform/quatation-4.png" alt="Super Admin Login" />
+<ImagePopup src="/images/b2b-ecommerce-platform/quatation-4.png" alt="Quote Again" />
 
 ### Reject Quotation
 
@@ -91,7 +91,7 @@ A dialog box appears, allowing you to specify the reason for rejection.
 
 Once saved, the quotation status updates accordingly to reflect the action taken.
 
-<ImagePopup src="/images/b2b-ecommerce-platform/quatation-5.png" alt="Super Admin Login" />
+<ImagePopup src="/images/b2b-ecommerce-platform/quatation-5.png" alt="Reject Quotation" />
 
 ### Quotation Management (Admin End)
 
@@ -125,7 +125,7 @@ Admins can also use options like **Export, Create Quotation, Search, and Filter*
 
 **7) Quotation Items:** Products included in the quotation.
 
-<ImagePopup src="/images/b2b-ecommerce-platform/quatation-6.png" alt="Super Admin Login" />
+<ImagePopup src="/images/b2b-ecommerce-platform/quatation-6.png" alt="Quotations List" />
 
 **Quotation Details**
 
@@ -133,7 +133,7 @@ Click the **View** icon next to the quotation entry to open the detailed quotati
 
 This section provides complete information about the selected quotation, including Quotation Information, company information, Quotation Items, and Quotation Messages. As shown in the image below.
 
-<ImagePopup src="/images/b2b-ecommerce-platform/quatation-7.png" alt="Super Admin Login" />
+<ImagePopup src="/images/b2b-ecommerce-platform/quatation-7.png" alt="Quotations List" />
 
 ### Quotation Messages
 
@@ -147,7 +147,7 @@ Admins and company users can exchange messages directly within the quotation usi
 
 3) Click Send to deliver the message.
 
-<ImagePopup src="/images/b2b-ecommerce-platform/quatation-8.png" alt="Super Admin Login" />
+<ImagePopup src="/images/b2b-ecommerce-platform/quatation-8.png" alt="Quotation Messages" />
 
 ### Send Quotation
 
@@ -165,7 +165,7 @@ Admins can modify and resend quotations with updated negotiation terms.
 
 Click **Save** to send the updated quotation to the company user for review.
 
-<ImagePopup src="/images/b2b-ecommerce-platform/quatation-9.png" alt="Super Admin Login" />
+<ImagePopup src="/images/b2b-ecommerce-platform/quatation-9.png" alt="Send Quotation" />
 
 ### Accept or Reject Quotation
 
@@ -179,7 +179,7 @@ Once negotiation is complete, admins can finalize the quotation.
 
 3) The quotation status updates to Accepted on the storefront, enabling the company to proceed with the purchase via the Add to Cart button.
 
-<ImagePopup src="/images/b2b-ecommerce-platform/quatation-10.png" alt="Super Admin Login" />
+<ImagePopup src="/images/b2b-ecommerce-platform/quatation-10.png" alt="Accept or Reject Quotation" />
 
 **Note: Once a quotation is accepted, you cannot modify the product quantity. To make changes, a new quotation must be raised.**
 
@@ -191,7 +191,7 @@ Once negotiation is complete, admins can finalize the quotation.
 
 3) Click Save to finalize the action.
 
-<ImagePopup src="/images/b2b-ecommerce-platform/quatation-10.png" alt="Super Admin Login" />
+<ImagePopup src="/images/b2b-ecommerce-platform/quatation-10.png" alt="Reject Quotation" />
 
 **Note: Once a quotation is finalized (Accepted or Rejected), no further modifications to products or pricing are allowed.**
 

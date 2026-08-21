@@ -208,8 +208,6 @@ If the configuration allows reopening cancelled/declined requests, the admin can
 
 **Step 1:** On the RMA detail page, open the **Reopen Request** panel and select the checkbox.
 
-<ImagePopup src="/images/orders/rma-reopen.png" alt="RMA Reopen" />
-
 **Step 2:** Click **Save**. The RMA status resets to **Pending Review** and the customer is notified.
 
 <ImagePopup src="/images/orders/rma-reopen-decline.png" alt="RMA Declined Status reset to Pending Review" />

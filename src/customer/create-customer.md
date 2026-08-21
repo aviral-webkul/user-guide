@@ -12,10 +12,10 @@ Customers generally create their own accounts in their shop. However, you can al
 
 **Step 2**: Next you will get a form to create a customer. Fill in the necessary fields to create a customer as shown in the below image.  
 
-<ImagePopup src="/images/customer/createCustomer.png" alt="Create Customer" />
+<ImagePopup src="/images/customer/create-customer.png" alt="Create Customer" />
 
 **Step 3**: Now you will be able to see the new customer is registered successfully.  
 
-<ImagePopup src="/images/customer/customerGrid.png" alt="Customer Grid" />
+<ImagePopup src="/images/customer/customer-grid.png" alt="Customer Grid" />
 
 So by the above steps, you can easily create a customer from the admin panel in Bagisto.

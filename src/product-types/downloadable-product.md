@@ -17,7 +17,7 @@ This document will guide you on how to create a Downloadable Product in Bagisto.
 - **URL Key:** This will be the end of the URL, e.g., /products/bagisto-e-book (bagisto-e-book is the URL key).
 - **Tax Category:** Select the Tax Category from the drop-down list.
 
-<ImagePopup src="/images/downloadable-product/editProduct.png" alt="General Settings for Downloadable Product" />
+<ImagePopup src="/images/downloadable-product/edit-product.png" alt="General Settings for Downloadable Product" />
 
 #### New
 
@@ -35,7 +35,7 @@ This document will guide you on how to create a Downloadable Product in Bagisto.
 
 - Enable the toggle button to enable the product on your eCommerce store.
 
-<ImagePopup src="/images/downloadable-product/toggleButtons.png" alt="Downloadable Product Toggle Options" />
+<ImagePopup src="/images/downloadable-product/toggle-buttons.png" alt="Downloadable Product Toggle Options" />
 
 ### Description
 
@@ -54,7 +54,7 @@ Fill in the following fields under meta description for improved searchability o
 - **Meta Keyword:** Provide meta keywords for specific search engine optimization.
 - **Meta Description:** Enter a description for better search engine listings.
 
-<ImagePopup src="/images/downloadable-product/metaDescription.png" alt="Downloadable Product Meta Description" />
+<ImagePopup src="/images/downloadable-product/meta-description.png" alt="Downloadable Product Meta Description" />
 
 ### Price
 
@@ -80,7 +80,7 @@ Here, enter the downloadable information about your product:
 - **Sample:** Insert URL/upload file to give a free sample.  
 - **Download Allow:** Specify the maximum number of downloads. Enter "0" for unlimited downloads.  
 
-<ImagePopup src="/images/downloadable-product/downlodableInfo.png" alt="Downloadable Product File Information" />
+<ImagePopup src="/images/downloadable-product/downlodable-info.png" alt="Downloadable Product File Information" />
 
 ### Samples
 

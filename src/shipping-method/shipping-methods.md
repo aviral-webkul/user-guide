@@ -11,10 +11,10 @@ Free shipping is a method where the cost of shipping is waived, and the seller c
 
 Flat rate shipping is a method where a fixed fee is charged for shipping, regardless of weight, size, or distance of the package. This simplifies shipping costs and benefits both buyers and sellers.
 
-<ImagePopup src="/images/configure/shippingMethods.png" alt="Shipping Methods Configuration" />
+<ImagePopup src="/images/configure/shipping-methods.png" alt="Shipping Methods Configuration" />
 
 After making changes, click on the **Save Configuration** button.
 
 ### Shipping Method Frontend
 
-<ImagePopup src="/images/configure/shippingOutput.png" alt="Shipping Methods Frontend View" />
+<ImagePopup src="/images/configure/shipping-output.png" alt="Shipping Methods Frontend View" />

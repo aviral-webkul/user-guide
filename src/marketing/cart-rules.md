@@ -9,7 +9,7 @@ By using it, you can set one or multiple discounts on the same product. Follow t
 1. In the Admin Panel, go to **Marketing >> Promotions >> Cart Rules**.  
    Click on **Create Cart Rule** as shown in the image below.
 
-<ImagePopup src="/images/marketing/createCartrule.png" alt="Create Cart Rule" />
+<ImagePopup src="/images/marketing/create-cartrule.png" alt="Create Cart Rule" />
 
 From the Cart Rules listing page, you can also **Copy** an existing rule by clicking the Copy icon in the action column. This creates a duplicate with "Inactive" status, allowing you to modify and enable it later.
 
@@ -79,11 +79,11 @@ Each auto-generated coupon code is a unique code that customers can use at check
 
 Auto-generated coupons are useful for marketing campaigns where you need to distribute many unique codes (e.g., email campaigns, loyalty programs). Each generated code has its own usage tracking based on the **Uses Per Coupon** and **Uses Per Customer** limits configured in the rule.
 
-<ImagePopup src="/images/marketing/configurations.png" alt="Cart Rule Configurations" />
+<ImagePopup src="/images/marketing/configurations.png" alt="Coupon Section" />
 
 You can also set **No Coupon** if you want the discount to apply automatically to all eligible carts without requiring any code entry.
 
-<ImagePopup src="/images/marketing/configurations.png" alt="Cart Rule Configurations" />
+<ImagePopup src="/images/marketing/configurations.png" alt="Coupon Section" />
 
 ### Step 2: Set Conditions
 
@@ -147,20 +147,20 @@ After configuring all sections, click the **Save Cart Rule** button.
 
 Now copy the **Coupon Code** as shown below.
 
-<ImagePopup src="/images/marketing/couponCode.png" alt="Coupon Code Example" />
+<ImagePopup src="/images/marketing/coupon-code.png" alt="Coupon Code Example" />
 
 ### Frontend
 
 On the **Checkout Page**, while placing an order, click on **Apply Coupon** as shown below.
 
-<ImagePopup src="/images/marketing/checkoutPage.png" alt="Checkout Page Coupon" />
+<ImagePopup src="/images/marketing/checkout-page.png" alt="Checkout Page Coupon" />
 
 After entering the coupon code, click on the **Apply** button.
 
-<ImagePopup src="/images/marketing/applyCoupon.png" alt="Apply Coupon" />
+<ImagePopup src="/images/marketing/apply-coupon.png" alt="Apply Coupon" />
 
 Now the **Coupon** is applied successfully.
 
-<ImagePopup src="/images/marketing/couponApplied.png" alt="Coupon Applied Successfully" />
+<ImagePopup src="/images/marketing/coupon-applied.png" alt="Coupon Applied Successfully" />
 
 By following the above steps, you can easily create **Cart Rules** in Bagisto.

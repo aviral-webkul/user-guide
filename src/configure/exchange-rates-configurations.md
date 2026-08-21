@@ -8,7 +8,7 @@ This makes sure your store’s currency rates are correct without needing to do 
 
 To set up exchange rates, navigate to: Configuration > General > Exchange Rates, as illustrated in the image below.
 
-  <ImagePopup src="/images/configure/exchange_rates_configurations.png" alt="Address" />
+  <ImagePopup src="/images/configure/exchange-rates-configurations.png" alt="Exchange Rates Configuration" />
 
 ### Exchange Rates Configurations
 
@@ -40,7 +40,7 @@ Once you turn it on, you can pick how often to update — daily, weekly (every M
 
 You can easily add this from the settings as shown below.
 
-<ImagePopup src="/images/configure/schedule.png" alt="Address" />
+<ImagePopup src="/images/configure/schedule.png" alt="Exchange Rates Configurations" />
 
 You have to set the start time using the **24-hour format**, like this: 03:00.
 
@@ -50,7 +50,7 @@ You can start it by using this command:
 
 **php artisan schedule:work**
 
-<ImagePopup src="/images/configure/terminial_cron.png" alt="Address" />
+<ImagePopup src="/images/configure/terminial-cron.png" alt="Exchange Rates Configurations" />
 
 ### Environment Variable Backup
 

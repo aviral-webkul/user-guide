@@ -18,7 +18,7 @@ After clicking on the Save Product button, you will be redirected to the next pa
 - **URL Key:** This will be the end of the URL, e.g., /products/set-of-men-casual-wear (set-of-men-casual-wear is a URL key).
 - **Tax Category:** Select the Tax Category from the dropdown list.
 
-<ImagePopup src="/images/grouped-product/editProduct.png" alt="Edit Product" />
+<ImagePopup src="/images/grouped-product/edit-product.png" alt="Edit Product" />
 
 #### New
 
@@ -40,7 +40,7 @@ After clicking on the Save Product button, you will be redirected to the next pa
 
 - Enable the toggle button to allow the product to be ordered by guest customers.
 
-<ImagePopup src="/images/grouped-product/toggleButtons.png" alt="Toggle Buttons" />
+<ImagePopup src="/images/grouped-product/toggle-buttons.png" alt="Toggle Buttons" />
 
 ### Description
 
@@ -59,7 +59,7 @@ Fill in the following fields under meta description for improved searchability o
 - **Meta Keyword:** Provide meta keywords for specific search engine optimization.
 - **Meta Description:** Enter a description for better search engine listings.
 
-<ImagePopup src="/images/grouped-product/metaDescription.png" alt="Meta Description" />
+<ImagePopup src="/images/grouped-product/meta-description.png" alt="Meta Description" />
 
 ### Images
 
@@ -73,7 +73,7 @@ Search Products under this **Search Product** section. You can simply search the
 
 Here you can also enter the default quantity (which will automatically be added to the customer cart) of the product and sort orders accordingly. Products will be listed on the front end as shown in the below image.
 
-<ImagePopup src="/images/grouped-product/groupProducts.png" alt="Grouped Products" />
+<ImagePopup src="/images/grouped-product/group-products.png" alt="Grouped Products" />
 
 ### Product at Front End
 

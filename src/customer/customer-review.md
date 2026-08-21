@@ -22,11 +22,11 @@ Customer reviews are a form of customer feedback on electronic commerce and onli
 
 **Step 3**: After adding the review, open the **Admin Panel** of Bagisto and navigate to **Customers >> Reviews**. The review submitted by the customer will be visible as shown below.  
 
-<ImagePopup src="/images/customer/adminReview.png" alt="Admin Review" />
+<ImagePopup src="/images/customer/admin-review.png" alt="Admin Review" />
 
 **Step 4**: You can also change the **Status** of the review to **Pending, Approved, or Disapproved** and then click the **Save** button.  
 
-<ImagePopup src="/images/customer/reviewStatus.png" alt="Review Status Update" />
+<ImagePopup src="/images/customer/review-status.png" alt="Review Status Update" />
 
 **Step 5**: After saving, you will be redirected to the Review Grid where you will see the new review record successfully registered.  
 

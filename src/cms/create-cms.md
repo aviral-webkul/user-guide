@@ -9,7 +9,7 @@ With the help of CMS (content management system), you can create and edit pages 
 **Step 1:** On the Admin Sidebar, click on **CMS >> Page**.  
 By default, there are already CMS pages located here. To create a new CMS page, click on the **Create Page** button as shown below.
 
-<ImagePopup src="/images/cms/createPage.png" alt="Create Page" />
+<ImagePopup src="/images/cms/create-page.png" alt="Create Page" />
 
 **Step 2:** Add the page **Title** and add channels under general as shown in the image below.
 

@@ -29,12 +29,12 @@ You can select how taxes are included in product pricing:
 **A) Excluding Tax**  
 No taxes are included in the product price.  
 
-<ImagePopup src="/images/configure/excludeTax.png" alt="Exclude Tax" />
+<ImagePopup src="/images/configure/exclude-tax.png" alt="Product Pricing" />
 
 **B) Including Tax**  
 Taxes are already included in the product price.  
 
-<ImagePopup src="/images/configure/includeTax.png" alt="Include Tax" />
+<ImagePopup src="/images/configure/include-tax.png" alt="Product Pricing" />
 
 **C) Default Destination Calculation**  
 Select **Country, State & Pin Code** to automatically determine the shipping/delivery address.  
@@ -47,14 +47,14 @@ Controls how taxes are displayed in the shopping cart.
 **A) Excluding Tax**  
 Taxes shown separately.  
 
-<ImagePopup src="/images/configure/excludeTax.png" alt="Exclude Tax" />
+<ImagePopup src="/images/configure/exclude-tax.png" alt="Shopping Cart Display Settings" />
 
 **B) Including Tax**  
 Taxes included in total.  
 
-<ImagePopup src="/images/configure/includeTax.png" alt="Include Tax" />
+<ImagePopup src="/images/configure/include-tax.png" alt="Shopping Cart Display Settings" />
 
 **C) Excluding and Including Both**  
 Shows both excluded and included tax amounts.  
 
-<ImagePopup src="/images/configure/includeexcludeBoth.png" alt="Include & Exclude Both" />
+<ImagePopup src="/images/configure/includeexclude-both.png" alt="Include & Exclude Both" />

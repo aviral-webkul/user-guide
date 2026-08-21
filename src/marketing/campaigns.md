@@ -30,13 +30,13 @@ By default, there are 3 customer groups:
 
 For the **General** and **Wholesale** customer groups, campaign emails will be sent to customers who have subscribed to the newsletter and are Logged IN.
 
-<ImagePopup src="/images/marketing/campaignConfigration.png" alt="Campaign Configuration" />
+<ImagePopup src="/images/marketing/campaign-configration.png" alt="Fill in the necessary fields" />
 
 For the **Guest** customer group, emails will be sent only to those who have subscribed to the newsletter. 
 
 Customers who have registered an account will not receive the email of campaigns.
 
- <ImagePopup src="/images/marketing/guest-campaign.png" alt="Campaign Configuration" />
+ <ImagePopup src="/images/marketing/guest-campaign.png" alt="Fill in the necessary fields" />
 
 **7. Status** – Set the status to Yes/No.  
 
@@ -44,6 +44,6 @@ Customers who have registered an account will not receive the email of campaigns
 
 Now you will be able to see the new **Campaign** as shown below.
 
-<ImagePopup src="/images/marketing/campaignOutput.png" alt="Campaign Output" />
+<ImagePopup src="/images/marketing/campaign-output.png" alt="Campaign Output" />
 
 By this, you can easily create a **Campaign** in Bagisto.

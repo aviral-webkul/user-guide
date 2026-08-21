@@ -48,7 +48,7 @@ This feature enables customers to submit their requirements and request a person
 
 To include product details in a quote, click on the **Add Product** button and fill in the required information.
 
-<ImagePopup src="/images/b2b-marketplace/5-contact-info.png" alt="Contact Information" />
+<ImagePopup src="/images/b2b-marketplace/5-contact-info.png" alt="Product Information" />
  src="/images/b2b-marketplace/6-product-info.png" alt="Product Information" />
 
 A pop-up window will appear where the customer can enter product details such as:
@@ -67,7 +67,7 @@ A pop-up window will appear where the customer can enter product details such as
 
 After entering all the details, click the **Submit** button to confirm and add your product information.
 
-<ImagePopup src="/images/b2b-marketplace/5-contact-info.png" alt="Contact Information" />
+<ImagePopup src="/images/b2b-marketplace/5-contact-info.png" alt="Product Information" />
  src="/images/b2b-marketplace/7-popup-rfq.png" alt="Product Information Popup" />
 
 When all requirements are filled, go to the top right corner and click the **‘Request for Quotes’** button.
