@@ -130,32 +130,6 @@ A reference for merchants and store administrators working in the Bagisto admin 
 - [Shipping Methods](/shipping-method/shipping-methods)
 - [Payment Methods](/payment-method/payment-methods)
 
-### Multi Vendor Marketplace
-
-- [Introduction](/multi-vendor-marketplace/introduction)
-- [Vendor Management](/multi-vendor-marketplace/vendor-management)
-- [Dealership Management](/multi-vendor-marketplace/dealership-management)
-- [Product Management](/multi-vendor-marketplace/product-management)
-- [Quick Create Product](/multi-vendor-marketplace/quick-create-product)
-- [Product Barcode](/multi-vendor-marketplace/product-barcode)
-- [Inventory Source Management](/multi-vendor-marketplace/inventory-source-management)
-- [Order Management](/multi-vendor-marketplace/order-management)
-- [Booking Management](/multi-vendor-marketplace/booking-management)
-- [Return Merchandise Authorization (RMA)](/multi-vendor-marketplace/return-merchandise-authorization)
-- [Payment Management](/multi-vendor-marketplace/payment-management)
-- [Commission Management](/multi-vendor-marketplace/commission-management)
-- [Mass Payout Management](/multi-vendor-marketplace/mass-payout-management)
-- [Seller Subscription Management](/multi-vendor-marketplace/seller-subscription-management)
-- [Customer Management](/multi-vendor-marketplace/customer-management)
-- [Communications](/multi-vendor-marketplace/communications)
-- [Rating Management](/multi-vendor-marketplace/rating-management)
-- [Seller & Product Flagging](/multi-vendor-marketplace/seller-product-flagging)
-- [Featured Sellers](/multi-vendor-marketplace/featured-sellers)
-- [Seller Reporting](/multi-vendor-marketplace/seller-reporting)
-- [Seller Users & Roles](/multi-vendor-marketplace/seller-user-role-management)
-- [Seller Catalog Bulk Upload](/multi-vendor-marketplace/seller-catalog-bulk-upload)
-- [Seller Attributes](/multi-vendor-marketplace/seller-attributes)
-
 ### B2B Marketplace
 
 - [Introduction](/b2b-marketplace/introduction)

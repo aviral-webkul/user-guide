@@ -4,25 +4,39 @@
 
 A reference for merchants and store administrators working in the Bagisto admin panel, covering the catalog, orders, customers, marketing, appearance and configuration.
 
-# Introduction 
+# Introduction
 
-[Bagisto](https://bagisto.com/en/) is a fantastic open-source eCommerce platform that allows businesses to create modern online stores easily. Bagisto offers a wide range of customizable features to meet the specific needs of any online business.
+[Bagisto](https://bagisto.com/en/) is a free and open-source eCommerce platform that lets businesses launch and run modern online stores with ease. Released under the MIT license, it is fully customizable, so every part of the storefront and the admin experience can be adapted to the needs of your business.
 
-The platform is built on top of the reliable [Laravel](https://laravel.com/) framework, [Tailwind CSS](https://tailwindcss.com/) and [Vue.js](https://vuejs.org/), a user-friendly JavaScript framework. It provides businesses with a user-friendly interface and powerful tools to manage their online stores, handle inventory and orders, and create a smooth shopping experience for customers
+The platform is built on top of the reliable [Laravel](https://laravel.com/) framework and uses [Vue.js](https://vuejs.org/) and [Tailwind CSS](https://tailwindcss.com/) on the front end. Together they provide a clean, responsive admin interface and a smooth shopping experience for your customers.
 
-### Navigating the Admin Panel
+From a single dashboard, you can manage your catalog, inventory, customers, orders, shipments, and marketing campaigns, while keeping full control over how your store looks and behaves.
 
-**Bagisto** reworks the admin menu to support **three levels**, so sections with their own sub-pages are reachable without leaving the sidebar. For example, **Settings >> Taxes** now opens **Tax Categories** and **Tax Rates** beneath it, and **Settings >> Data Transfer** opens **Imports**.
+## Key Features
 
-### Working with the Listing Grids
+* **Product Catalog** – Simple, configurable, virtual, grouped, downloadable, bundle, and booking products, organized with categories, attributes, and attribute families.
+* **Inventory Management** – Multiple inventory sources with stock tracking across warehouses and store locations.
+* **Order Management** – End-to-end order processing, including invoices, shipments, refunds, and cancellations.
+* **Customer Management** – Customer accounts, groups, addresses, and product reviews.
+* **Multi Channel & Multi Store** – Run several stores or brands from one installation, each with its own theme, catalog, and settings.
+* **Multi Currency & Multi Locale** – Sell worldwide with built-in currency and exchange rate handling, translations for 22 locales, and full right-to-left (RTL) support.
+* **Payment & Shipping Methods** – Built-in payment and shipping options that can be extended with your own integrations.
+* **Marketing Tools** – Cart price rules, catalog price rules, coupons, email campaigns, and abandoned cart recovery.
+* **CMS Pages** – Create and manage static content pages for your storefront.
+* **Access Control** – Admin users, roles, and granular permissions for your team.
+* **Reporting** – Sales, customer, product, and visitor reports to track how your store is performing.
+
+## Working with the Listing Grids
 
 Most admin screens are listing grids — products, orders, customers, imports, and so on. They all share the same header, search box, **Filter** control, and pagination.
 
 On a small screen, grids that define their own layout, such as **Catalog >> Products**, are shown as cards instead of a wide table. The column header is dropped there, because **Filter** and **Sort By** are reachable from the bar fixed to the foot of the screen. Grids that use the default layout keep the table and scroll sideways.
 
-![Admin Listing Grid on Mobile](/images/getting-started/mobileDatagrid.png)
+![Admin Listing Grid on Mobile](/images/getting-started/mobile-datagrid.png)
 
-While a grid is loading, the placeholders now match the grid they stand in for on both desktop and mobile, so the layout no longer shifts once the rows arrive.
+While a grid is loading, the placeholders match the grid they stand in for on both desktop and mobile, so the layout no longer shifts once the rows arrive.
+
+Whether you are starting a small store or scaling a large catalog across multiple markets, Bagisto gives you the tools to build and grow your online business.
 
 # Two Factor Authentication (2FA)
 
@@ -38,15 +52,15 @@ On the dashboard, you will find your account section in the top-right corner. Fr
 
 For your reference, an image is provided below.
 
-![Account Login](/images/configure/account-login.png)
+![Steps for Two Factor Authentication (2FA)](/images/configure/account-login.png)
 
 **Step-2** Here, your account details will be displayed, and you will find a toggle option to enable Two-Factor Authentication.
 
-![Account Login](/images/configure/enable-2fa.png)
+![Steps for Two Factor Authentication (2FA)](/images/configure/enable-2fa.png)
 
 **Step-3** As soon as you enable it, a QR code will appear on your screen to set up Two-Factor Authentication.
 
- ![Account Login](/images/configure/qr-code.png)
+ ![Steps for Two Factor Authentication (2FA)](/images/configure/qr-code.png)
 
 **Step-4** Now, you need to install the **Google Authenticator** app on your mobile phone. If you are an Android user, download it from the Play Store, and if you are an iPhone user, download it from the App Store.
 
@@ -72,7 +86,7 @@ Now **Save the Product**, and you will get redirected to the Edit product page a
 ### General Attributes
 Below is the list of fields you need to fill under General Attributes.
 
-   ![Edit Product](/images/simple-product/editProduct.png)
+   ![Edit Product](/images/simple-product/edit-product.png)
 
 ### Description
 Below is the list of the fields you need to fill in regarding the product under description.
@@ -97,7 +111,7 @@ The meta keyword for the product needs to be provided to improve its searchabili
 #### Meta Description
 Enter the description so that products can easily appear in search engine listings.
 
-![Meta Description](/images/simple-product/metaDescription.png)
+![Meta Description](/images/simple-product/meta-description.png)
 
 ### Images
 To add the product images, click on **Add Images**. You can add multiple images for your product.
@@ -119,7 +133,7 @@ Enable the toggle button to enable the product on your eCommerce store.
 ### Guest Checkout
 Enable the toggle button to allow the product to be ordered by guest customers.
 
-![Toggle Buttons](/images/simple-product/toggleButtons.png)
+![Toggle Buttons](/images/simple-product/toggle-buttons.png)
 
 ### Price
 Insert the price, cost, and special price, and set the special price date for which the special price will be shown on the website.
@@ -157,7 +171,7 @@ This customization allows for a diverse range of variations without the need for
 
 After you Save the Product, you get an option to select the **Color & Size**. In case you want some other attribute in your configurable product, you need to create an attribute first and then save the product as shown in the below image.
 
-![Configurable Attributes](/images/configurable-product/configurableAttributes.png)
+![Configurable Attributes](/images/configurable-product/configurable-attributes.png)
 
 ### General Attributes
 Below is the list of fields you need to fill under General Attributes.
@@ -166,7 +180,7 @@ Below is the list of fields you need to fill under General Attributes.
 - **URL Key:** This will be the end of the URL, for example, /products/philips-speaker (Speaker is a URL key)
 - **Tax Category:** You can select the Tax Category from the drop-down list that you want to be applied to the product.
 
-![Edit Products](/images/configurable-product/editProducts.png)
+![Edit Products](/images/configurable-product/edit-products.png)
 
 Also, make sure to enable the Settings.
 
@@ -176,7 +190,7 @@ Also, make sure to enable the Settings.
 - **Status:** Enable the toggle button to make the product enabled on your eCommerce store.
 - **Guest Checkout:** Enable the toggle button to allow the product to be ordered by the guest customer.
 
-![Toggle Buttons](/images/configurable-product/toggleButtons.png)
+![Toggle Buttons](/images/configurable-product/toggle-buttons.png)
 
 ### Description
 Below is the list of the fields you need to fill regarding the product under the description.
@@ -193,7 +207,7 @@ Below is the list of fields that you need to provide under the meta description 
 - **Meta Keyword:** The meta keyword for the product needs to be provided to improve its searchability on the search engine for specific keywords.
 - **Meta Description:** Enter the description so that the product can easily appear in search engine listing.
 
-![Meta Descriptions](/images/configurable-product/metaDescriptions.png)
+![Meta Descriptions](/images/configurable-product/meta-descriptions.png)
 
 ### Images
 Add the product images, click on **Add Images**. You can add multiple images for your product.
@@ -237,7 +251,7 @@ After clicking on the Save Product button, you'll be redirected to the next page
     e.g., /products/fitness-membership (fitness-membership is a URL key).
 - **Tax Category:** Select the tax category from the dropdown list.
 
-![Edit Product](/images/virtual-product/editProduct.png)
+![Edit Product](/images/virtual-product/edit-product.png)
 
 #### New
 
@@ -259,7 +273,7 @@ After clicking on the Save Product button, you'll be redirected to the next page
 
 - Enable the toggle button to allow guest customers to order the product.
 
-![Toggle Buttons](/images/virtual-product/toggleButtons.png)
+![Toggle Buttons](/images/virtual-product/toggle-buttons.png)
 
 ### Description
 
@@ -278,7 +292,7 @@ Fill in the following fields under meta description for improved searchability o
 - **Meta Keyword:** Provide meta keywords for specific search engine optimization.
 - **Meta Description:** Enter a description for better search engine listings.
 
-![Meta Description](/images/virtual-product/metaDescription.png)
+![Meta Description](/images/virtual-product/meta-description.png)
 
 ### Images
 
@@ -330,7 +344,7 @@ After clicking on the Save Product button, you will be redirected to the next pa
 - **URL Key:** This will be the end of the URL, e.g., products/assembled-core-i3-4-gb-ddr3500-gbwindows-10-pro151-inch-screen-black.
 - **Tax Category:** Select the Tax Category from the dropdown list.
 
-![Edit Product](/images/bundle-product/editProduct.png)
+![Edit Product](/images/bundle-product/edit-product.png)
 
 #### New
 
@@ -352,7 +366,7 @@ After clicking on the Save Product button, you will be redirected to the next pa
 
 - Enable the toggle button to allow guest customers to order the product.
 
-![Toggle Buttons](/images/bundle-product/toggleButtons.png)
+![Toggle Buttons](/images/bundle-product/toggle-buttons.png)
 
 ### Description
 
@@ -371,7 +385,7 @@ Fill in the following fields under meta description for improved searchability o
 - **Meta Keyword:** Provide meta keywords for specific search engine optimization.
 - **Meta Description:** Enter a description for better search engine listings.
 
-![Meta Description](/images/bundle-product/metaDescription.png)
+![Meta Description](/images/bundle-product/meta-description.png)
 
 ### Images
 
@@ -393,7 +407,7 @@ In the Search Product section, search for the product to add to the bundle. Once
 
 At the front end, customers can increase the quantity of the product to add to the cart, but the default quantity included in a bundle item cannot be changed.
 
-![Bundle Product Options](/images/bundle-product/bundleOptions.png)
+![Bundle Product Options](/images/bundle-product/bundle-options.png)
 
 ### Product At Front End
 
@@ -421,7 +435,7 @@ After clicking on the Save Product button, you will be redirected to the next pa
 - **URL Key:** This will be the end of the URL, e.g., /products/set-of-men-casual-wear (set-of-men-casual-wear is a URL key).
 - **Tax Category:** Select the Tax Category from the dropdown list.
 
-![Edit Product](/images/grouped-product/editProduct.png)
+![Edit Product](/images/grouped-product/edit-product.png)
 
 #### New
 
@@ -443,7 +457,7 @@ After clicking on the Save Product button, you will be redirected to the next pa
 
 - Enable the toggle button to allow the product to be ordered by guest customers.
 
-![Toggle Buttons](/images/grouped-product/toggleButtons.png)
+![Toggle Buttons](/images/grouped-product/toggle-buttons.png)
 
 ### Description
 
@@ -462,7 +476,7 @@ Fill in the following fields under meta description for improved searchability o
 - **Meta Keyword:** Provide meta keywords for specific search engine optimization.
 - **Meta Description:** Enter a description for better search engine listings.
 
-![Meta Description](/images/grouped-product/metaDescription.png)
+![Meta Description](/images/grouped-product/meta-description.png)
 
 ### Images
 
@@ -476,7 +490,7 @@ Search Products under this **Search Product** section. You can simply search the
 
 Here you can also enter the default quantity (which will automatically be added to the customer cart) of the product and sort orders accordingly. Products will be listed on the front end as shown in the below image.
 
-![Grouped Products](/images/grouped-product/groupProducts.png)
+![Grouped Products](/images/grouped-product/group-products.png)
 
 ### Product at Front End
 
@@ -503,7 +517,7 @@ This document will guide you on how to create a Downloadable Product in Bagisto.
 - **URL Key:** This will be the end of the URL, e.g., /products/bagisto-e-book (bagisto-e-book is the URL key).
 - **Tax Category:** Select the Tax Category from the drop-down list.
 
-![General Settings for Downloadable Product](/images/downloadable-product/editProduct.png)
+![General Settings for Downloadable Product](/images/downloadable-product/edit-product.png)
 
 #### New
 
@@ -521,7 +535,7 @@ This document will guide you on how to create a Downloadable Product in Bagisto.
 
 - Enable the toggle button to enable the product on your eCommerce store.
 
-![Downloadable Product Toggle Options](/images/downloadable-product/toggleButtons.png)
+![Downloadable Product Toggle Options](/images/downloadable-product/toggle-buttons.png)
 
 ### Description
 
@@ -540,7 +554,7 @@ Fill in the following fields under meta description for improved searchability o
 - **Meta Keyword:** Provide meta keywords for specific search engine optimization.
 - **Meta Description:** Enter a description for better search engine listings.
 
-![Downloadable Product Meta Description](/images/downloadable-product/metaDescription.png)
+![Downloadable Product Meta Description](/images/downloadable-product/meta-description.png)
 
 ### Price
 
@@ -566,7 +580,7 @@ Here, enter the downloadable information about your product:
 - **Sample:** Insert URL/upload file to give a free sample.  
 - **Download Allow:** Specify the maximum number of downloads. Enter "0" for unlimited downloads.  
 
-![Downloadable Product File Information](/images/downloadable-product/downlodableInfo.png)
+![Downloadable Product File Information](/images/downloadable-product/downlodable-info.png)
 
 ### Samples
 
@@ -592,7 +606,7 @@ So let’s get started with how to create booking products in Bagisto.
 
 **Step-1** Click on Catalog >> Products >> Select Booking under Product Type as shown in the below image.
 
-![Bundle Product](/images/booking-product/1.png)
+![Create Booking Products](/images/booking-product/1.png)
 
 **Step-2** Select **Attribute Family >> enter SKU >>** Click to **Save Product** Now once you click on the Save Product button, you will be redirected to the next page, where you will find several new settings
 
@@ -606,7 +620,7 @@ So let’s get started with how to create booking products in Bagisto.
 
 **5) Price:-** Insert the price, cost, and special price, and set the special price date for which the special price will be shown on the website.
 
-![Bundle Product](/images/booking-product/2.png)
+![Create Booking Products](/images/booking-product/2.png)
 
 ### Toggle Button
 
@@ -634,7 +648,7 @@ Enable the toggle button to allow cancellation of the booking product. If disabl
 
 Enable the toggle button to allow the product to be ordered by guest customers.
 
-![Bundle Product](/images/booking-product/3.png)
+![Toggle Button](/images/booking-product/3.png)
 
 ### Short Description
 
@@ -644,7 +658,7 @@ Enter a short description of the features of the product.
 
 Mention your product in detail.
 
-![Bundle Product](/images/booking-product/4.png)
+![Description](/images/booking-product/4.png)
 
 ### Meta Title
 
@@ -658,13 +672,13 @@ The meta keyword for the product needs to be provided to improve its searchabili
 
 Enter the description so that products can easily appear in search engine listings.
 
-![Bundle Product](/images/booking-product/5.png)
+![Meta Description](/images/booking-product/5.png)
 
 ### Images
 
 To add the product images, click on Add Images. You can add multiple images for your product.
 
-![Bundle Product](/images/booking-product/6.png)
+![Images](/images/booking-product/6.png)
 
 ### Booking Information
 
@@ -684,7 +698,7 @@ To create the Booking Product, select the Booking type as per choice. There are 
 
 The admin can create a Default booking product as shown below in the screenshot. In default booking products, there are two types.
 
-![Bundle Product](/images/booking-product/7.png)
+![Default Booking Product](/images/booking-product/7.png)
 
 **A) One Booking for Many days**
 
@@ -708,17 +722,17 @@ To create many bookings for one day, configure the below booking detail.
 
 **8) Allow Slot Overlap:-** Set "Yes" to allow overlapping time slots. Set "No" to prevent overlapping slots.
 
-![Bundle Product](/images/booking-product/8.png)
+![Default Booking Product](/images/booking-product/8.png)
 
 ### Add Slots
 
 Click on **Add icon** and add the timing slots and status and then click on **Save** as shown in the below image.
 
-![Bundle Product](/images/booking-product/9.png)
+![Add Slots](/images/booking-product/9.png)
 
 Slots have been added for Sunday in the below image.
 
-![Bundle Product](/images/booking-product/10.png)
+![Add Slots](/images/booking-product/10.png)
 
 At last click on the **Save Product** button.
 
@@ -726,7 +740,7 @@ At last click on the **Save Product** button.
 
 Here, you need to first select the **date** for which you want the booking. After that, you need to select the **required slot**. You can also view the location on Google Maps.
 
-![Bundle Product](/images/booking-product/11.png)
+![Front End](/images/booking-product/11.png)
 
 ### One Booking For Many Days
 
@@ -740,23 +754,23 @@ To create the one bookings for many day, configure the below booking detail.
 
 **4) To Time:-** Select the To time of the booking.
 
-![Bundle Product](/images/booking-product/12.png)
+![One Booking For Many Days](/images/booking-product/12.png)
 
 Slot Duration is booked for One booking for many days as shown in the below image.
 
-![Bundle Product](/images/booking-product/13.png)
+![One Booking For Many Days](/images/booking-product/13.png)
 
 ### Front End:-
 
 Here, you need to first select the **date** for which you want the booking. After that, you need to select the **required slot**. You can also view the location on google map.
 
-![Bundle Product](/images/booking-product/14.png)
+![Front End](/images/booking-product/14.png)
 
 ### Appointment Booking:-
 
 The admin can create an **Appointment** booking product as shown below in the screenshot. Here Admin has to select the Appointment Booking type.
 
-![Bundle Product](/images/booking-product/15.png)
+![Appointment Booking](/images/booking-product/15.png)
 
 **1) Location:-** Enter the location for Appointment booking products.
 
@@ -772,15 +786,15 @@ The admin can create an **Appointment** booking product as shown below in the sc
 
 **7) Same Slot All Days:-** Set “Yes” for the same slot for all the days add from and to timings check the below image for reference.
 
-![Bundle Product](/images/booking-product/16.png)
+![Appointment Booking](/images/booking-product/16.png)
 
 Else set **“No”** for the different slots for each day add from and to timings according to the days check the below image for reference.
 
-![Bundle Product](/images/booking-product/17.png)
+![Appointment Booking](/images/booking-product/17.png)
 
 ### Front End:-
 
-![Bundle Product](/images/booking-product/18.png)
+![Front End](/images/booking-product/18.png)
 
 ### Event Booking:-
 
@@ -792,7 +806,7 @@ The Admin can create an Event booking product as shown below in the screenshot. 
 
 **3) Available To:-** Select the end date for the booking.
 
-![Bundle Product](/images/booking-product/19.png)
+![Event Booking](/images/booking-product/19.png)
 
 **Tickets**
 
@@ -810,13 +824,13 @@ Add ticket details by clicking the **Add** button. Each ticket has the following
 
 **6) Description:-** Provide a description of the ticket type.
 
-![Bundle Product](/images/booking-product/20.png)
+![Event Booking](/images/booking-product/20.png)
 
 ### Front End:-
 
 On the front end, you have to select the ticket quantity. This base price will be applied to each type of ticket for each quantity.
 
-![Bundle Product](/images/booking-product/21.png)
+![Front End](/images/booking-product/21.png)
 
 ### Rental Booking:-
 
@@ -830,33 +844,33 @@ The Admin can create a **Rental booking** product as shown below in the screensh
 
 If you don’t want to configure the time slots for all the days of the week set **“No“**
 
-![Bundle Product](/images/booking-product/22.png)
+![Rental Booking](/images/booking-product/22.png)
 
 **Renting Type:-** There are three Renting Types
 
 **a) Daily Basis:-** If you have selected the “Renting Type” as a Daily Basis. Then set the per day rent then click on save product.
 
-![Bundle Product](/images/booking-product/23.png)
+![Rental Booking](/images/booking-product/23.png)
 
 **b) Hourly Basis:-** If you have selected the “Renting Type” as Hourly Basis. Then configure the below booking detail.
 
-![Bundle Product](/images/booking-product/24.png)
+![Rental Booking](/images/booking-product/24.png)
 
 **c) Both(Daily and Hourly Basis):-** If you have selected the “Renting Type” as both (Daily and Hourly Basis). Then configure the details as above like daily price, hourly price, and same slot on all days then click on Save Product.
 
-![Bundle Product](/images/booking-product/25.png)
+![Rental Booking](/images/booking-product/25.png)
 
 ### Front End:-
 
 Here customer has to select the option to choose the Rent option either Daily Basis or Hourly Basis (if this is already configured in the backend).
 
-![Bundle Product](/images/booking-product/26.png)
+![Front End](/images/booking-product/26.png)
 
 ### Table Booking:-
 
 The admin can create a Table booking product as shown below in the screenshot. Here Admin has to select the Table Booking type.
 
-![Bundle Product](/images/booking-product/27.png)
+![Table Booking](/images/booking-product/27.png)
 
 **Now configure the below Table booking detail.**
 
@@ -878,17 +892,17 @@ The admin can create a Table booking product as shown below in the screenshot. H
 
 **9) Same Slot All Days:-** Set “Yes” for the same slot for all the days.
 
-![Bundle Product](/images/booking-product/28.png)
+![Table Booking](/images/booking-product/28.png)
 
 Else set **“No”** for the different slots for each day.
 
-![Bundle Product](/images/booking-product/29.png)
+![Table Booking](/images/booking-product/29.png)
 
 ### Front End:-
 
 Here customer has to select the date and time and add a note for admin.
 
-![Bundle Product](/images/booking-product/30.png)
+![Front End](/images/booking-product/30.png)
 
 ### Admin Panel
 
@@ -896,13 +910,13 @@ After placing the order login to the admin panel of bagisto
 
 Click on **Sales >> Bookings** and you will be able to see the ordered product in the booking product datagrid also you can see the calendar view of your booking for this click on **Calendar button** as shown in the below image.
 
-![Bundle Product](/images/booking-product/31.png)
+![Admin Panel](/images/booking-product/31.png)
 
 ### Calendar View
 
 The ordered slot is booked in the calendar view as shown in the below image.
 
-![Bundle Product](/images/booking-product/32.png)
+![Calendar View](/images/booking-product/32.png)
 
 That’s all about Booking Products in bagisto.
 
@@ -933,15 +947,15 @@ Bagisto comes with a default root category, i.e., Root, but you can also create 
 
    - **Product:** When you set the display mode to "Product," the product will be visible on the front end.  
 
-   ![Edit Category Settings](/images/category/editCategory.png)
+   ![Edit Category Settings](/images/category/edit-category.png)
 
 4. Save the category, and a new category will be created by the name of **Electronic Items** as shown in the image below.
 
-   ![Category Grid in Bagisto](/images/category/categoryGrid.png)
+   ![Category Grid in Bagisto](/images/category/category-grid.png)
 
 5. Now check the product edit page while creating a product, and you will be able to see the newly created category there.
 
-   ![Product Page Category Selection](/images/category/productPage.png)
+   ![Product Page Category Selection](/images/category/product-page.png)
 
 ### Category on Front-End
 
@@ -988,7 +1002,7 @@ Enter **Label**, **Attribute Code**, and select **Attribute Type**.
 - **Attribute Code**: Enter the Attribute Code to identify the Attribute.  
 - **Attribute Type**: Bagisto provides various attribute types such as Text, Textarea, Price, Boolean, Select, Multi-select, and DateTime.
 
-![Attribute Types](/images/attribute/attributeTypes.png)
+![Attribute Types](/images/attribute/attribute-types.png)
 
 Now add validation & configuration as per your requirement.
 
@@ -996,11 +1010,11 @@ Now add validation & configuration as per your requirement.
 
 So, **Save the Attribute** and then go to the **Attribute Family** from **Catalog >> Attribute Families** and assign it from the unassigned attributes by drag and drop at your desired place as shown in the below image.
 
-![Attribute Family](/images/attribute/attributeFamily.png)
+![Attribute Family](/images/attribute/attribute-family.png)
 
 Now, **Save the Attribute Family** and check the output while creating products on the product edit page as shown in the below image.
 
-![Product Edit Page with Attributes](/images/attribute/editPage.png)
+![Product Edit Page with Attributes](/images/attribute/edit-page.png)
 
 By following the above steps, you can easily create a Product Attribute in Bagisto.
 
@@ -1017,16 +1031,16 @@ In this tutorial, we’ll guide you on how to create attribute families in Bagis
 ### Step 1
 On the Admin Dashboard, navigate to **Catalog → Attribute Families → Create Attribute Family**.
 
-![Attribute Family](/images/attribute/createFamily.png)
+![Attribute Family](/images/attribute/create-family.png)
 
 ### Step 2
 Enter the **Attribute Family Code** and **Name**, as shown below.
 
-![Save Family](/images/attribute/saveFamily.png)
+![Save Family](/images/attribute/save-family.png)
 
 Once done, click **Save Attribute Family**. A new Attribute Family will be created and displayed in the grid.
 
-![Family Grid](/images/attribute/familyGrid.png)
+![Family Grid](/images/attribute/family-grid.png)
 
 ### Step 3
 After the Attribute Family is created, you can edit it via the **Action** option.  
@@ -1055,19 +1069,19 @@ When a customer places an order from the front end, the admin panel generates th
 
 **Step 2:** Continue to checkout inside the **Shopping Cart**.
 
-![Shopping Cart](/images/orders/shoppingCart.png)
+![Shopping Cart](/images/orders/shopping-cart.png)
 
 **Step 3:** You will be redirected to the checkout page. Fill in the necessary information regarding the **Billing Address**.
 
-![Billing Address](/images/orders/billingAddress.png)
+![Billing Address](/images/orders/billing-address.png)
 
 **Step 4:** After confirming, add the **Shipping Method** and **Payment Method**, then click on **Place Order**.
 
-![Cart Summary](/images/orders/cartSummary.png)
+![Cart Summary](/images/orders/cart-summary.png)
 
 **Step 5:** After clicking on **Place Order**, the next page will display an **Order ID**.
 
-![Order ID](/images/orders/orderID.png)
+![Order ID](/images/orders/order-id.png)
 
 ---
 
@@ -1081,7 +1095,7 @@ On the customer dashboard, customers can see all order history with order status
 
 On the Information Page, the admin can check customer details like name, address, quantity, etc. The admin can also cancel the order.
 
-![Order Info](/images/orders/orderInfo.png)
+![Order Info](/images/orders/order-info.png)
 
 ⚠️ **Note:** The cancel button will be visible only when the order status is **Pending**.
 
@@ -1109,7 +1123,7 @@ It contains information about the item and its price, tax charges associated wit
 
 After creating an Invoice order status automatically goes from **Pending** to **Processing**
 
-![Invoice Submit](/images/orders/invoiceSubmit.png)
+![Invoice Submit](/images/orders/invoice-submit.png)
 
 By following the above steps, you can easily create a **Invoice** in Bagisto.
 
@@ -1125,11 +1139,11 @@ To create a shipment for that order, click on the **Ship** button. Enter the **C
 
  Enter the quantity to ship then click on **Create Shipment**
 
-![Create Shipment](/images/orders/createShipment.png)
+![Create Shipment](/images/orders/create-shipment.png)
 
 Now the order is **Completed** which you can check in the order list as shown in the below image.
 
-![Shipment Output](/images/orders/shipmentOutput.png)
+![Shipment Output](/images/orders/shipment-output.png)
 
 By following the above steps, you can easily create a **Shipment** in Bagisto.
 
@@ -1150,11 +1164,11 @@ The refund shipping fee can be decreased but can’t be increased to the actual 
 
 In the below image, we have applied the amount of $10 refund shipping which is the total amount that applies to shipment charge.
 
-![Refund Shipping](/images/orders/refundShipping.png)
+![Refund Shipping](/images/orders/refund-shipping.png)
 
 All the amount i.e. $10 refunded as **Shipping & Handling** as shown in the below image.
 
-![Refund Shipped](/images/orders/refundShipped.png)
+![Refund Shipped](/images/orders/refund-shipped.png)
 
 **Adjustment Refund:-** You can enter the amount which will be added to the total refunded amount as an additional refund that does not include any shipping, product price, tax cost.
 
@@ -1164,21 +1178,21 @@ In the below image we have refunded **$5 of Refund Shipping and $2 of Adjustment
 
 All the amount refunded **$7 as Shipping & Handling and Adjustment Refund** as shown in the below image. 
 
-![Adjustment Refund Applied](/images/orders/adjustRefund.png)
+![Adjustment Refund Applied](/images/orders/adjust-refund.png)
 
 **Adjustment Fee:-** Enter the amount that will be subtracted from the sub-total amount.
 
 In the below image **Refund Shipping is $3 and Adjustment Fee is $1**
 
-![Adjustment Fee](/images/orders/adjustFee.png) 
+![Adjustment Fee](/images/orders/adjust-fee.png) 
 
 Now the **$1 subtracted as the Adjustment Fee** from the subtotal amount and **$3 Shipping and Handling added** in the **grand total amount** that needs to be refunded.
 
-![Adjustment Fee Refund](/images/orders/adjustfeeRefund.png) 
+![Adjustment Fee Refund](/images/orders/adjustfee-refund.png) 
 
 After that it will get redirected to the **Refund Grid** and show the refunded amount in the grid as shown in the below image.
 
-![Refund Grid](/images/orders/refundGrid.png)
+![Refund Grid](/images/orders/refund-grid.png)
 
 By the above steps, you can easily **Refund** in Bagisto.
 
@@ -1192,7 +1206,7 @@ E-commerce transaction means the transfer of funds electronically in exchange fo
 
 **Step-1** Click on **Orders >> Transactions >> Create Transaction** as shown in the below image.
 
-![Create Transactions](/images/orders/createTransaction.png)
+![Create Transactions](/images/orders/create-transaction.png)
 
 **Step-2** Add the below details.
 
@@ -1210,11 +1224,11 @@ Kindly select your payment gateway from the dropdown.
 
 At last, click on the **Save Transaction** button.  
 
-![Save Transaction](/images/orders/saveTransaction.png)
+![Save Transaction](/images/orders/save-transaction.png)
 
 **Step-3** Transaction is created successfully as shown in the image below.
 
-![Transaction Grid](/images/orders/transactionGrid.png)
+![Transaction Grid](/images/orders/transaction-grid.png)
 
 **Note - Additionally, you can also create transactions while creating an Invoice**
 
@@ -1226,7 +1240,7 @@ At last, click on the **Create Invoice** button as shown in the below image.
 
 **2)** Now go to **Sales >> Orders >> Transactions** and a new transaction is created successfully as shown in the image below.
 
-![Transaction Output](/images/orders/transactionOutput.png)
+![Transaction Output](/images/orders/transaction-output.png)
 
 # EU Withdrawal
 
@@ -1762,11 +1776,11 @@ Customers generally create their own accounts in their shop. However, you can al
 
 **Step 2**: Next you will get a form to create a customer. Fill in the necessary fields to create a customer as shown in the below image.  
 
-![Create Customer](/images/customer/createCustomer.png)
+![Create Customer](/images/customer/create-customer.png)
 
 **Step 3**: Now you will be able to see the new customer is registered successfully.  
 
-![Customer Grid](/images/customer/customerGrid.png)
+![Customer Grid](/images/customer/customer-grid.png)
 
 So by the above steps, you can easily create a customer from the admin panel in Bagisto.
 
@@ -1800,15 +1814,15 @@ The general customer group refers to customers who are not defined as Profession
 
 **Step 1**: Login to the admin panel of Bagisto and go to **Customers >> Groups**. By default, there are three customer groups. To create a new group, click on the **Create Group** button as shown below.  
 
-![Create Group](/images/customer/createGroup.png)
+![Create Group](/images/customer/create-group.png)
 
 **Step 2**: Next, you will get a form to create a new group. Fill in the group **Code** and **Name** and then click the **Save Group** button as shown in the below image.  
 
-![New Group](/images/customer/newGroup.png)
+![New Group](/images/customer/new-group.png)
 
 **Step 3**: Now you will be able to see the new customer group registered successfully.  
 
-![Group Grid](/images/customer/groupGrid.png)
+![Group Grid](/images/customer/group-grid.png)
 
 So by the above steps, you can easily create a new customer group from the admin panel in Bagisto. 
 
@@ -1830,7 +1844,7 @@ By assigning customers to specific groups, you can control how much each group p
 
 Create a new product and go to the product edit page. You will be able to see the **Customer Group Price** section as shown in the below image.  
 
-![Customer Group Price](/images/customer/customerPrice.png)
+![Customer Group Price](/images/customer/customer-price.png)
 
 **Step 3**: Now click on **Add New** and add the below fields:  
 
@@ -1854,13 +1868,13 @@ It means if you purchase one piece of this product at $2500, and a Customer Grou
 
 So now click on the **Save** button as shown below.  
 
-![Save Customer Group Price](/images/customer/groupPrice.png)
+![Save Customer Group Price](/images/customer/group-price.png)
 
 Now save the product. You can see the price change according to the group.  
 
 As set for the Guest group with the fixed price, it is showing the pricing according to the guest group as shown below.  
 
-![Group Price Output](/images/customer/priceOutput.png)
+![Group Price Output](/images/customer/price-output.png)
 
 ### Adding Multiple Customer Group Pricing
 
@@ -1882,7 +1896,7 @@ These pricing tiers can be added directly in the Customer Group Price section of
 
 You can check the Storefront view to see how all the tiered customer pricing options appear together for the same product.
 
-![Storefront Multiple Customer Group Pricing](/images/customer/priceOutput1.png)
+![Storefront Multiple Customer Group Pricing](/images/customer/price-output1.png)
 
 # Customer Reviews
 
@@ -1908,11 +1922,11 @@ Customer reviews are a form of customer feedback on electronic commerce and onli
 
 **Step 3**: After adding the review, open the **Admin Panel** of Bagisto and navigate to **Customers >> Reviews**. The review submitted by the customer will be visible as shown below.  
 
-![Admin Review](/images/customer/adminReview.png)
+![Admin Review](/images/customer/admin-review.png)
 
 **Step 4**: You can also change the **Status** of the review to **Pending, Approved, or Disapproved** and then click the **Save** button.  
 
-![Review Status Update](/images/customer/reviewStatus.png)
+![Review Status Update](/images/customer/review-status.png)
 
 **Step 5**: After saving, you will be redirected to the Review Grid where you will see the new review record successfully registered.  
 
@@ -1933,7 +1947,7 @@ With the help of CMS (content management system), you can create and edit pages 
 **Step 1:** On the Admin Sidebar, click on **CMS >> Page**.  
 By default, there are already CMS pages located here. To create a new CMS page, click on the **Create Page** button as shown below.
 
-![Create Page](/images/cms/createPage.png)
+![Create Page](/images/cms/create-page.png)
 
 **Step 2:** Add the page **Title** and add channels under general as shown in the image below.
 
@@ -1976,7 +1990,7 @@ By using it, you can set one or multiple discounts on the same product. Follow t
 1. In the Admin Panel, go to **Marketing >> Promotions >> Cart Rules**.  
    Click on **Create Cart Rule** as shown in the image below.
 
-![Create Cart Rule](/images/marketing/createCartrule.png)
+![Create Cart Rule](/images/marketing/create-cartrule.png)
 
 From the Cart Rules listing page, you can also **Copy** an existing rule by clicking the Copy icon in the action column. This creates a duplicate with "Inactive" status, allowing you to modify and enable it later.
 
@@ -2046,11 +2060,11 @@ Each auto-generated coupon code is a unique code that customers can use at check
 
 Auto-generated coupons are useful for marketing campaigns where you need to distribute many unique codes (e.g., email campaigns, loyalty programs). Each generated code has its own usage tracking based on the **Uses Per Coupon** and **Uses Per Customer** limits configured in the rule.
 
-![Cart Rule Configurations](/images/marketing/configurations.png)
+![Coupon Section](/images/marketing/configurations.png)
 
 You can also set **No Coupon** if you want the discount to apply automatically to all eligible carts without requiring any code entry.
 
-![Cart Rule Configurations](/images/marketing/configurations.png)
+![Coupon Section](/images/marketing/configurations.png)
 
 ### Step 2: Set Conditions
 
@@ -2114,21 +2128,21 @@ After configuring all sections, click the **Save Cart Rule** button.
 
 Now copy the **Coupon Code** as shown below.
 
-![Coupon Code Example](/images/marketing/couponCode.png)
+![Coupon Code Example](/images/marketing/coupon-code.png)
 
 ### Frontend
 
 On the **Checkout Page**, while placing an order, click on **Apply Coupon** as shown below.
 
-![Checkout Page Coupon](/images/marketing/checkoutPage.png)
+![Checkout Page Coupon](/images/marketing/checkout-page.png)
 
 After entering the coupon code, click on the **Apply** button.
 
-![Apply Coupon](/images/marketing/applyCoupon.png)
+![Apply Coupon](/images/marketing/apply-coupon.png)
 
 Now the **Coupon** is applied successfully.
 
-![Coupon Applied Successfully](/images/marketing/couponApplied.png)
+![Coupon Applied Successfully](/images/marketing/coupon-applied.png)
 
 By following the above steps, you can easily create **Cart Rules** in Bagisto.
 
@@ -2144,7 +2158,7 @@ a) On Admin panel, go to **Marketing >> Promotions >> Catalog Rules**
 
 b) On the upper right side, click on **Create Catalog Rule** button as shown below
 
-![Catalog](/images/marketing/catalogRule.png)
+![Catalog](/images/marketing/catalog-rule.png)
 
 ### Do the following entry in the Rule Information Section
 
@@ -2162,7 +2176,7 @@ b) On the upper right side, click on **Create Catalog Rule** button as shown bel
 
 **7. Priority:-** Enter the priority of this rule.
 
-![Catalog Configurations](/images/marketing/catalogConfigurations.png)
+![Catalog Configurations](/images/marketing/catalog-configurations.png)
 
 ### Step 2: Set Conditions
 
@@ -2172,7 +2186,7 @@ All condition in the catalog rule is based on the product attribute. If you want
 
 Then click on the Add condition to set the conditions. Under the list of a product attribute, select the attribute that you want to set for the condition.
 
-![Conditions](/images/marketing/catalogConditions.png)
+![Conditions](/images/marketing/catalog-conditions.png)
 
 For example, if you have selected Categories then you have to choose contains/does not contain and select the category as in the below image.
 
@@ -2184,7 +2198,7 @@ If you want to delete any condition, then click on the delete icon.
 
 In the Action section, we have to set actions like how we want to apply the rule to the product.
 
-![Catalog Action](/images/marketing/catalogAction.png)
+![Catalog Action](/images/marketing/catalog-action.png)
 
 **1. Actions Type:-** You can apply a discount on a percentage basis or a fixed amount basis.
 
@@ -2196,13 +2210,13 @@ In the Action section, we have to set actions like how we want to apply the rule
 
 Now **Save the Catalog Rule** and you will able to see a new **Catalog Rule** is been created successfully.
 
-![Catalog Output](/images/marketing/catalogOutput.png)
+![Catalog Output](/images/marketing/catalog-output.png)
 
 ### Front End:-
 
 You will get a flat 50% OFF on the product after applying a catalog rule as shown below.
 
-![Catalog Front](/images/marketing/catalogFront.png)
+![Catalog Front](/images/marketing/catalog-front.png)
 
 By this, you can easily create a **Catalog Rule** in Bagisto.
 
@@ -2222,7 +2236,7 @@ On the Admin panel, go to **Marketing >> Communications >> Email Templates** and
 
 Add **Name** and **Status** as Active, Inactive, or Draft of the Email Template as shown in the below image.
 
-![Template Name](/images/marketing/templateName.png)
+![Template Name](/images/marketing/template-name.png)
 
 ### Step 3: 
 
@@ -2252,13 +2266,13 @@ On the Admin panel, go to **Marketing >> Communications >> Events** and click on
 
 Now add the **Event Name, Description, Date** as shown in the below image.
 
-![Event Name](/images/marketing/eventName.png)
+![Event Name](/images/marketing/event-name.png)
 
 ### Step 3: 
 
 Now you will be able to see the new **Event** as shown below.
 
-![Event Output](/images/marketing/eventOutput.png)
+![Event Output](/images/marketing/event-output.png)
 
 By this, you can easily create an **Event** in Bagisto.
 
@@ -2294,13 +2308,13 @@ By default, there are 3 customer groups:
 
 For the **General** and **Wholesale** customer groups, campaign emails will be sent to customers who have subscribed to the newsletter and are Logged IN.
 
-![Campaign Configuration](/images/marketing/campaignConfigration.png)
+![Fill in the necessary fields](/images/marketing/campaign-configration.png)
 
 For the **Guest** customer group, emails will be sent only to those who have subscribed to the newsletter. 
 
 Customers who have registered an account will not receive the email of campaigns.
 
- ![Campaign Configuration](/images/marketing/guest-campaign.png)
+ ![Fill in the necessary fields](/images/marketing/guest-campaign.png)
 
 **7. Status** – Set the status to Yes/No.  
 
@@ -2308,7 +2322,7 @@ Customers who have registered an account will not receive the email of campaigns
 
 Now you will be able to see the new **Campaign** as shown below.
 
-![Campaign Output](/images/marketing/campaignOutput.png)
+![Campaign Output](/images/marketing/campaign-output.png)
 
 By this, you can easily create a **Campaign** in Bagisto.
 
@@ -2324,11 +2338,11 @@ This feature allows you to communicate with your customers in bulk about upcomin
 
 **Step 1)** Firstly the admin can navigate to **Configure >> Customer >> Settings**
 
-![Newsletter Settings](/images/marketing/newsletterSettings.png)
+![Newsletter Settings](/images/marketing/newsletter-settings.png)
 
 **Step 2)** Now Enable the **Newsletter Subscription** and click on **Save Configuration** button as shown in below image.
 
-![Enable Newsletter](/images/marketing/enableNewsletter.png)
+![Enable Newsletter](/images/marketing/enable-newsletter.png)
 
 ### Newsletter Subscriptions
 
@@ -2336,13 +2350,13 @@ Here the admin can see all their customers who subscribed to the newsletter subs
 
 Also, the admin will navigate to **Marketing >> Communications >> Newsletter Subscriptions** as shown in the below image.
 
-![Newsletter Grid](/images/marketing/newsletterGrid.png)
+![Newsletter Subscriptions](/images/marketing/newsletter-grid.png)
 
 **Step 3)** After all the configuration you need to run the command under your project root to send the emails as below :
 
 **php artisan campaign:process**
 
-![Newsletter Grid](/images/marketing/command.png)
+![Newsletter Subscriptions](/images/marketing/command.png)
 
 **Customer Configuration**
 
@@ -2366,7 +2380,7 @@ While sitemaps can be a simple text file listing the URLs of all the pages you'd
 
 On the Admin panel, go to **Marketing > Search & SEO > Sitemaps** and click on **Create Sitemap** as shown below.
 
-![Search Field](/images/marketing/createSitemap.png)
+![Step 1: Add New Sitemap](/images/marketing/create-sitemap.png)
 
 ## Step 2: Configure Sitemap
 
@@ -2374,13 +2388,13 @@ Add the **File Name** and **File Path**, then click the **Save Sitemap** button.
 
 Make sure you have created an **XML file** and mentioned its correct path as shown below.
 
-![Search Field](/images/marketing/saveSitemap.png)
+![Step 2: Configure Sitemap](/images/marketing/save-sitemap.png)
 
 ## Step 3: View Sitemap
 
 Now you will be able to see the newly created **Sitemap** as shown below.
 
-![Search Field](/images/marketing/sitemapOutput.png)
+![Step 3: View Sitemap](/images/marketing/sitemap-output.png)
 
 By this, you can easily create a **Sitemap** in Bagisto.
 
@@ -2394,7 +2408,7 @@ If an admin modifies their URL for any reason, this functionality ensures seamle
 
 On the Admin panel, go to **Marketing > Search & SEO > URL Rewrites** and click on **Create URL Rewrite** as shown below.
 
-![Search Field](/images/marketing/urlRewrite.png)
+![Step 1: Navigate to URL Rewrite](/images/marketing/url-rewrite.png)
 
 ## Step 2: Add URL Rewrite Details
 
@@ -2416,13 +2430,13 @@ Fill in the following fields:
 
 Finally, click the **Save URL Rewrite** button.
 
-![Search Field](/images/marketing/urlFields.png)
+![Step 2: Add URL Rewrite Details](/images/marketing/url-fields.png)
 
 ## Step 3: URL Redirection
 
 The new URL will now redirect as per the **Target Path** permanently.  
 
-![Search Field](/images/marketing/urlOutput.png)
+![Step 3: URL Redirection](/images/marketing/url-output.png)
 
 # Search Terms
 
@@ -2432,7 +2446,7 @@ Search Terms are the keywords that customers use on your storefront to search fo
 
 On the Admin panel, go to **Marketing >> Search & SEO >> Search Terms** and click on the **Create Search Term** button as shown in the below image.
 
-![Search Term](/images/marketing/searchTerm.png)
+![Search Term](/images/marketing/search-term.png)
 
 ### Step 2: Add Search Term Details
 
@@ -2448,19 +2462,19 @@ Fill in the following fields:
 
 Now click on the **Save Search Term** button.
 
-![Search Field](/images/marketing/searchField.png)
+![Search Field](/images/marketing/search-field.png)
 
 ### Step 3: Verify Search Term
 
 A new search term (for example, **Adorable**) is created successfully as shown below.
 
-![Search Grid](/images/marketing/searchGrids.png)
+![Search Grid](/images/marketing/search-grids.png)
 
 ### Step 4: Frontend Check
 
 Now test the result by searching your search term on the storefront.
 
-![Frontend Output](/images/marketing/frontendOutput.png)
+![Frontend Output](/images/marketing/frontend-output.png)
 
 # Search Synonyms
 
@@ -2472,7 +2486,7 @@ For example, if a customer searches for *shoe*, it can also match with *formal s
 
 On the Admin panel, go to **Marketing >> Search & SEO >> Search Synonyms** and click on the **Create Search Synonyms** button as shown below.
 
-![Search Synonym](/images/marketing/searchSynonym.png)
+![Search Synonym](/images/marketing/search-synonym.png)
 
 ### Step 2: Enter Synonym Details
 
@@ -2482,7 +2496,7 @@ Fill in the following fields:
 
 - **Terms** – Add the related terms that belong to the synonym name.  
 
-![Search Synonym Fields](/images/marketing/synonymField.png)
+![Search Synonym Fields](/images/marketing/synonym-field.png)
 
 Click on the **Save Search Synonym** button.
 
@@ -2490,7 +2504,7 @@ Click on the **Save Search Synonym** button.
 
 A new synonym field (for example, **shoe**) is created successfully as shown below.
 
-![Synonym Grid](/images/marketing/synonymGrid.png)
+![Synonym Grid](/images/marketing/synonym-grid.png)
 
 ### Step 4: Frontend 
 
@@ -2498,7 +2512,7 @@ Now test the result by searching your synonym.
 
 It will display all related categories of the synonym (e.g., shoes) as shown below.
 
-![Synonym Output](/images/marketing/synonymOutput.png)
+![Synonym Output](/images/marketing/synonym-output.png)
 
 # Sales Reporting
 
@@ -2821,7 +2835,7 @@ Tracks the most recent search terms used by customers on the store.
 
 **3) View Details:** Click to analyze customer search behavior.
 
-![Last Search Terms](/images/reporting/last-searchTerm.png)
+![Last Search Terms](/images/reporting/last-search-term.png)
 
 ### I) Top Search Terms
 
@@ -2833,7 +2847,7 @@ Displays the most frequently searched terms in the store within the selected dat
 
 **2) Total Searches:** The number of times the term has been used.
 
-![Top Search Terms](/images/reporting/top-searchTerm.png)
+![Top Search Terms](/images/reporting/top-search-term.png)
 
 # Appearance
 
@@ -2991,15 +3005,15 @@ Here are the steps to set Locales in Bagisto:
 
 Now click **Save Locale** as shown in the below image.
 
-![New Locale](/images/settings/newLocale.png)
+![New Locale](/images/settings/new-locale.png)
 
 **Step 3:** You will now be able to see the new **Locale** as shown below.
 
-![Locale Grid](/images/settings/localeGrid.png)
+![Locale Grid](/images/settings/locale-grid.png)
 
 **Step 4:** On the Admin panel, open **Settings >> Channels**. You will see your new language in the Currencies and Locales section. To enable this, select it and click **Save Channel** as shown in the image below.
 
-![Locale Channel](/images/settings/localeChannel.png)
+![Locale Channel](/images/settings/locale-channel.png)
 
 So, by following these steps, you can easily create **Locales** in Bagisto and make your website available in your desired language.
 
@@ -3011,7 +3025,7 @@ Before launching your eCommerce website, you need to set up the currency in whic
 
 **Step 1:** On the Admin panel of Bagisto, go to **Settings >> Currencies >> Create Currency** as shown in the image below.
 
-![Currency](/images/settings/createCurrency.png)
+![Currency](/images/settings/create-currency.png)
 
 **Step 2:** Now enter the following details:  
 
@@ -3029,11 +3043,11 @@ Before launching your eCommerce website, you need to set up the currency in whic
 
 **7) Position** – It helps to position the currency (left, right, etc.).  
 
-![Save Currency](/images/settings/saveCurrency.png)
+![Save Currency](/images/settings/save-currency.png)
 
 **Step 3:** Now you will be able to see the new **Currency** by the name of **Dirham** as shown below.
 
-![New Currency](/images/settings/newCurrency.png)
+![New Currency](/images/settings/new-currency.png)
 
 ### Channel Setting for Currency
 
@@ -3041,7 +3055,7 @@ On the Admin panel, open **Settings >> Channels**. You will see the Currency sec
 
 Once the channel setting has been done, click on **Save Channel** as shown in the image below.
 
-![Currency Channel](/images/settings/currencyChannel.png)
+![Currency Channel](/images/settings/currency-channel.png)
 
 So, by following these steps, you can easily create a **Currency** in Bagisto.
 
@@ -3055,21 +3069,21 @@ For example: How many Euros are required to buy 1 Dollar? You require €0.88 to
 
 **Step 1:** On the Admin panel of Bagisto, go to **Settings >> Exchange Rates >> Create Exchange Rate** as shown in the image below.
 
-![Exchange Rate](/images/settings/exchangeRate.png)
+![Exchange Rate](/images/settings/exchange-rate.png)
 
 **Step 2:** Now enter **Source Currency, Target Currency, and Rate**, then click on **Save Exchange Rate** as shown below.
 
-![Exchange Rate Configuration](/images/settings/exchangerateConfigurations.png)
+![Exchange Rate Configuration](/images/settings/exchangerate-configurations.png)
 
 **Step 3:** Now you will be able to see the new **Exchange Rate** created as shown below.
 
-![Exchange Rate Grid](/images/settings/exchangerateGrid.png)
+![Exchange Rate Grid](/images/settings/exchangerate-grid.png)
 
 ### Frontend
 
 The **Exchange Rate** of **0.919** is applied successfully on the product price of **$499**. After applying this exchange rate, the new price is **$458.58** as shown below.
 
-![Exchange Rate Output](/images/settings/exchangeOutput.png)
+![Exchange Rate Output](/images/settings/exchange-output.png)
 
 So, by following these steps, you can easily create an **Exchange Rate** in Bagisto.
 
@@ -3087,26 +3101,26 @@ By using Multi-Warehouse Inventory, you can easily manage all inventory sources.
 
 **Step 1:** On the Admin panel of Bagisto, go to **Settings >> Inventory Sources >> Create Inventory Source** as shown below.  
 
-![Inventory Source](/images/settings/inventorySource.png)
+![Inventory Source](/images/settings/inventory-source.png)
 
 **Step 2: General**  
 Enter the **Code, Name, Description, Latitude, Longitude, and Priority**, and set the **Status** as active.  
 
-![Inventory Configuration](/images/settings/inventoryConfiguration.png)
+![Inventory Configuration](/images/settings/inventory-configuration.png)
 
 **Step 3: Contact Information**  
 Enter **Name, Email, Fax, and Contact Number**.  
 
-![Contact Information](/images/settings/contactInfo.png)
+![Contact Information](/images/settings/contact-info.png)
 
 **Step 4: Source Address**  
 Enter the source address details like country, address, state, and city.  
 
-![Source Address](/images/settings/sourceAddress.png)
+![Source Address](/images/settings/source-address.png)
 
 After that, click on **Save Inventory Source**. You will now see the newly created inventory source as shown below.  
 
-![Inventory Output](/images/settings/inventoryOutput.png)
+![Inventory Output](/images/settings/inventory-output.png)
 
 **Step 5:** Go to **Settings >> Channels**. Open the selected channel in **Edit Mode >> Inventory Sources**. This is a multi-select field where you can select multiple inventory sources for your channels. After that, click **Save Channel**.
 
@@ -3116,7 +3130,7 @@ Go to **Catalog >> Products**. Open the selected product in **Edit Mode** and en
 
 **Note:** If you do not enter any quantity, by default 0 is saved, and an inventory with 0 quantity will not be visible in the shipment page inventory options.  
 
-![Product Inventory](/images/settings/productInventory.png)
+![Product Inventory](/images/settings/product-inventory.png)
 
 ### Inventory Setting on the Shipment Page
 
@@ -3124,7 +3138,7 @@ Go to **Sales >> Orders**. Open the selected order in **Edit Mode >> Invoice >> 
 
 Under the **Product Ordered Section**, the Admin can decide from which inventory the product should be delivered.  
 
-![Inventory Setting](/images/settings/inventorySetting.png)
+![Inventory Setting](/images/settings/inventory-setting.png)
 
 **Note:** You can enable only one Inventory at a time. When one inventory is selected, others will automatically be disabled.  
 For example, if you select **Noida Warehouse**, other inventories will be disabled. Enter the quantity to ship and click **Create Shipment**.
@@ -3158,7 +3172,7 @@ Bagisto allows you to set up and manage multiple domains or stores in a single b
 **2. Default Locale:** Choose the default locale.  
 **3. Currencies:** Select one or more currencies for the store.
 
-![Currency and Locales](/images/settings/currencyLocal.png)
+![Currency and Locales](/images/settings/currency-local.png)
 
 ### Design
 
@@ -3170,25 +3184,25 @@ Select a theme from the dropdown (if multiple themes are available).
 
 Upload a logo for the frontend and click **Save Channel**.
 
-![Frontend Logo](/images/settings/frontendLogos.png)
+![Frontend Logo](/images/settings/frontend-logos.png)
 
 ### Logo on Frontend
 
 The updated logo will be visible on the frontend.
 
-![Frontend Logo Output](/images/settings/logoOutputs.png)
+![Frontend Logo Output](/images/settings/logo-outputs.png)
 
 ### Favicon
 
 Upload a favicon for the frontend and click **Save Channel**.
 
-![Frontend Favicon](/images/settings/frontendFavicon.png)
+![Frontend Favicon](/images/settings/frontend-favicon.png)
 
 ### Favicon on Frontend
 
 The updated favicon will be visible on the frontend.
 
-![Frontend Favicon Output](/images/settings/faviconOutput.png)
+![Frontend Favicon Output](/images/settings/favicon-output.png)
 
 ### Home Page SEO
 
@@ -3206,13 +3220,13 @@ Maintenance mode allows you to temporarily disable your store while making updat
 **2. Allowed IPs:** IPs that can access the store during maintenance.  
 **3. Status:** Enable or disable maintenance mode.
 
-![Maintenance Mode](/images/settings/maintenanceMode.png)
+![Maintenance Mode](/images/settings/maintenance-mode.png)
 
 ### Storefront Created
 
 After saving, your new Storefront will be listed.
 
-![Storefront Grid](/images/settings/channelGrid.png)
+![Storefront Grid](/images/settings/channel-grid.png)
 
 You have now successfully created a new **Storefront** in Bagisto.
 
@@ -3236,11 +3250,11 @@ Access Control List (ACL) in Bagisto allows the store owner to create users and 
 
 Click on **Save User**.
 
-![Create User](/images/settings/createUser.png)
+![Create User](/images/settings/create-user.png)
 
 **Step 3:** Once saved, the new **User** will appear in the list as shown below.
 
-![User Output](/images/settings/userOutput.png)
+![User Output](/images/settings/user-output.png)
 
 You have now successfully created a **User** in Bagisto.
 
@@ -3260,7 +3274,7 @@ Roles in Bagisto allow the store owner to create users and assign permissions. T
 
 **2. Description:** Enter the description of the role.  
 
-![New Role](/images/settings/newRole.png)
+![New Role](/images/settings/new-role.png)
 
 **Step 3:** Configure the **Access Control** permissions as needed.
 
@@ -3268,13 +3282,13 @@ Set **Permissions** to **Custom** to pick individual permissions, or to **All** 
 
 **Bagisto v2.4.9** tidies this tree to match the reworked admin menu. It drops the folder and file icons in favour of plain connector guides, adds a **Search permissions** box so you can jump straight to a permission instead of scrolling the whole tree, and lists **Bookings** under **Sales** as its own permission.
 
-![Access Control](/images/settings/accessControl.png)
+![Access Control](/images/settings/access-control.png)
 
 Click on **Save Role**.
 
 **Step 4:** Once saved, the new **Role** will appear in the list as shown below.
 
-![Role Grid](/images/settings/roleGrid.png)
+![Role Grid](/images/settings/role-grid.png)
 
 You have now successfully created a **Role** in Bagisto.
 
@@ -3286,7 +3300,7 @@ In e-commerce, various taxes are applied when purchasing products, and these rat
 
 **Step 1:** In the admin panel, go to **Settings >> Taxes >> Tax Rates >> Create Tax Rate**.
 
-![Tax Rate](/images/settings/taxRate.png)
+![Tax Rate](/images/settings/tax-rate.png)
 
 **Step 2:** Enter the following fields:  
 
@@ -3298,7 +3312,7 @@ In e-commerce, various taxes are applied when purchasing products, and these rat
 
 **Note:** You can also set a zip code range so that the tax applies only within that range. Then click **Save Tax Rate**.
 
-![Save Tax Rate](/images/settings/savetaxRate.png)
+![Save Tax Rate](/images/settings/save-tax-rate.png)
 
 ## Tax Categories
 
@@ -3313,11 +3327,11 @@ In e-commerce, various taxes are applied when purchasing products, and these rat
 
 Click **Save Tax Category**.
 
-![Save Tax Category](/images/settings/saveCategory.png)
+![Save Tax Category](/images/settings/save-category.png)
 
 **Step 2:** Assign the Tax Category when creating a product.
 
-![Product Tax Category](/images/settings/productCategory.png)
+![Product Tax Category](/images/settings/product-category.png)
 
 ### Frontend
 
@@ -3325,7 +3339,7 @@ Enter the billing address or sign in to your account and click **Continue**.
 
 Select the **Shipping** and **Payment** methods and click **Continue**.
 
-![Tax Frontend](/images/settings/taxFront.png)
+![Tax Frontend](/images/settings/tax-front.png)
 
 The tax will appear on the product price in the frontend. For example, if a 20% tax is set, it will be applied to the product price at checkout.  
 
@@ -3371,7 +3385,7 @@ From **Bagisto v2.4.9**, saving an import runs it through to the end on its own.
 
 So now click on the **Import** Button and confirm the message *"The import will start as soon as this is saved. Do you want to continue?"*.
 
-![Create Import](/images/settings/createImport.png)
+![Create Import](/images/settings/create-import.png)
 
 ### Product Images
 
@@ -3385,7 +3399,7 @@ While importing products, the images named in your file can come from three diff
 
 The method you pick is saved on the import, so reopening it restores the choice along with the value that went with it.
 
-![Product Images Source](/images/settings/importImageSource.png)
+![Product Images Source](/images/settings/import-image-source.png)
 
 **Step 3:** The import now runs on its own and the stepper shows which phase it is in.
 
@@ -3397,19 +3411,19 @@ The method you pick is saved on the import, so reopening it restores the choice 
 
 A delete run has no images to fetch and nothing to link, so those steps are not shown for it.
 
-![Import Stepper](/images/settings/importStepper.png)
+![Import Stepper](/images/settings/import-stepper.png)
 
 If the file has errors, the run stops after validation and shows the total rows processed, the invalid rows, and the error count, with a **Download Full Report** button for the complete list. When the validation strategy is **Skip Errors** and only some rows are at fault, the import can still proceed and the faulty rows are skipped.
 
 **Step 4:** Once every phase is complete, the summary confirms the result.
 
-![Import Done](/images/settings/importDone.png)
+![Import Done](/images/settings/import-done.png)
 
 If any batch does not complete, the import finishes the batches it can and reports how many did not, so you can check the error log and run the import again for those rows.
 
 **Step 5:** Now you will able see to all the products under the **Catalog >> Products** section as shown in the given image.
 
-![Import Output](/images/settings/importOutput.png)
+![Import Output](/images/settings/import-output.png)
 
 By the above steps, you can easily create a **Bulk Import** in Bagisto.
 
@@ -3447,9 +3461,9 @@ There is an option present to **Enable or Disable** a Backorder and then click o
 
 In the above image these products are **Out of Stock** but you can still able to Add the product to the Cart and **Place an Order**.
 
-![Backorder Output](/images/configure/backorderOutput.png)
+![Backorder Output](/images/configure/backorder-output.png)
 
-![Order ID](/images/configure/orderID.png)
+![Order ID](/images/configure/order-id.png)
 
 # Google Captcha
 
@@ -3459,7 +3473,7 @@ It works by verifying whether an interaction is performed by a real human user o
 
 To add, go to the Admin Panel and click on **Configure >> Google Captcha** as shown below.
 
- ![Account Login](/images/configure/configure-captcha.png)
+ ![Google Captcha](/images/configure/configure-captcha.png)
 
 As soon as you click on it, a Status toggle button will appear. Once you enable it, you will see options to add **Project ID, API Key, Site Key** and **Score Threshold**.
 
@@ -3469,7 +3483,7 @@ As soon as you click on it, a Status toggle button will appear. Once you enable 
 - Create a new project or select an existing one from the project dropdown.
 - Note your Project ID from the project dashboard (not the project name).
 
- ![Account Login](/images/configure/project-id.png)
+ ![To Obtain Google Cloud Project ID](/images/configure/project-id.png)
 
 ### Generate API Key:
 
@@ -3479,7 +3493,7 @@ As soon as you click on it, a Status toggle button will appear. Once you enable 
 
 - Now copy the generated API key.
 
-![Account Login](/images/configure/api-1.png)
+![Generate API Key](/images/configure/api-1.png)
 
 ### Create reCAPTCHA Site Key:
 
@@ -3493,7 +3507,7 @@ As soon as you click on it, a Status toggle button will appear. Once you enable 
 
 Now you need to add all the IDs in the configuration, set the **Stock Threshold** to 0.5, and finally click on the **Save Configuration** button.
 
- ![Account Login](/images/configure/site-key.png)
+ ![Create reCAPTCHA Site Key](/images/configure/site-key.png)
 
 As soon as the configuration is saved, Google reCAPTCHA will be displayed in five places on the website:
 
@@ -3505,23 +3519,23 @@ As soon as the configuration is saved, Google reCAPTCHA will be displayed in fiv
 
 ### Customer Sign In
 
-  ![Account Login](/images/configure/customer-signin.png)
+  ![Customer Sign In](/images/configure/customer-signin.png)
 
 ### Customer Sign Up
 
- ![Account Login](/images/configure/customer-signup.png)
+ ![Customer Sign Up](/images/configure/customer-signup.png)
 
 ### Contact Us Page
 
- ![Account Login](/images/configure/contact-us.png)
+ ![Contact Us Page](/images/configure/contact-us.png)
 
 ### Recover Password 
 
- ![Account Login](/images/configure/forget-password.png)
+ ![Recover Password](/images/configure/forget-password.png)
 
 ### Checkout Sign In 
 
- ![Account Login](/images/configure/checkout-signin.png)
+ ![Checkout Sign In](/images/configure/checkout-signin.png)
 
 # Cart View Page
 
@@ -3531,7 +3545,7 @@ To add, go to Admin Panel and click on **Configure >> Products**.
 
 Here you can manage several cross-selling products that will be visible on the front end.
 
-![Cart Configuration](/images/configure/cartpageConfiguration.png)
+![Cart Configuration](/images/configure/cartpage-configuration.png)
 
 After that, click on the **Save Configuration** button.
 
@@ -3553,23 +3567,23 @@ In this, we provide two options:
 
 **A) Display numbers of items in cart** - Select **Display number of items in cart** option and then click on **Save Configuration** button.
 
-![Number Items](/images/configure/items.png)
+![My Cart](/images/configure/items.png)
 
 After clicking the Add to Cart button, this option shows you the total number of quantities. For example, we add 5 products inside the cart. 5 products will be visible on the front end as shown below.
 
-![Number Items](/images/configure/numberItems.png)
+![My Cart](/images/configure/number-items.png)
 
 **B) Display Items Quantities** - Select Display items quantities option and then click on **Save Configuration** button.
 
-![Display Items Quantities](/images/configure/itemQuantity.png)
+![My Cart](/images/configure/item-quantity.png)
 
 After clicking the Add to Cart button, for example, 7 products you have added inside the cart, only 1 quantity will be visible on the frontend.
 
-![Display Items Quantities](/images/configure/1mycart.png)
+![My Cart](/images/configure/1mycart.png)
 
 To check the total number of items, you have to go inside the mini-cart.
 
-![Display Items Quantities](/images/configure/7mycart.png)
+![My Cart](/images/configure/7mycart.png)
 
 ### Mini Cart
 
@@ -3585,7 +3599,7 @@ The mini cart is able to open with an offer message as shown in the image below.
 
 Now, if we disable this Mini-Cart, the user is not able to open the mini-cart and is directly redirected to the checkout page.
 
-![Disable Mini Cart](/images/configure/disableminiCart.png)
+![Disable Mini Cart](/images/configure/disablemini-cart.png)
 
 # Configurable Choices
 
@@ -3695,13 +3709,13 @@ To add **Coyright Content**, go to the Admin panel: **Configure >> Content**.
 
 You will see the textbox to add the Copyright Content as shown in the image below.
 
-![Coyright Content](/images/configure/copyright-content.png)
+![Add Coyright Content](/images/configure/copyright-content.png)
 
 At last click on **Save Configuration** button.
 
 After this, you can go to the storefront footer of your Bagisto website and check that your copyright content has been successfully added.
 
- ![Coyright Content](/images/configure/copyright-footer.png)
+ ![Add Coyright Content](/images/configure/copyright-footer.png)
 
 ### Custom Scripts
 
@@ -3725,7 +3739,7 @@ This makes sure your store’s currency rates are correct without needing to do 
 
 To set up exchange rates, navigate to: Configuration > General > Exchange Rates, as illustrated in the image below.
 
-  ![Address](/images/configure/exchange_rates_configurations.png)
+  ![Exchange Rates Configuration](/images/configure/exchange-rates-configurations.png)
 
 ### Exchange Rates Configurations
 
@@ -3757,7 +3771,7 @@ Once you turn it on, you can pick how often to update — daily, weekly (every M
 
 You can easily add this from the settings as shown below.
 
-![Address](/images/configure/schedule.png)
+![Exchange Rates Configurations](/images/configure/schedule.png)
 
 You have to set the start time using the **24-hour format**, like this: 03:00.
 
@@ -3767,7 +3781,7 @@ You can start it by using this command:
 
 **php artisan schedule:work**
 
-![Address](/images/configure/terminial_cron.png)
+![Exchange Rates Configurations](/images/configure/terminial-cron.png)
 
 ### Environment Variable Backup
 
@@ -3833,13 +3847,13 @@ To add **Coyright Content**, go to the Admin panel: **Configure >> Content**.
 
 You will see the textbox to add the Copyright Content as shown in the image below.
 
-![Coyright Content](/images/configure/copyright-content.png)
+![Add Coyright Content](/images/configure/copyright-content.png)
 
 At last click on **Save Configuration** button.
 
 After this, you can go to the storefront footer of your Bagisto website and check that your copyright content has been successfully added.
 
- ![Coyright Content](/images/configure/copyright-footer.png)
+ ![Add Coyright Content](/images/configure/copyright-footer.png)
 
 # Custom Scripts
 
@@ -3859,7 +3873,7 @@ We have used a background color **Light Blue** and saved the configurations.
 
 Now the storefront background color has changed, as shown below:
 
-![Custom CSS Output](/images/configure/cssOutput.png)
+![Custom CSS Output](/images/configure/css-output.png)
 
 ### Custom JS
 
@@ -3934,7 +3948,7 @@ In the General section, a toggle button is available to enable or disable the Ma
 
 To use the Magic AI feature, you need to enable this option and then click on **Save Configuration** button.
 
- ![Magic AI](/images/configure/general-setting.png)
+ ![General](/images/configure/general-setting.png)
 
 ### Providers
 
@@ -3944,7 +3958,7 @@ To start using any of these providers, you need to generate the **API key** from
 
 After adding the API key and other required details, make sure to click on the **Save Configuration** button to apply the changes successfully.
 
- ![Magic AI](/images/configure/providers-magicai.png)
+ ![Providers](/images/configure/providers-magicai.png)
 
 ### Admin Features
 
@@ -3960,7 +3974,7 @@ The selected providers will be visible under the Text Generation and Image Gener
 
 At last click on **Save Configurations** button.
 
- ![Magic AI](/images/configure/adminFeatures-magicai.png)
+ ![Admin Features](/images/configure/admin-features-magicai.png)
 
 ### Text Generation
 
@@ -3970,7 +3984,7 @@ To use Text Generation with Magic AI, go to **Catalog → Products**, and click 
 
 This will allow you to generate AI-assisted content for product descriptions.
 
-  ![Magic AI](/images/configure/description-magicai.png)
+  ![Text Generation](/images/configure/description-magicai.png)
 
 After clicking on the Magic AI button, a popup form will open where you need to enter the prompt related to the description you want to generate.
 
@@ -3978,7 +3992,7 @@ Then, you need to select a model from the Model List, and finally click on the *
 
 Once done, your AI-generated content will be created automatically. Then click on **Apply** button to add the changes.
 
- ![Magic AI](/images/configure/textgeneration.png)
+ ![Text Generation](/images/configure/textgeneration.png)
 
 ### Image Generation
 
@@ -3996,13 +4010,13 @@ To use this feature, go to **Catalog → Products**, and in the Images section, 
 
 5. Finally, choose your preferred model from the Model List and click on the “Generate” button to create the images.
 
-  ![Magic AI](/images/configure/image-generate.png)
+  ![Image Generation](/images/configure/image-generate.png)
 
 Once the images are generated, you need to click on the desired images to apply them. After selecting and applying them, your AI-generated product images will be successfully added.
 
 If you are not satisfied with the generated images, you can simply click on the **Regenerate** button to create new images again.
 
-![Magic AI](/images/configure/ai-images.png)
+![Image Generation](/images/configure/ai-images.png)
 
 ### Storefront Features
 
@@ -4018,7 +4032,7 @@ Each feature includes a toggle button to enable or disable it. Along with this, 
 
 At last, click on the **Save Configuration** button to apply the changes.
 
- ![Magic AI](/images/configure/storefront-features-magicai.png)
+ ![Storefront Features](/images/configure/storefront-features-magicai.png)
 
 ### AI Image Search
 
@@ -4028,7 +4042,7 @@ AI Image Search allows customers to search for products by uploading an image. B
 
 If someone just wants to understand what is written, this feature can simply translate the content for them into their preferred language.
 
- ![Magic AI](/images/configure/review-magicai.png)
+ ![Review Translations](/images/configure/review-magicai.png)
 
 ### Personalized Checkout Message
 
@@ -4038,7 +4052,7 @@ It helps store owners create a more personalized and engaging shopping experienc
 
 These messages can improve customer interaction, build trust, and encourage successful order completion, ultimately enhancing the overall shopping experience.
 
-  ![Magic AI](/images/configure/personalized-chckout-message.png)
+  ![Personalized Checkout Message](/images/configure/personalized-chckout-message.png)
 
 # Design
 
@@ -4065,10 +4079,10 @@ To update the **Admin Logo** and **Favicon** in Bagisto:
 After saving the configuration, the new **Admin Logo** and **Favicon** will be visible in the admin panel interface.
 
 **Logo**
-![Updated Admin Logo](/images/configure/designOutput.png)
+![Updated Admin Logo](/images/configure/design-output.png)
 
 **Favicon**
-![Updated Favicon](/images/configure/designOutput2.png)
+![Updated Favicon](/images/configure/design-output2.png)
 
 **Menu Category View**
 
@@ -4088,11 +4102,11 @@ You can now choose between:
    - `Sidebar Menu` from the dropdown.
 4. Click **Save Configuration**.
 
-![Menu Category View Setting](/images/configure/catAdmin.png)
+![Menu Category View Setting](/images/configure/cat-admin.png)
 
 **Shopfront view**
 
-![Shopfront Menu Category View](/images/configure/catSide.png)
+![Shopfront Menu Category View](/images/configure/cat-side.png)
 
 # E-mail Settings
 
@@ -4100,7 +4114,7 @@ Set the addresses your store sends from, and choose how mail leaves the store.
 
 Go to the Admin Panel and click **Configure >> Email Settings**.
 
-![Email Settings](/images/configure/emailSetting.png)
+![Email Settings](/images/configure/email-setting.png)
 
 ## Sender details
 
@@ -4159,7 +4173,7 @@ To add, go to Admin Panel and click on **Configure >> Products >> Storefront**.
 
 ![Storefront Settings](/images/configure/storefront.png)
 
-![Buy Now Products](/images/configure/buyNow.png)
+![Buy Now Products](/images/configure/buy-now.png)
 
 After that, click on the **Save Configuration** button.
 
@@ -4238,7 +4252,7 @@ Guest checkout allows customers to buy products without creating an account, str
 To manage Guest Checkout, go to Admin Panel and click on **Configure >> Products**.  
 You will see an option to **Enable or Disable** Guest Checkout. After making your selection, click the **Save Configuration** button.
 
-![Guest Checkout Settings](/images/configure/guestCheckout.png)
+![Guest Checkout Settings](/images/configure/guest-checkout.png)
 
 # Image Size
 
@@ -4258,7 +4272,7 @@ Set the **Height** and **Width** for medium images.
 
 Set the **Height** and **Width** for large images.
 
-![Image Size Configuration](/images/configure/imageSize.png)
+![Image Size Configuration](/images/configure/image-size.png)
 
 After making the changes, click on the **Save Configuration** button.
 
@@ -4270,25 +4284,25 @@ To configure invoice settings, go to the Admin Panel and click on **Configure >>
 
 Configure rules or parameters for generating and assigning unique identification numbers to invoices for organizational and tracking purposes.
 
-![Invoice Number Settings](/images/configure/invoicenumberSettings.png)
+![Invoice Number Settings](/images/configure/invoicenumber-settings.png)
 
 ### 2. Payment Terms
 
 Set agreed-upon conditions dictating when and how payment for goods or services should be made by the buyer to the seller.
 
-![Payment Terms](/images/configure/paymentTerms.png)
+![Payment Terms](/images/configure/payment-terms.png)
 
 ### 3. Invoice Slip Design
 
 Customize the visual layout and formatting of an invoice slip, including company branding, itemization, pricing, and payment details for professional presentation.
 
-![Invoice Slip Design](/images/configure/invoiceSlip.png)
+![Invoice Slip Design](/images/configure/invoice-slip.png)
 
 ### 4. Invoice Reminders
 
 Enable automated notifications or communications sent to customers to remind them of upcoming or overdue invoice payments.
 
-![Invoice Reminder](/images/configure/invoiceReminder.png)
+![Invoice Reminder](/images/configure/invoice-reminder.png)
 
 After making changes, click on the **Save Configuration** button.
 
@@ -4306,7 +4320,7 @@ In the General section, a toggle button is available to enable or disable the Ma
 
 To use the Magic AI feature, you need to enable this option and then click on **Save Configuration** button.
 
- ![Magic AI](/images/configure/general-setting.png)
+ ![General](/images/configure/general-setting.png)
 
 ### Providers
 
@@ -4316,7 +4330,7 @@ To start using any of these providers, you need to generate the **API key** from
 
 After adding the API key and other required details, make sure to click on the **Save Configuration** button to apply the changes successfully.
 
- ![Magic AI](/images/configure/providers-magicai.png)
+ ![Providers](/images/configure/providers-magicai.png)
 
 ### Admin Features
 
@@ -4332,7 +4346,7 @@ The selected providers will be visible under the Text Generation and Image Gener
 
 At last click on **Save Configurations** button.
 
- ![Magic AI](/images/configure/adminFeatures-magicai.png)
+ ![Admin Features](/images/configure/admin-features-magicai.png)
 
 ### Text Generation
 
@@ -4342,7 +4356,7 @@ To use Text Generation with Magic AI, go to **Catalog → Products**, and click 
 
 This will allow you to generate AI-assisted content for product descriptions.
 
-  ![Magic AI](/images/configure/description-magicai.png)
+  ![Text Generation](/images/configure/description-magicai.png)
 
 After clicking on the Magic AI button, a popup form will open where you need to enter the prompt related to the description you want to generate.
 
@@ -4350,7 +4364,7 @@ Then, you need to select a model from the Model List, and finally click on the *
 
 Once done, your AI-generated content will be created automatically. Then click on **Apply** button to add the changes.
 
- ![Magic AI](/images/configure/textgeneration.png)
+ ![Text Generation](/images/configure/textgeneration.png)
 
 ### Image Generation
 
@@ -4368,13 +4382,13 @@ To use this feature, go to **Catalog → Products**, and in the Images section, 
 
 5. Finally, choose your preferred model from the Model List and click on the “Generate” button to create the images.
 
-  ![Magic AI](/images/configure/image-generate.png)
+  ![Image Generation](/images/configure/image-generate.png)
 
 Once the images are generated, you need to click on the desired images to apply them. After selecting and applying them, your AI-generated product images will be successfully added.
 
 If you are not satisfied with the generated images, you can simply click on the **Regenerate** button to create new images again.
 
-![Magic AI](/images/configure/ai-images.png)
+![Image Generation](/images/configure/ai-images.png)
 
 ### Storefront Features
 
@@ -4390,7 +4404,7 @@ Each feature includes a toggle button to enable or disable it. Along with this, 
 
 At last, click on the **Save Configuration** button to apply the changes.
 
- ![Magic AI](/images/configure/storefront-features-magicai.png)
+ ![Storefront Features](/images/configure/storefront-features-magicai.png)
 
 ### AI Image Search
 
@@ -4400,7 +4414,7 @@ AI Image Search allows customers to search for products by uploading an image. B
 
 If someone just wants to understand what is written, this feature can simply translate the content for them into their preferred language.
 
- ![Magic AI](/images/configure/review-magicai.png)
+ ![Review Translations](/images/configure/review-magicai.png)
 
 ### Personalized Checkout Message
 
@@ -4410,7 +4424,7 @@ It helps store owners create a more personalized and engaging shopping experienc
 
 These messages can improve customer interaction, build trust, and encourage successful order completion, ultimately enhancing the overall shopping experience.
 
-  ![Magic AI](/images/configure/personalized-chckout-message.png)
+  ![Personalized Checkout Message](/images/configure/personalized-chckout-message.png)
 
 # Notifications
 
@@ -4434,12 +4448,12 @@ Configured criteria specifying the lowest required quantity or value for an orde
 
 You can also add new configuration options in the Order section, including **Include Discount Amount**, **Include Tax to Amount**, and **Description** on the cart page.
 
-![Order Settings](/images/configure/orderSettings.png)
+![Order Settings](/images/configure/order-settings.png)
 
 **Allow Reorder:**  
 Enable or disable the reordering feature for admin users.
 
-![Allow Reorder](/images/configure/allowReorder.png)
+![Allow Reorder](/images/configure/allow-reorder.png)
 
 After making changes, click the **Save Configuration** button.
 
@@ -4447,7 +4461,7 @@ After making changes, click the **Save Configuration** button.
 
 To check admin reorder functionality, go to **Sales >> Orders**. Open any order showing a pending status to see the **Reorder** option on the admin side.
 
-![Admin Reorder](/images/configure/adminReorder.png)
+![Admin Reorder](/images/configure/admin-reorder.png)
 
 ## Frontend Reorder
 
@@ -4473,7 +4487,7 @@ To configure, go to the Admin Panel and navigate to **Configure >> Products**.
 
 Here, you can manage **Related Products** and **Up-Sell Products** that will be visible on the storefront.
 
-![Page Configuration](/images/configure/pageConfiguration.png)
+![Page Configuration](/images/configure/page-configuration.png)
 
 After configuring, click the **Save Configuration** button.
 
@@ -4542,7 +4556,7 @@ Social Share allows customers to share products or content from your website on 
 
 To configure, go to the Admin Panel and navigate to **Configure >> Products >> Social Share**.
 
-![Social Share Configuration](/images/configure/socialShare.png)
+![Social Share Configuration](/images/configure/social-share.png)
 
 After configuring, click the **Save Configuration** button.
 
@@ -4550,7 +4564,7 @@ After configuring, click the **Save Configuration** button.
 
 All the icons enabled from the Admin Panel will appear on the storefront as shown below.
 
-![Social Share Frontend Output](/images/configure/socialOutput.png)
+![Social Share Frontend Output](/images/configure/social-output.png)
 
 # Taxes
 
@@ -4583,12 +4597,12 @@ You can select how taxes are included in product pricing:
 **A) Excluding Tax**  
 No taxes are included in the product price.  
 
-![Exclude Tax](/images/configure/excludeTax.png)
+![Product Pricing](/images/configure/exclude-tax.png)
 
 **B) Including Tax**  
 Taxes are already included in the product price.  
 
-![Include Tax](/images/configure/includeTax.png)
+![Product Pricing](/images/configure/include-tax.png)
 
 **C) Default Destination Calculation**  
 Select **Country, State & Pin Code** to automatically determine the shipping/delivery address.  
@@ -4601,17 +4615,17 @@ Controls how taxes are displayed in the shopping cart.
 **A) Excluding Tax**  
 Taxes shown separately.  
 
-![Exclude Tax](/images/configure/excludeTax.png)
+![Shopping Cart Display Settings](/images/configure/exclude-tax.png)
 
 **B) Including Tax**  
 Taxes included in total.  
 
-![Include Tax](/images/configure/includeTax.png)
+![Shopping Cart Display Settings](/images/configure/include-tax.png)
 
 **C) Excluding and Including Both**  
 Shows both excluded and included tax amounts.  
 
-![Include & Exclude Both](/images/configure/includeexcludeBoth.png)
+![Include & Exclude Both](/images/configure/includeexclude-both.png)
 
 # Weight Unit
 
@@ -4633,13 +4647,13 @@ Free shipping is a method where the cost of shipping is waived, and the seller c
 
 Flat rate shipping is a method where a fixed fee is charged for shipping, regardless of weight, size, or distance of the package. This simplifies shipping costs and benefits both buyers and sellers.
 
-![Shipping Methods Configuration](/images/configure/shippingMethods.png)
+![Shipping Methods Configuration](/images/configure/shipping-methods.png)
 
 After making changes, click on the **Save Configuration** button.
 
 ### Shipping Method Frontend
 
-![Shipping Methods Frontend View](/images/configure/shippingOutput.png)
+![Shipping Methods Frontend View](/images/configure/shipping-output.png)
 
 # Payment Methods
 
@@ -4729,13 +4743,13 @@ A payment method where customers pay in cash upon receiving goods or services at
 
 Transfer of funds from one person or account to another, often electronically, for transactions or remittances.
 
-![Money Transfer](/images/configure/moneyTransfer.png)
+![Money Transfer](/images/configure/money-transfer.png)
 
 ### PayPal Standard
 
 A basic PayPal payment option for online businesses, allowing customers to pay using PayPal accounts or credit/debit cards.
 
-![Paypal Standard](/images/configure/paypalStandard.png)
+![Paypal Standard](/images/configure/paypal-standard.png)
 
 After configuring, click the **Save Configuration** button.
 
@@ -4744,1780 +4758,6 @@ After configuring, click the **Save Configuration** button.
 This is how the payment methods will appear on the storefront during checkout.
 
 ![Payment Methods Frontend](/images/configure/payment-method.png)
-
-# Multi Vendor Marketplace 
-
-[Multi Vendor Marketplace](https://bagisto.com/en/laravel-multi-vendor-marketplace/) transforms a standard store into a complete marketplace, allowing the admin to manage sellers, commissions, product approvals, and order handling, while giving vendors a dedicated dashboard to manage their catalog, orders, and transactions. 
-
-### Vendor Management
-
-Managing multiple vendors is important for any online marketplace. It helps the platform owner (admin) keep track of all the vendors (sellers), their products, orders, and earnings in an easy and organized manner.
-
-In the Multi Vendor Marketplace, this system is made to be user friendly for vendors and very effective for admins.
-
-### Dealership Management
-
-The Dealer Management system allows dealers to sell products that are already available in the marketplace, added by the Admin.
-
-Instead of creating a new listing from scratch, dealers can use existing products added by the Admin, customize their price, quantity, product condition, and add a new description.
-
-This feature helps dealers save time by reusing existing product listings and maintaining consistent product information across the marketplace.
-
-### Orders management 
-
-Order management in a Multi Vendor Marketplace helps sellers and admins track, manage, and fulfill customer orders with ease. 
-
-From the moment a buyer places an order to shipping and delivery, everything is handled in one place.
- 
-It ensures smooth processing, timely updates, and better coordination between vendors and buyers for a hassle free shopping experience.
-
-### Commission Management
-
-The Marketplace Commission Management system in Bagisto lets platform owners (admins) set and manage commission rates for sellers in a flexible and clear way.
-
-This system helps the marketplace earn steady income, and it also gives admins the ability to give special commission rates to sellers as rewards or incentives when necessary.
-
-### Product Management
-
-In Multi Vendor Marketplace, Product management is designed to give sellers complete control over their online store. It allows sellers to easily add new products, set prices, upload images, and update stock.
-
-With easy to use tools, sellers can quickly edit or update products whenever needed, making sure their listings stay accurate and attractive. 
-
-### Quick Create Product
-
-Quick Create lets sellers add a ready-to-edit product in a single click from the seller header, pre-filled from their saved defaults (product type, attribute family, and attribute values) configured under **Settings → Quick Create**. The product opens directly on the edit page, saving sellers from repeating the full create form for similar listings.
-
-### Product Barcode
-
-Admins and sellers can generate, view, print, and download scannable barcodes (Code 128, EAN-13, UPC-A, and QR Code) for products. Barcodes can be auto-generated on product save and, when enabled, displayed to customers on the storefront product page.
-
-### Rating Management
-
-Ratings and reviews build trust in an online marketplace, guide customer purchases, and help sellers improve their service.
-
-In a Laravel Multi Vendor Marketplace, Rating Management allows buyers to leave star ratings and detailed feedback on both products and sellers after completing a purchase.
-
-### Payment Management 
-
-Payment management in a Multi-Vendor Marketplace helps both sellers and admins handle finances with ease and clarity. Sellers can quickly check their earnings, see payment details for orders, and request payouts without hassle. 
-
-Admins can easily track all payments, manage commissions, and make sure settlements are secure and on time.
-
-### More Marketplace Capabilities
-
-Beyond the core areas above, the Multi Vendor Marketplace also includes:
-
-- **Inventory Source Management** — sellers define multiple stock locations (warehouses/stores) and track per-source quantities.
-
-- **Booking Management** — sellers manage reservations for booking-type products in list and calendar views.
-
-- **Seller Users & Roles** — sellers add team members and control their access with custom permission roles.
-
-- **Seller Reporting** — sales, products, and customers reports with date filters and export.
-
-- **Customer Management** — sellers view the customers who have ordered from their store, with order and revenue insights.
-
-- **Seller & Product Flagging** — customers can report sellers or products, with an admin red-flag warning system.
-
-- **Featured Sellers** — admins highlight top sellers on the storefront based on orders, products, or ratings.
-
-- **Seller Subscription (Plans)** — sellers subscribe to plans that gate product/staff limits, allowed product types, and permissions.
-
-- **Communication** — direct seller ↔ customer messaging.
-
-- **Mass Payout** — admins pay multiple sellers at once.
-
-- **Seller Attributes & Bulk Upload** — custom seller profile fields and CSV/XLSX catalog import.
-
-- **Return Merchandise Authorization (RMA)** — seller-scoped returns layered on Bagisto core's RMA/Returns module.
-
-![Super Admin Login](/images/multi-vendor-marketplace/multi-vendor-marketplace.webp)
-
-# Vendor Management
-
-Managing multiple vendors is important for any online marketplace. It helps the platform owner (admin) keep track of all the vendors (sellers), their products, orders, and earnings in an easy and organized manner.
-
-In the Laravel Multi Vendor Marketplace, this system is made to be user-friendly for vendors and very effective for admins.
-
-![Marketplace Homepage](/images/multi-vendor-marketplace/homepage.png)
-
----
-
-### Seller Login Button
-
-To access the seller dashboard, a vendor first needs to click the **"Seller Login"** button on the top right of the marketplace home page.
-
-![Seller Login Button](/images/multi-vendor-marketplace/Seller-login.png)
-
-Once you log in using your approved seller account, you’ll get access to your seller dashboard where you can easily manage products, view orders, track sales, and update store details.
-
----
-
-### Seller Dashboard Overview
-
-Once signed in, sellers land on the **Dashboard** tab, which gives a clear and quick overview of how their store is performing in real time.
-
-**Key Highlights:**
-
- **1) Overall Details:** View total sales and keep an eye on revenue growth with simple charts and figures.
-
- **2) Top Selling Products:** Instantly see which products are selling the most to plan stock or promotions.
-
- **3) Total Sales:** Know your exact earnings from all completed customer purchases, including trends over time.
-
-This dashboard helps sellers stay updated, make informed decisions, and grow their business more efficiently.
-
-### Seller Panel Navigation
-
-The seller panel has been redesigned with a cleaner, grouped sidebar and full **dark-mode** support across forms, the rich-text editor, and headers. Menu items are organised under logical parent groups:
-
-- **Profile** — Manage Profile, Seller Reviews.
-- **Product Catalog** — Products, Product Reviews, Data Transfer, Inventory Sources, Product Barcode.
-- **Sales** — Orders, RMA, Bookings, Transactions.
-- **Settings** — General, Users, Roles, Quick Create.
-
-Additional sections such as **Plans**, **Communication**, and **Reporting** remain available in the sidebar. (Earlier flat menu items like *Products* and *Orders* now live inside the **Product Catalog** and **Sales** groups respectively, and the standalone *Extensions* board has been removed.)
-
-### Manage Profile
-
-The **Manage Profile** section is the first step in creating your store’s identity. Here, vendors can add basic details like **Store Name, Logo, and Contact Info**.
-
-![Dashboard Manage Profile](/images/multi-vendor-marketplace/dashboard-manage-profile.png)
-
-A complete profile builds trust with customers and makes your shop look professional.
-
-Go to **Manage Profile >> Edit Profile** button and see the seller’s details.
-
-![Edit Profile](/images/multi-vendor-marketplace/edit-profile.png)
-
-This section is very useful for shop branding, as it provides customers with important information about your store.
-
-Below are the fields you’ll find in the Profile section:
-
- **1) Upload a banner image** to display on your storefront.
-
- **2) Add your store logo** to create brand identity.
-
-![Banner and Logo](/images/multi-vendor-marketplace/banner-logo.png)
-
-These visual elements help attract customers and make your store stand out on the platform.
-
-### Store Details
-
-Enter your store details to complete your profile. These details help customers recognize and contact your shop easily.
-
-**Here’s what you need to fill in:**
-
- **1) Shop Title:** The name of your store shown to customers.
-
- **2) Shop Slug:** A unique URL link for your shop (e.g., yourstore-name).
-
- **3) Name:** The store owner's full name.
-
- **4) Email:** Contact email for customer queries or support.
-
- **5) Phone Number:** A valid number for direct communication.
-
-### Store Address Details
-
-Enter your store address details to show your shop’s physical location. This adds credibility and helps with shipping and customer trust.
-
-**Here’s what to fill in:**
-
-- **Address:** Full street address of your store.
-
-- **Postcode:** Area ZIP or postal code. 
-
-- **City:** The city where your store is located. 
-
-- **State:** The state or region of your shop.
-
-- **Country:** The country where your business operates.
-
-![Store Address](/images/multi-vendor-marketplace/store-address.png)
-
-Make sure the details are correct, as they may be used for shipping, invoices, or customer communication.
-
----
-
-### About Store
-
-In this section, you can write a short description about your shop. Tell customers what your store is about, what types of products you sell, and any special features or services you offer.
-
----
-
-### Social Links
-
-In this section, you can add links to your shop’s social media pages such as Facebook, Twitter, Pinterest, and LinkedIn.
-
-![Social Links](/images/multi-vendor-marketplace/aboutstore-sociallinkt.png)
-
-Sharing your social links helps customers follow your brand, stay updated on new products or offers, and build stronger connections with your store.
-
----
-
-### Minimum Order Amount
-
-This setting lets you define the minimum purchase value a customer must meet before placing an order from your store.
-
-Simply set the amount that best fits your business needs.
-
-**It’s useful for:**
-
-- **Avoiding very small, unprofitable orders.**
-
-- **Encouraging customers to buy more.**
-
-- **Managing logistics and shipping more efficiently.**
-
----
-
-### Google Analytics
-
-This field lets you connect your store with Google Analytics by adding your unique tracking ID (e.g., UA-XXXXXXXXX-X or G-XXXXXXXXXX).
-
-Just paste your Google Analytics ID to start collecting insights.
-
-**It helps you:**
-
-- **Track how many people visit your store.**
-
-- **Understand customer behavior and popular pages.**
-
-- **Make better multi-vendor marketplace and sales decisions.**
-
----
-
-### Meta Description
-
-To boost your shop’s visibility on search engines, you can fill out SEO fields like Meta Title, Meta Keywords, and Meta Description. These fields play a key role in how your store appears in Google and other search results.
-
-- **Meta Title:** The title that appears in search engine results. 
-
-- **Meta Keywords:** Relevant keywords that describe your shop.
-
-- **Meta Description:** A short summary that tells what your shop offers.
-
-![Meta Description](/images/multi-vendor-marketplace/Meta-desc.png)
-
-Adding strong SEO content helps more customers discover your shop and increases your chances of getting organic traffic.
-
----
-
-### Policies
-
-To ensure a clear and trustworthy shopping experience, you can add important policies such as Privacy Policy, Shipping Policy, and Return Policy.
-
-- **Privacy Policy:** Tell users how their personal information is collected, stored, and protected.
-
-- **Shipping Policy:** Explain delivery times, shipping charges, and how orders are handled.
-
-- **Return Policy:** Let customers know how they can return or exchange products, including conditions and timeframes.
-
-![Privacy Policy](/images/multi-vendor-marketplace/privacy-policy.png)
-
-![Return Policy](/images/multi-vendor-marketplace/return-policy.png)
-
-Adding these policies builds trust with customers, reduces disputes, and shows that your store is reliable and transparent.
-
----
-
-### Save Profile
-
-After filling in all the required details, simply click on the **“Save Profile”** button. This will update your store information and make it visible on the frontend.
-
-![Save Profile](/images/multi-vendor-marketplace/Save.png)
-
-After saving your profile, look for the **“Visit Shop”** icon in the top right corner and click on it.
-
-![Visit Shop](/images/multi-vendor-marketplace/visit-page.png)
-
-This will take you to your live storefront, where you can see how your shop looks to customers.
-
----
-
-### Store Frontend View
-
-![Store Frontend View 1](/images/multi-vendor-marketplace/frontend3.png)
-
-![Store Frontend View 2](/images/multi-vendor-marketplace/frontend2.png)
-
-# Dealership Management
-
-The Dealership Management system lets marketplace sellers add products that already exist in the store catalog, created by the admin. 
-
-Instead of building every product from scratch, dealers can simply pick items from the master catalog and publish them with their own price, stock, and details.
-
-This makes listing faster, keeps product information consistent, and reduces the effort needed to start selling.
-
-Dealers can also assign product from master catalog, making it simple to list products that already exist in the marketplace system.
-
-### Vendor Listing from Central Catalog
-
-The Vendor Listing feature lets customers view all sellers in one place.
-
-![Global Commission Configuration](/images/multi-vendor-marketplace/1.1marketplace.png)
-
-Each vendor is shown with important details like the store name, logo, address, ratings, and number of reviews. 
-
-This makes it easier for buyers to find and explore different sellers in the marketplace.
-
-![Global Commission Configuration](/images/multi-vendor-marketplace/2-vendor-listing-from-catlog.png)
-
-Customers can click on any vendor to open their store page, where they can view all products, read reviews, and check the complete seller information.
-
-![Global Commission Configuration](/images/multi-vendor-marketplace/3-vendor-profile-page.png)
-
-This helps build trust and gives vendors more visibility to attract buyers and increase sales.
-
-### Add Product from Marketplace Catalog
-
-From the seller dashboard, go to **Product Catalog → Products** and click on it to open the product page.
-
-![Global Commission Configuration](/images/multi-vendor-marketplace/4-seller-dashboards.png)
-
-Click on the Add New Product button at the top right corner to begin adding a new product to your store.
-
-![Global Commission Configuration](/images/multi-vendor-marketplace/5-product-page.png)
-
-On the Search Products page, dealers can assign a product from the Master Catalog by searching for items already available.
-
-![Global Commission Configuration](/images/multi-vendor-marketplace/6-search-product.png)
-
-Type the product name in the search bar to locate it in the marketplace catalog.
-
-![Global Commission Configuration](/images/multi-vendor-marketplace/7-sell-as-your-product.png)
-
-The system shows matching products in the search results. Dealers can select a product and sell on existing listing by using their own price and stock quantity.
-
-Click on **‘Sell As Yours’** to create your personalized version of the existing product
-
-### List Existing Catalog Product
-
-The platform also supports the list existing catalog product feature, which allows sellers to quickly add products from the global catalog without recreating product information.
-
-This helps dealers save time and ensures product data stays consistent across the marketplace.
-
-#### Product Attributes
-
-Enter all the required details for your personalized version of the existing product.
-
-**1) Condition:** Specify the condition of the product (New, Old).
-
-**2) Price:** Enter the selling price you want to offer for this product.
-
-**3) Quantities:** Add the available quantity of the product in inventory.
-
-**4) Description:** Provide a brief description of the product.
-
-**5) Images:** Upload product images to showcase the item.
-
-**6) Video:** Optionally, add a video to give customers a better view of the product.
-
-![Global Commission Configuration](/images/multi-vendor-marketplace/8-product-updated-by-dealler.png)
-
-Click **Save** to add the product to your store. Initially, it will be marked as **Disapproved**.
-
-![Global Commission Configuration](/images/multi-vendor-marketplace/9-product-disapprove-states.png)
-
-**Note: Once the admin reviews and approves it, the status will change to Approved, and only then will the product be visible on the store frontend.**
-
-### Admin Panel: Manage Dealers Product
-
-From the Admin Dashboard, admins can approve or disapprove dealer added products. Only approved items appear on the storefront.
-
-This ensures master catalog products stay consistent across all dealer listings.
-
-Go to **Marketplace >> Products** to view and manage all your products from the seller dashboard.
-
-![Global Commission Configuration](/images/multi-vendor-marketplace/10-admin-product-page.png)
-
-To approve a product, follow these steps:
-
-1) Check the product checkbox for the item want to approve.
-
-2) Go to the Select Action dropdown.
-
-3) Click on Update Status.
-
-4) Select Approved to approve the product.
-
-![Global Commission Configuration](/images/multi-vendor-marketplace/11-select-action.png)
-
-Once the product is approved, it will show as Approved on the Vendor Product page and under vendor listing, and will also become visible on the storefront for customers.
-
-![Global Commission Configuration](/images/multi-vendor-marketplace/12-admin-approved-states.png)
-
-### Product Preview – Dealership Side
-
-After approval, changes reflect on the dealer side, including any products added through the dealer from the central catalog.
-
-![Global Commission Configuration](/images/multi-vendor-marketplace/13-seller-side-preview.png)
-
-### Store view
-
-The approved product appears on the storefront for customers to browse and purchase.
-
-![Global Commission Configuration](/images/multi-vendor-marketplace/14-store-frontend-view.png)
-
-Customers can also click “1 more seller selling this product” to view other dealers offering the same item, making comparisons and purchases easier and helping dealers sell on existing listings more effectively.
-
-![Global Commission Configuration](/images/multi-vendor-marketplace/15-storefrontend-part-two.png)
-
-# Product Management
-
-In Multi Vendor Marketplace, Product management is designed to give sellers complete control over their online store. It allows sellers to easily add new products, set prices, upload images, and update stock.
-
-With easy-to-use tools, sellers can quickly edit or update products whenever needed, ensuring their listings stay accurate and attractive. Whether it’s managing a single item or hundreds of products, Multi Vendor Marketplace makes the process smooth and stress-free, so sellers can focus more on growing sales and keeping customers happy.
-
-### Seller Dashboard: Product Management
-
-Product management is simple; sellers can add products, set details like price and stock, upload images, and quickly make them available in the marketplace.
-
-From the seller dashboard, go to **Product Catalog → Products** and click on it to open the product page.
-
-> **Note:** The seller navigation is now organised into grouped menus — **Profile**, **Product Catalog**, **Sales**, and **Settings**. Product screens (Products, Product Reviews, Data Transfer, Inventory Sources, Product Barcode) live under **Product Catalog**.
-
-![Seller Dashboard](/images/multi-vendor-marketplace/1-seller-dashboard.png)
-
-### Seller Products
-
-![Product Page](/images/multi-vendor-marketplace/2-product-page.png)
-
-Click on the **Add New Product** button at the top right corner to begin adding a new product to your store.
-
-You can add a product in two ways:
-
-- **Add New Product:** Add a completely new product with your own details.
-
-- **Add Existing Product:** Choose from existing products added by the admin.
-
-> **Tip — Quick Create:** Sellers can also create a ready-to-edit product in a single click using the **Quick Create** button in the seller header. The product is pre-filled from the seller's saved defaults (type, attribute family, and attribute values) configured under **Settings → Quick Create**, then opens directly on the product edit page. See **Quick Create Product**.
-
-![Product Creation](/images/multi-vendor-marketplace/3-product-creation.png)
-
-### Add New Product
-
-To create a new product, fill in the basic details:
-
-- **Product Type:** Select the type of product you want to add.
-
-- **Attribute Family:** Choose the attribute set that defines product features.
-
-- **SKU:** Enter a unique product code for easy identification.
-
-Click on the **Continue** button to proceed further. These fields help define the structure and unique identity of your product in the store.
-
-![Create New Product](/images/multi-vendor-marketplace/4-create-new-product.png)
-
-#### General Attribute
-
-In the **General Attributes** section, you need to enter the following details:
-
-- **SKU:** A unique code to identify the product.
-
-- **Product Number:** Internal reference or product ID.
-
-- **Name:** The product’s display name shown to customers.
-
-- **URL Key:** SEO-friendly URL for the product page.
-
-- **Tax Category:** Select the tax rules that apply to the product.
-
-![General Attribute](/images/multi-vendor-marketplace/5-general-arrtibute.png)
-
-#### Description
-
-Below is the list of fields you need to fill under the **Description** section:
-
-- **Short Description:** Enter a brief summary highlighting the key features of the product.
-
-![Short Description](/images/multi-vendor-marketplace/6-Short-description.png)
-
-- **Description:** Provide a detailed explanation of the product, covering all important details to help customers understand it better.
-
-![Description](/images/multi-vendor-marketplace/7-description.png)
-
-#### Meta Description
-
-Below is the list of fields you need to fill under the **Meta Description** section:
-
-- **Meta Title:** Provide the main title of the product by which your product will be known.
-
-- **Meta Keyword:** Add specific keywords to improve the product’s visibility on search engines.
-
-- **Meta Description:** Enter a short description so the product can easily appear in search engine listings.
-
-![Meta Description](/images/multi-vendor-marketplace/8-meta-description.png)
-
-#### Images
-
-To add product images, click on **Add Images**. You can upload multiple images to showcase your product from different angles, helping customers get a better view before making a purchase.
-
-![Product Images](/images/multi-vendor-marketplace/9-Img.png)
-
-#### Customizable Item
-
-A customizable item is a feature, component, or service that can be tailored to meet specific user needs, ensuring a personalized experience.
-
-Below is the list of fields you need to provide under the **Customizable Item** section to allow product personalization:
-
-- **Title:** Provide the title of the customization by which it will be known in the product.
-
-- **Type:** Select the type of customization input you want to offer customers.
-
-**Customization Data Types:**
-
-- **Text:** Allows users to enter a short text, such as a name or message.
-
-- **Textarea:** Provides a larger box for longer messages or instructions.
-
-- **Checkbox:** Customers can select multiple options from a list.
-
-- **Radio:** Customers can select only one option from multiple choices.
-
-- **Select:** A dropdown list with multiple choices but only one selection.
-
-- **Multi Select:** A dropdown list where multiple options can be selected.
-
-- **Date:** Customers can choose a specific date.
-
-- **DateTime:** Customers can choose both date and time together.
-
-- **Time:** Customers can select only a time value.
-
-- **File:** Allows users to upload an image, logo, or other files for personalization.
-
-![Customizable Item](/images/multi-vendor-marketplace/10-customization-item.png)
-
-#### Price
-
-In this section, you need to set the pricing details of your product:
-
-- **Price:** Enter the regular selling price of the product.
-
-- **Cost:** Add the actual cost of the product (used for profit tracking).
-
-- **Special Price:** Provide a discounted price for the product.
-
-- **Special Price Date:** Set the start and end date during which the special price will be visible on the website.
-
-![Price](/images/multi-vendor-marketplace/11-price.png)
-
-#### Shipping
-
-In this section, you need to provide the product’s physical details for accurate shipping calculations:
-
-- **Width:** Enter the width of the product.
-
-- **Height:** Enter the height of the product.
-
-- **Length:** Enter the length of the product.
-
-- **Weight:** Enter the weight of the product for shipping cost calculation.
-
-![Shipping](/images/multi-vendor-marketplace/12-shipping.png)
-
-#### Settings
-
-- **New:** Enable the toggle button to feature the product as a New Product. It will then appear under the New Products section.
-
-- **Featured:** Enable the toggle button to display the product in the Featured Products section.
-
-- **Visible Individually:** Enable the toggle button so the product will be visible individually on the storefront.
-
-- **Status:** Enable the toggle button to activate the product and make it available in your eCommerce store.
-
-- **Guest Checkout:** Enable the toggle button to allow guest customers (without login) to purchase the product.
-
-![Settings](/images/multi-vendor-marketplace/13-setting.png)
-
-#### Inventories
-
-In this section, enter the quantity of the product available in your inventory. By default, the quantity is set to 0, which means the product will appear as **Out of Stock** on the storefront.
-
-#### Category
-
-In this section, assign the product to one or more categories available in your store. Categories help organize products and make it easier for customers to browse and find them on the storefront.
-
-You can select multiple categories to ensure better visibility of your product.
-
-![Inventory and Category](/images/multi-vendor-marketplace/14-inventory-and-category.png)
-
-#### Barcode
-
-The **Barcode** section lets you attach a scannable barcode to the product. It contains three fields:
-
-- **Barcode Type:** Choose the symbology used to generate the barcode — **Code 128**, **EAN-13**, **UPC-A**, or **QR Code**.
-
-- **Barcode Value:** The value encoded in the barcode (for example a product code, or the value used for the QR code). This value is unique per product. If left empty, the product **SKU** is used.
-
-- **Barcode:** The generated barcode image. It is **read-only and generated automatically** every time you save the product — you do not upload it manually. The image refreshes whenever the barcode value (or SKU) changes.
-
-![Product Barcode Section](/images/multi-vendor-marketplace/barcode-attribute-group.png)
-
-**Note:** The Barcode section appears on every product because the barcode attributes are added to all attribute families. You can later view, print, and download product barcodes from **Product Catalog → Product Barcodes**.
-
-#### Save Product
-
-Click on the **Save Product** button. This will add the product to your store, but initially, it will be in a **Disapproved** state.
-
-![Product Disapproved State](/images/multi-vendor-marketplace/15-product-disapproved-state.png)
-
-**Note:** Once the admin reviews and approves it, the status will change to **Approved**, and only then will the product be visible on the store frontend.
-
-### Admin Dashboard
-
-From the Admin Dashboard, the admin has the authority to approve or disapprove products created by sellers. Only approved products will appear on the storefront.
-
-Go to **Marketplace >> Products** to view and manage all your products from the seller dashboard.
-
-![Admin Product Page](/images/multi-vendor-marketplace/16-admin-product-page.png)
-
-To approve a product, follow these steps:
-
-1. Check the **product checkbox** for the item you want to approve.
-
-2. Go to the **Select Action** dropdown. 
-
-3. Click on **Update Status**.
-
-4. Select **Approved** to approve the product.
-
-![Admin Update Status](/images/multi-vendor-marketplace/17-admin-update-status.png)
-
-**Note:** Once the product is approved, it will show as **Approved** on the seller’s dashboard and will also become visible on the storefront for customers.
-
-### Store Frontend
-
-![Product Frontend View](/images/multi-vendor-marketplace/20-product-frontend-view.png)
-
-### Add Existing Product
-
-This feature allows sellers to quickly sell items that are already listed in the marketplace. Instead of creating a new product, sellers can add their own version with different pricing, stock, and details.
-
-Go to the **Search Bar** and enter the product name to find the existing product in the marketplace.
-
-![Search Product](/images/multi-vendor-marketplace/21-search-product.png)
-
-The matching product will appear in the results, allowing you to select it and list it under your store with different prices and stock.
-
-Click on **Sell As Yours** to create your own version of the existing product.
-
-#### Product Details
-
-In this section, set all the necessary information for your version of the existing product:
-
-- **Condition:** Specify the condition of the product (New, Old).
-
-- **Price:** Enter the selling price you want to offer for this product.
-
-- **Stock:** Add the available quantity of the product in inventory.
-
-- **Description:** Provide a brief description of the product.
-
-- **Images:** Upload product images to showcase the item.
-
-- **Video:** Optionally, add a video to give customers a better view of the product.
-
-![Assign Product Details](/images/multi-vendor-marketplace/22-assign-produt-details.png)
-
-Click on the **Save** button at the top right corner to add the product to your store, but initially, it will be in a **Disapproved** state.
-
-![Assign Product Disapproved](/images/multi-vendor-marketplace/23-assign-product-disapproved.png)
-
-**Note:** Once the admin reviews and approves it, the status will change to **Approved**, and only then will the product be visible on the store frontend.
-
-### Store Frontend
-
-![Assign Product Store Frontend](/images/multi-vendor-marketplace/28-assign-product-store-frontend.png)
-
-# Quick Create Product
-
-Quick Create lets sellers add a ready-to-edit product in a single click, without filling in the full create form every time. The new product is pre-filled from the seller's saved defaults (and sensible fallback values) and opens directly on the product edit page, where the seller can fine-tune the remaining details and save.
-
-This is ideal for sellers who list many similar products and want to skip the repetitive type/family/attribute selection on every creation.
-
-### Configure Quick Create Defaults
-
-Before using the one-click button, sellers set up their defaults from **Settings → Quick Create** in the seller panel.
-
-![Quick Create Settings](/images/multi-vendor-marketplace/quick-create-settings.png)
-
-On this page, sellers configure:
-
-- **Product Type:** The default type used for quick-created products (for example, Simple).
-
-- **Attribute Family:** The attribute family that defines the product's structure.
-
-- **Attribute Values:** Default values for the family's attributes (channel and locale aware), such as tax category, weight, or any custom attribute. These values pre-fill every quick-created product.
-
-After setting the defaults, click **Save** to store them. The settings are saved per seller, so each seller maintains their own Quick Create profile.
-
-### Create a Product in One Click
-
-Once defaults are configured, a **Quick Create** button appears in the seller header.
-
-![Quick Create Header Button](/images/multi-vendor-marketplace/quick-create-button.png)
-
-1. Click **Quick Create** in the header.
-
-2. The marketplace instantly creates a product using your saved type, attribute family, and attribute values.
-
-3. You are redirected straight to the **product edit page**, where you can adjust the name, price, images, inventory, categories, and any other details.
-
-4. Click **Save Product** to finalise. As with any seller product, it remains in a **Disapproved** state until the admin reviews and approves it.
-
-> **Availability:** The Quick Create button is shown only when the **Seller can create product** configuration is enabled and the seller holds the **product create** permission (`Product Catalog → Products → Create`). Sellers without that permission will not see the button.
-
-> **Note:** Quick Create complements the standard **Add New Product** and **Add Existing Product** flows — it does not replace them. Use Quick Create for speed, and the full form when you need to configure everything up front.
-
-# Product Barcode
-
-The Product Barcode feature lets admins and sellers generate, view, print, and download scannable barcodes for products. Barcodes make in-store lookup, inventory checks, and order packing faster, and they can optionally be shown to customers on the product page.
-
-Four symbologies are supported:
-
-- **Code 128**
-- **EAN-13**
-- **UPC-A**
-- **QR Code** (can encode the product SKU, name, and URL for quick scanning)
-
-The feature is fully opt-in — existing products are unaffected until a barcode is generated for them.
-
-### Admin Configuration
-
-The admin sets the global barcode behaviour from **Settings → Configuration → Marketplace → Settings → Barcode**.
-
-- **Default Type:** The symbology used when barcodes are auto-generated (Code 128, EAN-13, UPC-A, or QR Code).
-
-- **Show on Shop:** When enabled, the barcode image is rendered on the storefront product page (after the short description).
-
-![Barcode Configuration](/images/multi-vendor-marketplace/barcode-configuration.png)
-
-### Barcode Product Attributes
-
-Three product attributes power the feature and are grouped under a **Barcode** group in every attribute family:
-
-| Attribute       | Type   | Description                                              |
-|-----------------|--------|---------------------------------------------------------|
-| `barcode_type`  | Select | Symbology: Code 128, EAN-13, UPC-A, or QR Code          |
-| `barcode_value` | Text   | The scannable value (e.g. product code, or URL for QR)  |
-| `barcode_image` | Image  | The generated barcode image (created automatically)     |
-
-A product receives a barcode image once its `barcode_type` and `barcode_value` are set, or automatically when the auto-generation runs on product save.
-
-### Auto-Generation
-
-Barcodes are generated automatically:
-
-- When a product is **created**.
-- When a product is **updated** (the image refreshes).
-- Generated files are **cleaned up** when the product is deleted.
-
-Auto-generation respects the admin's **Default Type**. To skip a product, leave `barcode_type` and `barcode_value` empty — no image is produced.
-
-### Admin — Product Barcode
-
-A **Product Barcode** entry is available under the admin **Catalog** menu. From this DataGrid the admin can:
-
-- Browse all products and their barcodes.
-- **Mass-generate** barcodes for selected products.
-- **Print** barcodes.
-- **Download** barcodes as a PDF.
-
-Access is controlled by three admin permissions: **Product Barcode** (view), **Generate**, and **Download**.
-
-![Admin Product Barcode DataGrid](/images/multi-vendor-marketplace/admin-product-barcode.png)
-
-### Seller — Product Barcode
-
-Sellers get a **Product Barcode** entry under **Product Catalog** in the seller panel. From their DataGrid, sellers can browse, mass-generate, print, and download barcodes for **their own** products.
-
-Access is controlled by three seller permissions: **Product Barcode** (view), **Generate**, and **Download**.
-
-![Seller Product Barcode DataGrid](/images/multi-vendor-marketplace/seller-product-barcode.png)
-
-### Storefront Display
-
-When **Show on Shop** is enabled in the admin configuration, the product's barcode image is displayed on the storefront product detail page, just after the short description, so customers can scan it directly.
-
-![Barcode on Storefront Product Page](/images/multi-vendor-marketplace/barcode-storefront.png)
-
-### Bulk Generation Command
-
-Admins can also generate barcodes in bulk from the command line:
-
-```bash
-php artisan marketplace:barcodes:generate           # generate for products missing a barcode
-php artisan marketplace:barcodes:generate --all     # regenerate for every product
-php artisan marketplace:barcodes:generate --type=qr # force a specific symbology
-```
-
-The command processes all products, including configurable variants, with a progress bar.
-
-# Inventory Source Management
-
-Inventory sources let a seller define the physical locations (warehouses, stores, or pickup points) from which their stock is held and shipped. Each product's quantity can then be tracked per source, giving sellers accurate stock control across multiple locations.
-
-### Where to find it
-
-From the seller panel, go to **Product Catalog → Inventory Sources**.
-
-The page lists all of the seller's inventory sources with their status, and provides options to create, edit, and delete sources.
-
-![Inventory Sources List](/images/multi-vendor-marketplace/inventory-sources-list.png)
-
-### Create an Inventory Source
-
-Click **Create Inventory Source** and fill in the details:
-
-- **Code:** A unique identifier for the source (used internally to map stock).
-
-- **Name:** A readable name for the location (e.g. *Main Warehouse*).
-
-- **Contact Information:** Contact name, email, and phone for the location.
-
-- **Address:** Street, country, state, city, and postcode of the source.
-
-- **Priority:** The order in which sources are considered when allocating stock.
-
-- **Status:** Enable or disable the source. Only active sources are used for inventory.
-
-![Create Inventory Source](/images/multi-vendor-marketplace/inventory-source-create.png)
-
-Click **Save** to create the source. It then becomes selectable when sellers set per-source stock quantities on the product **Inventories** section.
-
-### Edit or Delete
-
-- Use the **edit** action to update a source's details or toggle its status.
-
-- Use the **delete** action to remove a source that is no longer used.
-
-> **Note:** Inventory entered on a product's **Inventories** tab is recorded against the seller's inventory sources, so the storefront stock reflects the combined available quantity across active sources.
-
-# Order Management
-Order management in a Laravel Multi Vendor Marketplace helps sellers and admins track, manage, and fulfill customer orders with ease.
-
-From the moment a buyer places an order to shipping and delivery, everything is handled in one place.
-
-It ensures smooth processing, timely updates, and better coordination between vendors and buyers for a hassle-free shopping experience.
-
-![Homepage](/images/multi-vendor-marketplace/1homepage.png)
-
-### Orders
-Go to **Sales → Orders** and click on it. (Order, RMA, Bookings, and Transactions are now grouped under the **Sales** menu.)
-
-![Dashboard Order](/images/multi-vendor-marketplace/dashboard-order.png)
-
-The order management page will open, where you can see all customer orders in one place. You can also filter orders by date or status, track progress, and update delivery status.
-
-This helps you manage orders quickly and keep your customers happy.
-![Order Page](/images/multi-vendor-marketplace/order-page.png)
-
-Clicking the arrow icon, you will find more information on the order, along with the invoice and shipment details.
-
-After clicking on the arrow icon next to an order, the order view page will open.
-Here, you can view order details like product name, price, status, billing & shipping info, payment method, and total amount.
-
-Initially, the order item will be in the “Pending” state. This means the order has been received but not yet processed or shipped.
-
-### Invoice
-The seller can create an invoice.
-
-Click on the **"Invoice"** button in the top right corner.
-
-![Pending Status Invoice](/images/multi-vendor-marketplace/pending-status-invoice.png)
-
-A popup will appear showing invoice details like product name, quantity, price, and total amount.
-
-![Create Invoice](/images/multi-vendor-marketplace/create-invoice.png)
-
-On clicking the "Create Invoice" button, the invoice is generated automatically.
-A success message will appear on the screen, and the order status will change from Pending state to Processing state, indicating that the order is now being prepared for shipment.
-
-![Processing State](/images/multi-vendor-marketplace/processing-state.png)
-
-Once the invoice is created, you can view it under the "Invoice" tab.
-
-![Invoice](/images/multi-vendor-marketplace/invoice.png)
-
-### Shipment
-The seller can create a shipment.
-
-Click on the **"Ship"** button in the top right corner.
-
-![Ship Button](/images/multi-vendor-marketplace/Ship-button.png)
-
-A popup will appear showing shipment details like product name, quantity, Ordered Quantity, Shipped Quantity.
-
-To create the shipment, follow these steps:
-
-1) Enter the Carrier Title (e.g., FedEx, DHL, etc.)
-
-2) Enter the Tracking ID provided by the shipping service
-
-3) Select the Product Ordered Source from the dropdown
-
-4) Click on the **"Create Shipment"** button to proceed
-
-![Create Shipment](/images/multi-vendor-marketplace/create-ship.png)
-
-On clicking the **"Create Shipment"** button, the shipment is generated automatically.
-
-A success message will appear on the screen, and the order status will change from **Processing** to **Completed**, indicating that the order has been successfully shipped and fulfilled.
-
-![Order Completed](/images/multi-vendor-marketplace/complete.png)
-
-Once the Shipment is created, you can view it under the "Shipment" tab.
-![Shipment](/images/multi-vendor-marketplace/Shipment.png)
-
-### Cancelled
-The seller can cancel the order.
-
-**Note:** The seller can cancel the order only before creating the invoice or shipment.
-
-Once the invoice or shipment is generated, the order can no longer be cancelled.
-
-Click on the **"Cancel"** button in the top right corner
-
-![Cancel Button](/images/multi-vendor-marketplace/cancel-button.png)
-
-A popup will appear asking, "Are you sure?"
-
-You will be given two options:
-
-**1)** Agree to confirm the cancellation
-
-**2)** Disagree to keep the order active.
-
-Choose accordingly to proceed.
-
-![Confirmation Popup](/images/multi-vendor-marketplace/msg-popup.png)
-
-A success message will appear on the screen, and the order status will change from **"Pending"** to **"Cancelled"**, indicating that the order has been successfully cancelled and will not proceed further.
-
-![Order Cancelled](/images/multi-vendor-marketplace/cancelled.png)
-
-# Booking Management
-
-Booking management lets sellers track and manage **booking-type products** — items sold as reservations, appointments, events, rentals, or time slots. Sellers can see every booking placed against their bookable products in one place.
-
-### Where to find it
-
-From the seller panel, go to **Sales → Bookings**.
-
-The Bookings page presents the seller's bookings in two complementary views:
-
-- **List (DataGrid) view:** A searchable, filterable table of all bookings, showing the order, product, customer, booking slot/date, quantity, and status.
-
-- **Calendar view:** A calendar that plots bookings by date so the seller can see upcoming reservations at a glance and avoid scheduling conflicts.
-
-![Seller Bookings](/images/multi-vendor-marketplace/seller-bookings.png)
-
-### Managing Bookings
-
-From the list, sellers can review the details of each booking — the linked order, the customer, the reserved slot, and its current status — and proceed with fulfilment (invoice/shipment) through the standard order flow under **Sales → Orders**.
-
-> **Note:** Bookings appear here only for products created with the **Booking** product type. Configure the bookable options (slots, availability, pricing) on the product edit page when creating a booking product.
-
-# Return Merchandise Authorization (RMA)
-
-The Return Merchandise Authorization feature allows customers or guests to return products within a defined time period for a refund, replacement, or order cancellation. It provides a simple and structured return request process.
-
-In the Multi Vendor Marketplace, RMA helps sellers and administrators handle return requests effectively from one location, ensuring clear communication and transparency throughout the return workflow.
-
-> **Important — RMA is powered by Bagisto core.**
-> The RMA *engine* — the admin **RMA configuration** (channel/locale settings), **Reasons**, **Rules**, **Statuses**, **Custom Fields**, the admin **Requests** management screens, and the **customer/guest storefront** return-request flow — is now provided by **Bagisto core's RMA / Returns module**, not by the marketplace package. Please refer to the core RMA documentation for setting up reasons, rules, statuses, custom fields, and for how customers and guests raise return requests from the storefront.
->
-> The marketplace adds **seller scoping** on top of core RMA: each returned item is attributed to the seller who fulfilled it, and sellers get their own RMA management screen in the seller panel (described below).
-
-### Seller RMA Management
-
-Sellers can view all RMA requests raised by customers or guests for **their own** products from the **Sales → RMA** section of the seller panel.
-
-![Seller RMA Requests](/images/multi-vendor-marketplace/12-rma-request.webp)
-
-In this section, the seller can view each RMA request along with its RMA ID. To check the complete RMA details, the seller clicks on the view icon.
-
-![Seller RMA Request View](/images/multi-vendor-marketplace/13-seller-rma-request-view.webp)
-
-Using the **Change RMA Status** option, the seller can update the request status (for example **Pending, Declined, or Item Cancelled**). Under **Status Details**, the seller can also view the current **RMA Status** and the associated **Order Status**.
-
-![RMA View Status](/images/multi-vendor-marketplace/14-rma-view-status.webp)
-
-### RMA Status
-
-When a customer or guest creates a new RMA request, the default RMA status is set to **Pending**. After reviewing the request, the seller updates the RMA status based on the resolution type selected by the customer or guest (Refund, Cancel, or Exchange).
-
-#### Refund
-
-When the customer or guest selects **Refund** as the resolution type for a completed order, the seller can progress the request through these statuses:
-
-**1) RMA Request Accepted:** The seller approves the request and changes the status to RMA Approved.
-
-**2) Package Received:** Once the returned product is received, the status is updated to Received Package and the refund process is initiated.
-
-**3) Declined:** If the seller rejects the request, this status is selected.
-
-**4) Solved:** After the refund is successfully completed, the seller marks the request as Solved.
-
-#### Cancel Items
-
-When the customer or guest selects **Cancel** as the resolution type for a pending order, the seller can use the following statuses:
-
-**1) RMA Request Accepted:** The seller approves the request and changes the status to RMA Approved.
-
-![RMA Request Accept](/images/multi-vendor-marketplace/15-rma-request-accept.webp)
-
-**2) Declined:** If the seller rejects the cancellation request, this status is selected.
-
-**3) Item Cancelled:** Once the seller accepts the request and cancels the ordered item, this status is applied.
-
-![Item Cancel](/images/multi-vendor-marketplace/16-item-cancel.webp)
-
-After selecting **Item Cancelled** and clicking **Save Changes**, the order is cancelled automatically.
-
-![Cancelled Order](/images/multi-vendor-marketplace/17-canceled-order.webp)
-
-#### Exchange
-
-When the customer or guest selects **Exchange** as the resolution type for a pending order, the seller can update the RMA status as follows:
-
-**1) RMA Request Accepted:** The seller approves the request and changes the status to RMA Approved.
-
-**2) Package Dispatched:** When the seller ships the replacement product, this status is used.
-
-**3) Declined:** If the seller rejects the exchange request, this status is selected.
-
-**4) Solved:** After the customer or guest receives the exchanged product, the seller marks the RMA as Solved.
-
-> **Note:** The admin can review and manage the same return requests (with seller attribution) from **Bagisto core's RMA / Returns** section in the admin panel.
-
-# Payment Management
-Payment management in a Multi-Vendor Marketplace helps both sellers and admins handle finances with ease and clarity. Sellers can quickly check their earnings, see payment details for orders, and request payouts without hassle.
-
-Admins can easily track all payments, manage commissions, and make sure settlements are secure and on time.
-
-### Seller Side – Requesting Payment
-
-Sellers can request their earnings once orders are completed.
-Follow the steps below to request a payment.
-
-1) Go to **Sales → Transactions** (Payment Request). Transactions are now grouped under the **Sales** menu in the seller panel.
-
-2) Click **"Payment Request"** to send a payout request to the admin.
-
-The request is submitted and will be visible to the admin for review.
-
-![Seller Payment Request to Admin](/images/multi-vendor-marketplace/1-seller-payment-request-to-admin.png)
-
-Once the admin releases the payment, it appears in the **Seller’s Transaction** section.
-
-![Seller Transaction](/images/multi-vendor-marketplace/2-seller-transtion.png)
-
-**Note:** Payment requests start as Pending. After admin review, they move to Processing, and once paid out, the status updates to Paid.
-
-### Admin Side – Managing Payments
-
-Admins can manage seller payout requests directly from the marketplace dashboard.
-Go to the **Marketplace >> Payment Request**.
-
-On the Payment Request page, admins can see complete product and order details. They review the request and verify that the order was delivered successfully before processing the payment.
-
-After verification, the admin clicks on the **Pay Now** button to release the payment to the seller.
-
-![Admin Payment Request by Seller](/images/multi-vendor-marketplace/3-admin-payment-request-byseller.png)
-
-A popup will appear. The admin can enter a comment or note in the box and then click on Pay Now again to release the payment to the seller.
-
-![Payment Confirmation Popup](/images/multi-vendor-marketplace/4-popup.png)
-
-After payment completion, the details are stored in the **Transaction.**
-Admins can access these by going to **Marketplace >> Transactions**.
-
-![Admin Transaction](/images/multi-vendor-marketplace/5-admin-transaction.png)
-
-# Commission Management
-
-The Marketplace Commission Management system in Bagisto lets platform owners (admins) set and manage commission rates for sellers in a flexible and clear way.
-
-This system helps the marketplace earn steady income, and it also gives admins the ability to give special commission rates to sellers as rewards or incentives when necessary.
-
-There are three main parts to commission handling:
-
-**1) Admin Commission Percentage (Global Rate)**
-
-**2) Seller Commission (Custom Rate)**
-
-**3) Sales Reporting for Transparency**
-
-### Admin Commission Percentage (Global Rate)
-
-A global commission rate is a standard percentage that automatically applies to all sellers.
-
-This is the easiest and most reliable way to make money from sales since every seller on the platform pays the same rate.
-
-**Why it’s important:**
-
-1) Makes sure that all sellers are treated fairly and equally.  
-2) Simple to handle — there's no need to set up separate commissions unless it's necessary.  
-3) Supports keeping a steady income for the marketplace.  
-
-**Steps to set the global commission**
-
-1) In the Admin Panel, go to **Configure → Marketplace → Settings → General**.  
-2) Locate the **Admin Commission Percentage** field.  
-3) Enter the percentage rate you want to apply globally.  
-4) Click **Save Configuration** — the rate will now be applied automatically to all sellers.  
-
-![Global Commission Configuration](/images/multi-vendor-marketplace/configure_commission.png)
-
-**Example:**  
-If the global rate is 10%, and a seller sells something for $1,000, the admin will automatically get $100 as their commission, while the seller keeps $900.
-
----
-
-### Seller Commission (Custom Rate)
-
-At times, you might want to establish a unique commission rate for specific sellers.  
-
-This is called a custom commission rate and it can be either higher or lower than the overall rate, based on the agreement.
-
-**When to use a custom commission:**
-
-1) To motivate new sellers by offering them lower commission rates.  
-2) As a bonus for sellers who perform really well.  
-3) For unique partnership deals.  
-4) For short-term promotions or boosts during seasonal sales.  
-
-**Key feature:**
-
-1) Status Toggle can enable or disable a custom commission anytime.  
-2) When it's on, the custom commission takes the place of the global commission for that specific seller.  
-3) When disabled, the seller returns to the global rate.  
-
-**How to set a custom commission for a seller:**
-
-1) In the Admin Panel, go to: **Marketplace → Sellers**.  
-2) Find the seller you want to edit and click the **Edit** icon.  
-3) Locate the **Seller Commission** section.  
-4) Enter the desired rate and use the **Status Toggle** to turn it ON.  
-5) Save the settings — the custom rate will now apply only to that seller.  
-
-![Seller Custom Commission](/images/multi-vendor-marketplace/seller_commission.png)
-
-**Example:**  
-If the global rate is 10%, but Seller A is given a custom rate of 5%, only 5% will be deducted from Seller A’s sales, while others continue to be charged 10%.
-
----
-
-### Sales Reporting for Transparency
-
-Bagisto has a built-in sales reporting tool that allows sellers to easily track how much commission they have paid over time.  
-
-This openness helps create trust between the marketplace and sellers by making sure there are no secret fees.
-
-**Benefits of sales reporting:**
-
-1) Sellers can track their total commission paid to the admin.  
-2) Provides insights into how commissions impact overall profits.  
-3) Encourages healthy business relationships.  
-
-**Where sellers can find this report:**
-
-1) From the **Seller Dashboard**, navigate to **Reporting → Sales** and view the **Total Commission Paid** card.  
-
-![Total Commission Paid Reporting](/images/multi-vendor-marketplace/total_commission_paid_reporting.png)
-
-**Example:**  
-A seller selling $50,000 worth of goods at a 10% commission rate will see $5,000 listed in the “Total Commission Paid” section.
-
-# Mass Payout Management 
-
-The system lets admins check, approve, and release payments for several sellers at the same time, making transaction management quicker and more efficient.
-
-![Global Commission Configuration](/images/multi-vendor-marketplace/bulk-payout-by-admin.webp)
-
-# Seller Subscription Management
-
-Admins have the ability to create flexible and customizable subscription plans for sellers, allowing them to define different access levels based on specific business needs. 
-
-Through these plans, administrators can control what features, tools, and resources each seller can access on the platform. This helps ensure that sellers receive the appropriate level of functionality according to the plan they subscribe to.
-
-Additionally, admins can configure permissions and limitations within each subscription plan, such as product listing limits, marketplace features, or advanced management tools. 
-
-By structuring these plans strategically, businesses can offer tiered services, encourage sellers to upgrade for additional benefits, and maintain better control over marketplace operations while supporting scalable growth.
-
-### Steps to Use Seller Subscription Management
-
-**Step-1** Admins can easily see and handle all subscription plans from a special list page, where they can keep an eye on plan details, prices, status, and the sellers assigned to each plan, all in one central dashboard.
-
-![Global Commission Configuration](/images/multi-vendor-marketplace/1-available-subscription-plan-list.webp)
-
-**Step-2** Admins have the ability to create and change subscription plans by giving certain roles and permissions, making sure that sellers can only use the features that come with their chosen plan.
-
-![Global Commission Configuration](/images/multi-vendor-marketplace/2-subscripion-create-edit.webp)
-
-**Step-3** Sellers have the option to buy a subscription plan that gives them complete permissions and lets them use all the features they need to run and expand their store successfully.
-
-![Global Commission Configuration](/images/multi-vendor-marketplace/3-subscription-plans.webp)
-
-**Step-4** Once the seller has selected a suitable option, they simply need to click on the subscription plan they are interested in and proceed with the payment. 
-
-The payment can then be completed using the available payment methods to successfully activate the chosen plan.
-
-![Global Commission Configuration](/images/multi-vendor-marketplace/payment-method-subscription.png)
-
-**Step-5** Sellers have a special section in their panel called Subscription Plan History. This section helps them keep track of all the plans they have bought, showing details about each plan, its status, when it was activated, and when it will expire.
-
-![Global Commission Configuration](/images/multi-vendor-marketplace/5-subscription-purchases-by-admin-1.webp)
-
-**Step-6** Admins are able to see a full list of all the subscription plans that sellers have bought. 
-
-This includes details about the plans, the payment status, and how long they are valid for.
-
-![Global Commission Configuration](/images/multi-vendor-marketplace/5-seller-list-as-per-purchased-subscription.webp)
-
-**Step-7** Admins can change or stop a seller's subscription plan whenever they need to, which helps keep subscription management flexible and under control.
-
-![Global Commission Configuration](/images/multi-vendor-marketplace/6-seller-subscriptions-plan-details-acrion.webp)
-
-# Customer Management
-
-The Customers section gives sellers visibility into the buyers who have purchased from their store. It helps sellers understand who their customers are and how valuable they are, supporting better service and follow-up.
-
-### Where to find it
-
-From the seller panel, open the **Customers** menu.
-
-The page lists the seller's customers in a searchable, sortable DataGrid showing key details such as:
-
-- **Name** — the customer's name.
-- **Email** — the customer's email address.
-- **Gender** — the customer's gender (if provided).
-- **Group** — the customer group they belong to.
-- **Orders** — the number of orders the customer has placed with this seller.
-- **Revenue** — the total revenue the customer has generated for this seller.
-
-![Seller Customers](/images/multi-vendor-marketplace/seller-customers.png)
-
-### Using the list
-
-Sellers can filter and sort the list to identify their most active or highest-value customers, then use the marketplace **Communication** feature to message them directly when needed.
-
-> **Availability:** Seller access to customer details is controlled by the admin configuration **Seller → Can View Customers**. If the admin disables it, the Customers section is not available to sellers.
-
-> **Note:** Each seller sees only the customers who have ordered from their own store; customer data is always scoped to the seller.
-
-# Communications 
-
-Sellers and admins can communicate directly with each other through the admin panel, making collaboration and issue resolution more efficient. 
-
-They can exchange messages, share attachments, and manage important announcements, ensuring that both parties stay informed and can address operational concerns quickly.
-
-In addition to admin–seller communication, customers can also interact directly with sellers for product inquiries, support requests, and order-related discussions. 
-
-This direct communication channel helps improve transparency, speeds up problem resolution, and enhances the overall customer experience on the platform.
-
-### Admin - Seller Communication 
-
-Admins can talk directly to their sellers in the Laravel Multi Vendor Marketplace, as shown in the picture below.
-
-![Global Commission Configuration](/images/multi-vendor-marketplace/communications-4.webp)
-
-1) The admin can send files and organize the chat history like you can see in the picture below.
-
-![Global Commission Configuration](/images/multi-vendor-marketplace/communication-filter-3.webp)
-
-2) The Admin has the ability to block the Seller. Check out the image below for reference.
-
-![Global Commission Configuration](/images/multi-vendor-marketplace/block-seller-5.webp)
-
-Now, after the Block, the Seller can also see this in the Seller Communication section.
-
-![Global Commission Configuration](/images/multi-vendor-marketplace/seller-block-4.webp)
-
-3) The admin can also delete the chat history and leave the chat too.
-
-![Global Commission Configuration](/images/multi-vendor-marketplace/clear-chat-4.webp)
-
-4) The Admin can also use the Search Bar to look for Messages, and the text will be highlighted as needed. Check out the image below for reference.
-
-![Global Commission Configuration](/images/multi-vendor-marketplace/search-box-4.webp)
-
-### Customer - Seller Communication 
-
-1) Customer and sellers can talk to each other directly about questions on products, updates on orders, support chats, and solving problems quickly, which helps make shopping easy and clear.
-
-![Global Commission Configuration](/images/multi-vendor-marketplace/customer-to-seller-chat.webp)
-
-2) Sellers can answer customer questions right away and send media files like pictures or documents during the chat to make things clearer and improve communication.
-
-![Global Commission Configuration](/images/multi-vendor-marketplace/seller-chat-1.webp)
-
-# Rating Management
-
-Ratings and reviews build trust in an online marketplace, guide customer purchases, and help sellers improve their service.
-
-In a Laravel Multi Vendor Marketplace, **Rating Management** allows buyers to leave star ratings and detailed feedback on both products and sellers after completing a purchase. Good ratings boost credibility, while honest feedback (even if negative) guides sellers to improve.
-
----
-
-### Product Rating
-
-1. Customers can give a star rating and write feedback about the product they bought.
-2. This helps other buyers understand whether the product is of good quality and worth purchasing.
-3. Products with higher ratings usually attract more customers, as they signal trust and satisfaction.
-
----
-
-### Seller Rating
-
-1. After receiving an order, customers can rate and review the seller.
-2. This shows whether the seller is reliable, responsive, and delivers on time.
-3. Positive ratings help sellers build a strong reputation, while constructive feedback allows them to improve their service.
-
-**Note:** The Ratings and Reviews feature can only be used by signed-in customers. Guest users are not allowed to give ratings or reviews.
-
----
-
-### How Customers Can Leave a Product Review
-
-Leaving a product review is a simple way for customers to share their shopping experience and help other buyers make better decisions.
-
-On the top right corner, click the **Profile Icon**. To log in or sign up as a customer, click the **Sign In** button.
-
-![Customer Login/Sign In Button](/images/multi-vendor-marketplace/1.customer-login-signin-button.png)
-
-Enter the customer email and password in the login form, then click on the **Sign In** button to access your customer account.
-
-![Customer Email and Password](/images/multi-vendor-marketplace/2-customer-email-pwd.png)
-
-Once a customer logs in, they can browse and order the product of their choice. After completing an order, customers can easily rate the product and provide feedback through their account.
-
-Customers can visit the product page, scroll down, and click on the **Write a Review** button.
-
-![Product Review Button](/images/multi-vendor-marketplace/3-product-review.png)
-
-From here, customers can share detailed feedback about their purchase.
-
-**Customers can:**
-1. Select a star rating
-2. Add a review title
-3. Write their comments
-4. Upload a photo or video
-
-![Customer Product Review Submission](/images/multi-vendor-marketplace/4-customer-product-submit.png)
-
-Finally, clicking the **Submit Review** button will publish the review and share their experience with other shoppers.
-
-**Note:** The review will not appear on the product page until it is approved by the seller or admin.
-
----
-
-### Seller Dashboard: Managing Product Reviews
-
-Sellers can view all customer reviews from their dashboard, gaining valuable insights into product performance and buyer feedback.
-
-Go to **Product Catalog → Product Reviews**.
-
-![Seller Dashboard Product Review](/images/multi-vendor-marketplace/5-seller-dashboard-product-review.png)
-
-The product reviews page will open, where the seller can see all customer ratings and feedback in one place.
-
-![Seller Product Review Pending State](/images/multi-vendor-marketplace/6-seller-product-review-pending-state.png)
-
-To approve or disapprove a review, select the review by clicking on the checkbox and then go to the **Select Action** dropdown.
-
-From here, the seller has the option to **Approve or Disapprove** a review.
-
-![Seller Product Select Action](/images/multi-vendor-marketplace/7-seller-product-select-action.png)
-
-Approved reviews are instantly published on both the product page and the seller’s review page.
-
----
-
-### Seller’s Product Review Page
-
-![Product Review Approved State Seller](/images/multi-vendor-marketplace/8-product-review-approved-state-seller.png)
-
----
-
-### Customer Reviews (Product)
-
-![Customer Review for Product Seller](/images/multi-vendor-marketplace/9-customer-review-for-procuct-seller.png)
-
----
-
-### Admin Dashboard: Managing Product Reviews
-
-Admins oversee all customer feedback, approving or rejecting reviews to keep them genuine. Reviews can be accessed and managed via the admin dashboard.
-
-Go to the **Marketplace >> Product Reviews**.
-
-The product reviews page shows all customer ratings and feedback, along with the corresponding seller details for each review.
-
-![Admin Product Review Pending State](/images/multi-vendor-marketplace/10-admin-product-review-pending-state.png)
-
-To approve or disapprove a review, the admin selects it using the checkbox and chooses the desired action from the **Select Action** dropdown.
-
-![Admin Select Action](/images/multi-vendor-marketplace/11-admin-select-action.png)
-
-From here, the admin has the option to approve or disapprove a review.
-
----
-
-### Admin Product Reviews Page
-
-![Admin Product Approved State](/images/multi-vendor-marketplace/12-admin-product-approved-state.png)
-
----
-
-### Customer Reviews
-
-![Admin Customer Review](/images/multi-vendor-marketplace/13-admin-customer-review.png)
-
----
-
-### How Customers Can Leave a Seller Review
-
-Leaving a seller review is an easy way for customers to share their experience with the seller. Customers can leave a seller review by visiting the seller’s profile.
-
-Go to **Reviews** and click on the **Write a Review** button.
-
-![Seller Profile Review](/images/multi-vendor-marketplace/14-seller-profile-review.png)
-
-From here, customers can share detailed feedback about their experience with the seller. They can:
-1. Select a star rating
-2. Add a review title
-3. Write their comments
-
-![Seller Review Submit](/images/multi-vendor-marketplace/15-seller-review-submit.png)
-
-Clicking the **Submit** button will publish the seller review and share the customer’s experience with other buyers.
-
-**Note:** The review will not appear on the product page until it is approved by the admin.
-
----
-
-### Admin Dashboard: Managing Seller Reviews
-
-To maintain trust and support sellers, admins ensure all customer reviews are genuine. Reviews can be viewed directly from the admin dashboard.
-
-Go to the **Marketplace >> Seller Reviews**.
-
-The seller review page will open, where the admin can see all customer ratings and feedback in one place.
-
-![Admin Seller Reviews Pending Page](/images/multi-vendor-marketplace/16-admin-seller-reviews-pending-page.png)
-
-To approve or disapprove a review, the admin selects it using the checkbox and chooses the desired action from the **Select Action** dropdown.
-
-From here, the admin has the option to approve or disapprove a review.
-
-![Admin Seller Select Action](/images/multi-vendor-marketplace/17-admin-seller-select-action.png)
-
----
-
-### Admin Seller Reviews Page
-
-After this Seller Review gets updated successfully.
-
-![Admin Approved Seller Review](/images/multi-vendor-marketplace/18-admin-approved-seller-review.png)
-
----
-
-### Seller Profile Page
-
-Additionally, the review gets visible on the Seller Profile page.
-
-![Seller Profile Review Page](/images/multi-vendor-marketplace/19-Seller-profile-review-page.png)
-
-# Seller & Product Flagging (Reporting Abuse)
-
-Flagging lets customers report a seller or a product they find inappropriate, misleading, or in violation of marketplace policy. It gives the admin a moderation tool to keep the marketplace trustworthy, and an automatic warning system (the "red flag") for sellers who attract repeated complaints.
-
-## Enabling Flagging
-
-The admin controls flagging from **Settings → Configuration → Marketplace → Settings**:
-
-- **Flag Enabled** (Product & Seller settings) — turns the report/flag option on across the storefront.
-
-- **Show Red Flag** — displays a red-flag warning indicator against sellers who exceed the complaint threshold.
-
-- **Red Flag Limit** — the number of flags after which a seller is marked with a red flag.
-
-![Flag Configuration](/images/multi-vendor-marketplace/flag-configuration.png)
-
-## Flag Reasons (Admin)
-
-So that customers pick from consistent, meaningful reasons, the admin maintains a list of flag reasons.
-
-Go to **Marketplace → Flag Reasons** in the admin panel to create, edit, and manage the reasons shown to customers when they report a seller or product (for example *Counterfeit product*, *Misleading description*, *Inappropriate content*).
-
-![Flag Reasons](/images/multi-vendor-marketplace/flag-reasons.png)
-
-## Reporting from the Storefront
-
-When flagging is enabled, customers browsing the marketplace can:
-
-- **Report a seller** from the seller's profile/shop page.
-
-- **Report a product** from the product page.
-
-The customer selects a reason (from the admin-defined list) and submits the report. The flag is recorded against that seller or product.
-
-![Report Seller from Storefront](/images/multi-vendor-marketplace/report-seller-storefront.png)
-
-## Admin Moderation & the Red Flag
-
-As flags accumulate, the admin can review reported sellers and products. When a seller's flag count crosses the **Red Flag Limit**, and **Show Red Flag** is enabled, the seller is visibly marked with a red flag in the admin listing — a quick signal for the admin to investigate and take action (such as warning, suspending, or removing the seller).
-
-> **Note:** Flagging is a moderation aid for the admin. It surfaces problem sellers and products through customer feedback; the final decision and any action always rests with the admin.
-
-# Featured Sellers
-
-Featured Sellers lets the admin highlight top-performing vendors on the storefront. This gives buyers a curated shortcut to trusted, popular sellers and rewards vendors for strong performance — encouraging healthy competition across the marketplace.
-
-### Where to configure it
-
-The admin sets this up from **Settings → Configuration → Marketplace → Settings → Featured Sellers**.
-
-### Configuration options
-
-- **Status:** Enable or disable the Featured Sellers section on the storefront.
-
-- **Limit Count:** The maximum number of sellers to feature (how many appear in the section).
-
-- **Popularity Criteria:** How featured sellers are chosen automatically:
-  - **All** — consider overall popularity.
-  - **Maximum Orders** — feature the sellers with the most orders.
-  - **Maximum Products** — feature the sellers with the most products listed.
-  - **Maximum Rating** — feature the highest-rated sellers.
-
-![Featured Sellers Configuration](/images/multi-vendor-marketplace/featured-sellers-config.png)
-
-After choosing the criteria and limit, save the configuration. The storefront then displays the qualifying sellers in the Featured Sellers section.
-
-![Featured Sellers on Storefront](/images/multi-vendor-marketplace/featured-sellers-storefront.png)
-
-> **Note:** Because the selection is driven by live performance data (orders, products, or ratings), the featured list updates automatically as sellers' metrics change — no manual curation is required.
-
-# Seller Reporting
-
-The Reporting section gives sellers clear, data-driven insight into how their store is performing. Sellers can track revenue trends, see which products sell best, and understand their customer base — all from one place in the seller panel.
-
-### Where to find it
-
-From the seller panel, go to the **Reporting** menu, which contains three reports:
-
-- **Sales**
-- **Products**
-- **Customers**
-
-Each report supports a **date range / time filter** so sellers can compare performance across periods, and an **Export** option to download the data.
-
-![Seller Reporting](/images/multi-vendor-marketplace/seller-reporting.png)
-
-### Sales Report
-
-The Sales report summarises the store's revenue performance, including totals such as sales, orders, and average values over the selected period, with trends shown over time. Use it to spot growth, seasonality, and the impact of promotions.
-
-### Products Report
-
-The Products report highlights product-level performance — for example top-selling products and the quantities sold — helping sellers decide what to restock, promote, or discontinue.
-
-### Customers Report
-
-The Customers report focuses on the buyer side — such as customer activity and traffic over the selected period — so sellers can understand demand and repeat-purchase behaviour.
-
-### Filtering & Export
-
-- **Date filter:** Narrow any report to a specific range to analyse a campaign or compare months.
-
-- **Export:** Download the report data for offline analysis or record-keeping.
-
-> **Note:** Reporting figures are scoped to the signed-in seller's own store, so each seller sees only their own sales, products, and customers.
-
-# Seller Users & Roles
-
-Larger stores are rarely run by one person. The Multi Vendor Marketplace lets a seller add **team members (users)** to their store and control exactly what each member can do through **roles**. This keeps the store secure while letting sellers delegate day-to-day work.
-
-Both screens live under the seller panel **Settings** menu.
-
-## Roles
-
-A role is a named set of permissions. Sellers create roles and assign them to their team members.
-
-### Create a Role
-
-Go to **Settings → Roles** and click **Create Role**, then provide:
-
-- **Name:** A label for the role (e.g. *Catalog Manager*, *Order Staff*).
-
-- **Description:** A short note describing what the role is for.
-
-- **Permission Type:**
-  - **All** — the role can access every seller-panel section.
-  - **Custom** — pick exactly which sections the role may use from the permission tree (Products, Orders, Transactions, Settings, etc.). When you tick a permission, its parent sections are selected automatically so access stays consistent.
-
-Click **Save** to create the role.
-
-![Create Seller Role](/images/multi-vendor-marketplace/seller-role-create.png)
-
-> **Tip:** Use **Custom** roles to give staff only what they need — for example, a role that can manage products but cannot view transactions or change store settings.
-
-### Edit or Delete
-
-Sellers can update a role's permissions at any time, or delete a role that is no longer needed. Changing a role from **All** to **Custom** re-applies the newly selected permission set to everyone holding that role.
-
-## Users (Team Members)
-
-Users are the people who log in to the seller store. Each user is assigned a role that defines their access.
-
-### Add a User
-
-Go to **Settings → Users** and click **Create User**, then provide:
-
-- **Name:** The team member's name.
-
-- **Email:** Their login email address (must be unique).
-
-- **Password / Confirm Password:** Set the account password. (When editing an existing user, leaving the password blank keeps the current one.)
-
-- **Role:** Choose one of the roles created above to control the user's access.
-
-- **Status:** Enable or disable the account.
-
-![Create Seller User](/images/multi-vendor-marketplace/seller-user-create.png)
-
-Click **Save** to create the user. They can now sign in to the seller panel with the permissions granted by their role.
-
-### Edit or Delete
-
-Sellers can update a user's details, change their role, reset their password, or remove the user entirely.
-
-> **Note:** The original seller account is the owner and always retains full access. Added users are sub-accounts whose access is limited by their assigned role.
-
-# Seller Catalog Bulk Upload
-
-The Seller Catalog Bulk Upload feature allows sellers to upload, update, and delete products in bulk using CSV, XLS, or XLSX files, saving time by managing multiple products at once instead of handling them individually.
-
-![Customer Email and Password](/images/multi-vendor-marketplace/1-data-transfer-settings.webp)
-
-### How to Import Products in Bulk
-
-**Step 1:** Go to the **Seller Panel → Product Catalog → Data Transfer**, then click on the **Create Import** button.
-
-![Customer Email and Password](/images/multi-vendor-marketplace/2-data-transfer-settings.webp)
-
-**Step 2: Configure Import Settings**
-
-Under General Configuration, fill in the following details:
-
-**1) Type:** Sellers can only import products in bulk using this option.
-
-**2) File:** Upload the product file in CSV, XLS, or XLSX format. Make sure all required fields are filled correctly.
-
-**Note:** This supports Simple, Configurable, Bundled, and Grouped product types.
-
-**3) Download Sample:** Download the sample product file and ensure your upload file follows the same format.
-
-**Note:** All required attributes must be filled for successful product creation.
-
-**4) Image Directory Path:** Use a relative path under /project-root/storage/import/app to store product images.
-
-**5) Upload Images (ZIP):** Upload all product images together in a single ZIP file.
-
-**6) Action:** Select whether you want to create, Update, or delete product records.
-
-**7) Validation Strategy:** Choose whether to Skip Errors or Stop on Errors during the import process.
-
-**8) Allowed Errors:** Set the number of errors that can be ignored while importing data.
-
-**9) Field Separator:** Define the separator used in the import file (such as a comma).
-
-**10. Process in Queue:** Enable this option to run the import process in the background queue
-
-![Customer Email and Password](/images/multi-vendor-marketplace/3-import-products.webp)
-
-After completing the configuration, click on the **Save Import** button.
-
-**Step 3:** Once you click Save Import, the import process will start automatically.
-
-![Customer Email and Password](/images/multi-vendor-marketplace/4-import.webp)
-
-**Step 4:** Click on the Validate button to verify the imported data.
-
-![Customer Email and Password](/images/multi-vendor-marketplace/5-validate.webp)
-
-**Step 5:** After validation, click on the Import button to complete the process.
-
-![Customer Email and Password](/images/multi-vendor-marketplace/6-imported-product.webp)
-
-### Import Completion
-
-After a successful import, the system will display a summary such as:
-
-**1) Total Records Created:** Number of newly created products.
-
-**2) Total Records Updated:** Number of updated products.
-
-**3) Total Records Deleted:** Number of deleted products.
-
-![Customer Email and Password](/images/multi-vendor-marketplace/7-successfully-imported.webp)
-
-# Seller Attributes
-
-Seller Attributes are custom fields created by the admin to collect additional information about sellers, beyond basic details.
-
-These attributes help store specific seller data such as shop details, contact information, or business related fields.
-
-The admin decides which seller attributes must be filled out and where they show up, like during seller registration or in the seller's profile.
-
-Sellers complete these attributes when they sign up or update their profile, depending on what the admin has set up.
-
-Seller attributes help organize seller profiles better and let the marketplace show important seller information clearly.
-
-![Customer Email and Password](/images/multi-vendor-marketplace/1-seller-attributes.webp)
-
-Admins can easily view all existing seller attributes and create new ones as needed for sellers.
-
-![Customer Email and Password](/images/multi-vendor-marketplace/2-admin-create-seller-attribute.webp)
-
-**1) Visible on Signup Page:** This attribute is shown on the seller registration page during signup.
-
-**2) Visible on Profile Page:** This attribute is shown on the seller profile page when updating details.
-
-**3) Visible on Public Page:** This attribute is shown on the seller’s public profile on the storefront.
-
-### Mapping of the Seller Attributes:
-
-**Step 1:** Create the required attributes.
-
-**Step 2:** Drag and drop the Mapping button to assign the attributes to the appropriate group.
-
-![Customer Email and Password](/images/multi-vendor-marketplace/3-seller-attribute-mapping.webp)
-
-### Seller Dashboard
-
-Sellers can access a dedicated dashboard to manage their activities by opening the marketplace and clicking the **Open Shop** button.
-
-![Customer Email and Password](/images/multi-vendor-marketplace/4-Bagisto-openshop-e.webp)
-
-It will be redirected to the seller registration page to sign up as a seller.
-
-Customers can then create their seller account by entering the required details, including their Shop URL.
-
-![Customer Email and Password](/images/multi-vendor-marketplace/5-seller-register.webp)
-
-Add the additional information, and after filling in all the required details, click the **Register** button.
-
-![Customer Email and Password](/images/multi-vendor-marketplace/6-attribute-shop-sign-up.webp)
-
-After registration, your seller account is created, and you can log in to the seller dashboard by clicking the **Sign In** button.
-
-![Customer Email and Password](/images/multi-vendor-marketplace/7-bagisto-mp.webp)
 
 # B2B Marketplace 
 
@@ -6603,7 +4843,7 @@ This feature enables customers to submit their requirements and request a person
 
 To include product details in a quote, click on the **Add Product** button and fill in the required information.
 
-![Contact Information](/images/b2b-marketplace/5-contact-info.png)
+![Product Information](/images/b2b-marketplace/5-contact-info.png)
  src="/images/b2b-marketplace/6-product-info.png" alt="Product Information" />
 
 A pop-up window will appear where the customer can enter product details such as:
@@ -6622,7 +4862,7 @@ A pop-up window will appear where the customer can enter product details such as
 
 After entering all the details, click the **Submit** button to confirm and add your product information.
 
-![Contact Information](/images/b2b-marketplace/5-contact-info.png)
+![Product Information](/images/b2b-marketplace/5-contact-info.png)
  src="/images/b2b-marketplace/7-popup-rfq.png" alt="Product Information Popup" />
 
 When all requirements are filled, go to the top right corner and click the **‘Request for Quotes’** button.
@@ -7157,7 +5397,7 @@ To view all the details about a tenant, navigate to **Tenants → Tenants** and 
 
 Under the **Tenant Insights**, the Super Admin can see all the information about the tenant's store, as shown in the image below:
 
-![Super Admin Tenant Insights](/images/multi-tenant-ecommerce/4-Super-tenant-Insights.png)
+![Super Admin Tenant Insights](/images/multi-tenant-ecommerce/4-super-tenant-insights.png)
 
 ### Tenant Insights Information
 
@@ -7724,7 +5964,7 @@ The **Company Roles** page will appear, showing all existing roles with options 
 
 As shown in the image below, you can view the list of existing roles, such as “Administrator”.
 
-![Super Admin Login](/images/b2b-ecommerce-platform/role-1.png)
+![Create a Role](/images/b2b-ecommerce-platform/role-1.png)
 
 **Step: 2** Click on Add Role to open the Add Company Role form.
 
@@ -7742,7 +5982,7 @@ As shown in the image below, you can view the list of existing roles, such as �
 
 **Step: 5** Once you have configured the access control settings, click Save Role to create the new role. As shown in the image below,
 
-![Super Admin Login](/images/b2b-ecommerce-platform/role-2.png)
+![Create a Role](/images/b2b-ecommerce-platform/role-2.png)
 
 **Note:**
 - You can edit or delete existing roles anytime from the same page.
@@ -7768,7 +6008,7 @@ The Company Users page offers two ways to add members:
 * **Add User –** Create a brand-new company user from scratch.
 * **Invite User –** Invite a customer who already has an account on the store to join your company.
 
-![Super Admin Login](/images/b2b-ecommerce-platform/role-3.png)
+![Add a New Company User](/images/b2b-ecommerce-platform/role-3.png)
 
 **Step: 3** Click on Add User to open the Add Company User form.
 
@@ -7796,7 +6036,7 @@ The Company Users page offers two ways to add members:
 
 **Step: 6** After filling in all required information, click **Save User** to add the new company user. As shown in the image below.
 
-![Super Admin Login](/images/b2b-ecommerce-platform/role-4.png)
+![Add a New Company User](/images/b2b-ecommerce-platform/role-4.png)
 
 **Note:**
 
@@ -7923,7 +6163,7 @@ For each product (or each variant / associated / bundle child of a composite pro
 * **Discount (%) –** A percentage discount off the base price.
 * **Default –** Leave the price unchanged (visibility only).
 
-![Confirm Catalog Visibility](/images/b2b-ecommerce-platform/calalog-product.png)
+![Step 2 — Assign Products](/images/b2b-ecommerce-platform/calalog-product.png)
 
 ### Step 3 — Tier (Volume) Pricing
 
@@ -7935,7 +6175,7 @@ For any priced product you can add **quantity price breaks**. Members automatica
 
 Use **Add price break** to add additional tiers. Break prices must decrease as the quantity rises.
 
-![Confirm Catalog Visibility](/images/b2b-ecommerce-platform/calatog-tire.png)
+![Step 3 — Tier (Volume) Pricing](/images/b2b-ecommerce-platform/calatog-tire.png)
 
 ### Step 4 — Assign Companies
 
@@ -7949,7 +6189,7 @@ Search for companies by name or email and assign them to the catalog. Members of
 
 Before saving, a preview shows the categories the assigned companies will see on the storefront, based on the products you assigned. Review the derived categories and click **Confirm & Save** to apply the catalog.
 
-![Confirm Catalog Visibility](/images/b2b-ecommerce-platform/catalog-4.png)
+![Step 5 — Confirm Catalog Visibility](/images/b2b-ecommerce-platform/catalog-4.png)
 
 ## How Customers Experience a Catalog
 
@@ -8060,7 +6300,7 @@ This page displays all the existing requisition lists created under the company 
 
 It provides a quick view of each list’s details and available actions. As shown in the image below.
 
-![Super Admin Login](/images/b2b-ecommerce-platform/1-requisition.png)
+![My Requisition Lists Page](/images/b2b-ecommerce-platform/1-requisition.png)
 
 If no requisition lists exist, the message **“No Records Available”** will appear.
 
@@ -8080,7 +6320,7 @@ This will allow you to create a new requisition list and define its key details.
 
 After filling in the required fields, click **Save** to create your requisition list. As shown in the image below.
 
-![Super Admin Login](/images/b2b-ecommerce-platform/2-requisition.png)
+![Create Requisition List](/images/b2b-ecommerce-platform/2-requisition.png)
 
 ### After Creating a Requisition List
 
@@ -8096,7 +6336,7 @@ This option allows users to add products directly to an existing requisition lis
 
 From the product page, click **Add To Requisition List**, then select a list (e.g., Wish) from the dropdown menu to save the product.
 
-![Super Admin Login](/images/b2b-ecommerce-platform/4-requisition.png)
+![Add Products to Requisition List](/images/b2b-ecommerce-platform/4-requisition.png)
 
 ### Manage Requisition List
 
@@ -8114,7 +6354,7 @@ This page appears when you click the **Edit** icon under the **Actions** column 
 
 **4) Update Items –** Update product quantities within the list.
 
-![Super Admin Login](/images/b2b-ecommerce-platform/5-requisition.png)
+![Manage Requisition List](/images/b2b-ecommerce-platform/5-requisition.png)
 
 # Quick Order
 
@@ -8242,7 +6482,7 @@ Each record includes essential details for easy tracking and management.
 
 **7) Actions:** Use the View icon to view full quotation details and take further actions.
 
-![Super Admin Login](/images/b2b-ecommerce-platform/quatation-1.png)
+![Quotation Details Include](/images/b2b-ecommerce-platform/quatation-1.png)
 
 ### Quotation Details
 
@@ -8250,7 +6490,7 @@ Click the View icon under the Actions column to open detailed quotation informat
 
 This section provides complete details of the selected quotation, including Quotation Information, company information, Quotation Items, and Quotation Messages. As shown in the image below.
 
-![Super Admin Login](/images/b2b-ecommerce-platform/quatation-2.png)
+![Quotation Details](/images/b2b-ecommerce-platform/quatation-2.png)
 
 ### Quotation Messages
 
@@ -8268,7 +6508,7 @@ All messages are displayed under the conversation thread with details like sende
 
 > **Note:** The negotiation on the seller side is handled by the company's assigned **Sales Representative**, whose name and email are shown on the quotation. The entire **Quotation Messages** block is hidden for company users who do not have the **Messages** permission. See the [Role Based Permissions](./role-based-permissions) and [Sales Representatives](./sales-representative) guides.
 
-![Super Admin Login](/images/b2b-ecommerce-platform/quatation-3.png)
+![Quotation Messages](/images/b2b-ecommerce-platform/quatation-3.png)
 
 ### Quote Again
 
@@ -8288,7 +6528,7 @@ This allows you to update the negotiated price, quantity, or include additional 
 
 Click **Save** to submit the revised quotation for admin review.
 
-![Super Admin Login](/images/b2b-ecommerce-platform/quatation-4.png)
+![Quote Again](/images/b2b-ecommerce-platform/quatation-4.png)
 
 ### Reject Quotation
 
@@ -8304,7 +6544,7 @@ A dialog box appears, allowing you to specify the reason for rejection.
 
 Once saved, the quotation status updates accordingly to reflect the action taken.
 
-![Super Admin Login](/images/b2b-ecommerce-platform/quatation-5.png)
+![Reject Quotation](/images/b2b-ecommerce-platform/quatation-5.png)
 
 ### Quotation Management (Admin End)
 
@@ -8338,7 +6578,7 @@ Admins can also use options like **Export, Create Quotation, Search, and Filter*
 
 **7) Quotation Items:** Products included in the quotation.
 
-![Super Admin Login](/images/b2b-ecommerce-platform/quatation-6.png)
+![Quotations List](/images/b2b-ecommerce-platform/quatation-6.png)
 
 **Quotation Details**
 
@@ -8346,7 +6586,7 @@ Click the **View** icon next to the quotation entry to open the detailed quotati
 
 This section provides complete information about the selected quotation, including Quotation Information, company information, Quotation Items, and Quotation Messages. As shown in the image below.
 
-![Super Admin Login](/images/b2b-ecommerce-platform/quatation-7.png)
+![Quotations List](/images/b2b-ecommerce-platform/quatation-7.png)
 
 ### Quotation Messages
 
@@ -8360,7 +6600,7 @@ Admins and company users can exchange messages directly within the quotation usi
 
 3) Click Send to deliver the message.
 
-![Super Admin Login](/images/b2b-ecommerce-platform/quatation-8.png)
+![Quotation Messages](/images/b2b-ecommerce-platform/quatation-8.png)
 
 ### Send Quotation
 
@@ -8378,7 +6618,7 @@ Admins can modify and resend quotations with updated negotiation terms.
 
 Click **Save** to send the updated quotation to the company user for review.
 
-![Super Admin Login](/images/b2b-ecommerce-platform/quatation-9.png)
+![Send Quotation](/images/b2b-ecommerce-platform/quatation-9.png)
 
 ### Accept or Reject Quotation
 
@@ -8392,7 +6632,7 @@ Once negotiation is complete, admins can finalize the quotation.
 
 3) The quotation status updates to Accepted on the storefront, enabling the company to proceed with the purchase via the Add to Cart button.
 
-![Super Admin Login](/images/b2b-ecommerce-platform/quatation-10.png)
+![Accept or Reject Quotation](/images/b2b-ecommerce-platform/quatation-10.png)
 
 **Note: Once a quotation is accepted, you cannot modify the product quantity. To make changes, a new quotation must be raised.**
 
@@ -8404,7 +6644,7 @@ Once negotiation is complete, admins can finalize the quotation.
 
 3) Click Save to finalize the action.
 
-![Super Admin Login](/images/b2b-ecommerce-platform/quatation-10.png)
+![Reject Quotation](/images/b2b-ecommerce-platform/quatation-10.png)
 
 **Note: Once a quotation is finalized (Accepted or Rejected), no further modifications to products or pricing are allowed.**
 
@@ -8420,7 +6660,7 @@ Go to **My Account → Profile → Purchase Orders** from the company storefront
 
 The My Purchase Orders page will appear, showing all existing purchase orders with options to search, filter, and manage them.
 
-![Super Admin Login](/images/b2b-ecommerce-platform/purchase-order-1.png)
+![View Purchase Orders](/images/b2b-ecommerce-platform/purchase-order-1.png)
 
 ### Purchase Order Details Include:
 
@@ -8460,7 +6700,7 @@ The Purchase Orders page will appear, showing a complete list of all purchase or
 
 Admins can **search, filter, export** and view detailed information for each order.
 
-![Super Admin Login](/images/b2b-ecommerce-platform/purchase-order-2.png)
+![View Purchase Orders](/images/b2b-ecommerce-platform/purchase-order-2.png)
 
 ### Purchase Order Details Include:
 
@@ -8517,7 +6757,7 @@ Each configuration step is displayed one at a time in the tabs below.
 
 To set up the Laravel mobile app, the admin should go to **Configure -> GraphQL API**.
 
-![configuration](/images/native-mobile-app/1.png)
+![Bagisto Mobile App Admin Configuration](/images/native-mobile-app/1.png)
 
 **1) Private Key JSON File Content:** To access the server key, just click the link located below the input box and set up the project on Firebase.
 
@@ -8529,11 +6769,11 @@ The Mobikul mobile app's push notifications can be easily controlled from the ba
 
 To do this, the admin should go to **Settings -> Push Notifications**.
 
-![configuration](/images/native-mobile-app/2.png)
+![Push Notifications](/images/native-mobile-app/2.png)
 
 Also, for adding a new notification the admin can click on the Add Notification button.
 
-![configuration](/images/native-mobile-app/3.png)
+![Push Notifications](/images/native-mobile-app/3.png)
 
 After this add the below details. 
 
@@ -8557,7 +6797,7 @@ This is the first screen that customers see when they open the app. Also, this s
 
 The business owner will give us this image based on what is needed through a PDF that we get beforehand.
 
-![configuration](/images/native-mobile-app/4.png)
+![Customer View: Splash Screen](/images/native-mobile-app/4.png)
 
 ### Home Page
 
@@ -8571,13 +6811,13 @@ The homepage of the Laravel mobile app builder allows you to add various types o
 
 **2) Banner Section:** In this section, users of the application will view the banner that the admin has set up. The banners will rotate one after another.
 
-![configuration](/images/native-mobile-app/5.png)
+![Carousel Sections](/images/native-mobile-app/5.png)
 
 #### Featured Products
 
 In this section, users of the Laravel Mobile app will find the highlighted items chosen by the app owner.
 
-![configuration](/images/native-mobile-app/6.png)
+![Featured Products](/images/native-mobile-app/6.png)
 
 #### New Products
 
@@ -8595,7 +6835,7 @@ The user of the Laravel native mobile app builder can easily register the app by
 
 This way, the app user can input their basic information to become a customer.
 
-![configuration](/images/native-mobile-app/7.png)
+![Side Drawer](/images/native-mobile-app/7.png)
 
 #### Log In with Your Email
 
@@ -8605,19 +6845,19 @@ Once a customer finishes signing up, they can log in using the email ID and pass
 
 Users can change their password by clicking on the Forgot Password link.
 
-![configuration](/images/native-mobile-app/8.png)
+![Forgot your password?](/images/native-mobile-app/8.png)
 
 ### Categories
 
 There are two types of categories in the Laravel mobile application.
 
-![configuration](/images/native-mobile-app/9.png)
+![Categories](/images/native-mobile-app/9.png)
 
 **1) Parent category:** Users can click on the name of the main category to see it.
 
 **2) Child category:** Users can click on the subcategory within the main category to view the subcategory.
 
-![configuration](/images/native-mobile-app/10.png)
+![Categories](/images/native-mobile-app/10.png)
 
 Now after clicking on the child category, all products will show added by the admin. Child category will be listed shown in the **Grid** and **List** view.
 
@@ -8625,7 +6865,7 @@ Now after clicking on the child category, all products will show added by the ad
 
 **2) Grid View:** The user can also select the button grid to view the products.
 
-![configuration](/images/native-mobile-app/11.png)
+![Categories](/images/native-mobile-app/11.png)
 
 ### Account Information
 
@@ -8633,7 +6873,7 @@ Once you log into the mobile app, you can check your account info by going to th
 
 In this section, you can quickly look at and go over your account details.
 
-![configuration](/images/native-mobile-app/12.png)
+![Account Information](/images/native-mobile-app/12.png)
 
 The account section will save the customer’s data, in multiple sub-sections.
 
@@ -8650,7 +6890,7 @@ This part is for the app user to keep their personal info about their account. I
 
 5) Users can also change their Email and Password for the app. They can also delete their account.
 
-![configuration](/images/native-mobile-app/13.png)
+![Profile](/images/native-mobile-app/13.png)
 
 #### Address
 
@@ -8658,7 +6898,7 @@ This contains the information about the Default Billing Address, Default Shippin
 
 The app user can click on any address to edit the details on the address from the edit button or else can add a new address.
 
-![configuration](/images/native-mobile-app/14.png)
+![Address](/images/native-mobile-app/14.png)
 
 **Recent Product:** Customers can look at the items they have recently seen in the recent products area, as illustrated in the picture below:
 
@@ -8666,13 +6906,13 @@ The app user can click on any address to edit the details on the address from th
 
 **Wishlist:** The app user can view all the wishlist products from the Wishlist option.
 
-![configuration](/images/native-mobile-app/15.png)
+![Address](/images/native-mobile-app/15.png)
 
 #### Compare Products
 
 Users can compare products side by side within the app, allowing them to easily view and evaluate differences in features.
 
-![configuration](/images/native-mobile-app/16.png)
+![Compare Products](/images/native-mobile-app/16.png)
 
 #### Product View:-
 
@@ -8680,23 +6920,23 @@ The page shows information about the products that users of the app can look at.
 
 **Add to Cart –** Users can click the Add To Cart button to put the product in their cart for later checkout.
 
-![configuration](/images/native-mobile-app/17.png)
+![Product View](/images/native-mobile-app/17.png)
 
 Now, people using the app can go ahead with the product they added to their cart.
 
 Here, app users can use a code for their purchases. They also have the choice to keep shopping, update their cart, or empty the shopping cart before clicking to continue.
 
-![configuration](/images/native-mobile-app/18.png)
+![Product View](/images/native-mobile-app/18.png)
 
 In the next step, users have to choose how they want to pay for their order, which can be either Cash On Delivery or Money Transfer.
 
 Here users can check the price details of the order and can place the order. After that, the order has been placed and will get a confirmation with order ID and email.
 
-![configuration](/images/native-mobile-app/19.png)
+![Product View](/images/native-mobile-app/19.png)
 
 ### Dark Theme
 
 The app has a dark theme that users can choose. If you tap on the Change theme button, the app will switch to a dark color theme, like you can see in the picture below.
 
-![configuration](/images/native-mobile-app/20.png)
+![Dark Theme](/images/native-mobile-app/20.png)
 
