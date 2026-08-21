@@ -1,14 +1,26 @@
-# Introduction 
+# Introduction
 
-[Bagisto](https://bagisto.com/en/) is a fantastic open-source eCommerce platform that allows businesses to create modern online stores easily. Bagisto offers a wide range of customizable features to meet the specific needs of any online business.
+[Bagisto](https://bagisto.com/en/) is a free and open-source eCommerce platform that lets businesses launch and run modern online stores with ease. Released under the MIT license, it is fully customizable, so every part of the storefront and the admin experience can be adapted to the needs of your business.
 
-The platform is built on top of the reliable [Laravel](https://laravel.com/) framework, [Tailwind CSS](https://tailwindcss.com/) and [Vue.js](https://vuejs.org/), a user-friendly JavaScript framework. It provides businesses with a user-friendly interface and powerful tools to manage their online stores, handle inventory and orders, and create a smooth shopping experience for customers
+The platform is built on top of the reliable [Laravel](https://laravel.com/) framework and uses [Vue.js](https://vuejs.org/) and [Tailwind CSS](https://tailwindcss.com/) on the front end. Together they provide a clean, responsive admin interface and a smooth shopping experience for your customers.
 
-### Navigating the Admin Panel
+From a single dashboard, you can manage your catalog, inventory, customers, orders, shipments, and marketing campaigns, while keeping full control over how your store looks and behaves.
 
-**Bagisto** reworks the admin menu to support **three levels**, so sections with their own sub-pages are reachable without leaving the sidebar. For example, **Settings >> Taxes** now opens **Tax Categories** and **Tax Rates** beneath it, and **Settings >> Data Transfer** opens **Imports**.
+## Key Features
 
-### Working with the Listing Grids
+* **Product Catalog** – Simple, configurable, virtual, grouped, downloadable, bundle, and booking products, organized with categories, attributes, and attribute families.
+* **Inventory Management** – Multiple inventory sources with stock tracking across warehouses and store locations.
+* **Order Management** – End-to-end order processing, including invoices, shipments, refunds, and cancellations.
+* **Customer Management** – Customer accounts, groups, addresses, and product reviews.
+* **Multi Channel & Multi Store** – Run several stores or brands from one installation, each with its own theme, catalog, and settings.
+* **Multi Currency & Multi Locale** – Sell worldwide with built-in currency and exchange rate handling, translations for 22 locales, and full right-to-left (RTL) support.
+* **Payment & Shipping Methods** – Built-in payment and shipping options that can be extended with your own integrations.
+* **Marketing Tools** – Cart price rules, catalog price rules, coupons, email campaigns, and abandoned cart recovery.
+* **CMS Pages** – Create and manage static content pages for your storefront.
+* **Access Control** – Admin users, roles, and granular permissions for your team.
+* **Reporting** – Sales, customer, product, and visitor reports to track how your store is performing.
+
+## Working with the Listing Grids
 
 Most admin screens are listing grids — products, orders, customers, imports, and so on. They all share the same header, search box, **Filter** control, and pagination.
 
@@ -16,5 +28,6 @@ On a small screen, grids that define their own layout, such as **Catalog >> Prod
 
 <ImagePopup src="/images/getting-started/mobile-datagrid.png" alt="Admin Listing Grid on Mobile" />
 
-While a grid is loading, the placeholders now match the grid they stand in for on both desktop and mobile, so the layout no longer shifts once the rows arrive.
+While a grid is loading, the placeholders match the grid they stand in for on both desktop and mobile, so the layout no longer shifts once the rows arrive.
 
+Whether you are starting a small store or scaling a large catalog across multiple markets, Bagisto gives you the tools to build and grow your online business.

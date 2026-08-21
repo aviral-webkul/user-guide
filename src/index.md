@@ -22,13 +22,14 @@ features:
     details: Leverage open-source technology to customize, extend, and contribute to the platform freely.
     icon: '<img src="/icons/opensource.png" alt="Open Source" style="width:40px;height:40px;" />'
     link: /getting-started/introduction.html
-  - title: Multi Vendor Marketplace (Paid)
-    details: Build a platform where multiple vendors can register, sell their products, and manage their stores independently.
-    icon: 🏬
-    link: /multi-vendor-marketplace/introduction.html
+  - title: Multi-Vendor Marketplace (Paid)
+    details: Create a multi-vendor marketplace where multiple sellers can manage products, orders, pricing, and customers from a unified platform.
+    icon: 🏪
+    link: https://marketplace-docs.bagisto.com/getting-started/introduction
+
   - title: B2B Marketplace (Paid)
     details: Create a business-to-business marketplace with bulk pricing, customer segmentation, and wholesale order management.
-    icon: 🏢 
+    icon: 🏢
     link: /b2b-marketplace/introduction.html
   - title: Multi Tenant Ecommerce (Paid)
     details: Deploy a multi-tenant SaaS e-commerce platform with separate stores, shared resources, and centralized administration.
@@ -40,7 +41,7 @@ features:
     icon: 💼
     link: /b2b-ecommerce-platform/introduction.html
 
-  - title: Native Mobile App 
+  - title: Native Mobile App
     details: Launch fully functional Android and iOS mobile applications for your Bagisto store with real-time synchronization, push notifications, and seamless shopping experiences.
     icon: 📱
     link: /open-source-mobile-app/open-source-mobile-app.html
